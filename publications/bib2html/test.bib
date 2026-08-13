@@ -1,0 +1,587 @@
+The order and nums for the bib2html_pubtype (I don't have all these yet)
+Award Winner
+Journal
+Refereed Conference
+Workshop
+Unrefereed Collection
+Tech Report
+Other
+
+The order and nums for bib2html_rescat (research category)
+Coaching
+Planning
+Simulation
+Opponent and Teammate Modelling and Classification
+RoboCup Publications
+Other
+
+@string(S = "Springer ")
+@string(V = "Verlag")
+@string(sv = S # V)
+@string(sv1 = S # V)
+@string(SV2 = "Springer " # V)
+@string(SV3 = S # " Verlag")
+
+@InCollection(LNAI02-mpades,
+  Author =	 "Riley",
+  Title =	 "{MPADES}: Middleware for Parallel Agent Discrete Event
+                  Simulation",
+  booktitle =	 "{R}obo{C}up-2002: The Fifth {R}obo{C}up Competitions
+                  and Conferences",
+  Editor =	 "Gal A. Kaminka and Pedro U. Lima and Raul Rojas",
+  Publisher =	 sv,
+  address =	 "Berlin",
+  year =	 2003,
+  wwwnote =	 {Won a <b>RoboCup Engineering Award</b>},
+  note =	 {(to appear)},
+  abstract =	 {Simulations are an excellent tool for studying
+                  artificial intelligence. However, the simulation
+                  technology in use by and designed for the artificial
+                  intelligence community often fails to take advantage
+                  of much of the work by the larger simulation
+                  community to produce stable, repeatable, and
+                  efficient simulations. We present the new system
+                  Middleware for Parallel Agent Discrete Event
+                  Simulation (MPADES) as a simulation substrate for
+                  the artificial intelligence community. MPADES
+                  focuses on the agent as a fundamental simulation
+                  component. The ``thinking time'' of an agent is
+                  tracked and reflected in the results of the agents'
+                  actions. MPADES supports and manages the
+                  distribution of agents across machines while being
+                  robust to variations in network performance and
+                  machine load. We present the system in detail and
+                  give experimental results for a simple world model
+                  and set of agents. MPADES is not tied to any
+                  particular simulation, and is a powerful new tool
+                  for creating simulations for the study of artificial
+                  intelligence. },
+  bib2html_dl_psgz = "http://www.cs.cmu.edu/~pfr/publications/LNAI02-mpades.ps.gz",
+  bib2html_dl_html = "http://www.hubmed.org/display.cgi?issn=&uids=15264253",
+  bib2html_pubtype = {Refereed Conference,Award Winner},
+  bib2html_rescat = {Simulation},
+  bib2html_extra_info = {This is a test of the extra info broadcasting system.}
+)
+
+@InCollection(LNAI02-coachable,
+  Author =	 "Paul Carpenter and P. Riley and Manuela Veloso
+                  and Gal Kaminka",
+  Title =	 "Integration of Advice in an Action-Selection
+                  Architecture",
+  booktitle =	 "{R}obo{C}up-2002: The Fifth {R}obo{C}up Competitions
+                  and Conferences",
+  Editor =	 "Gal A. Kaminka and Pedro U. Lima and Raul Rojas",
+  Publisher =	 SV2,
+  address =	 "Berlin",
+  year =	 2003,
+  note =	 {(to appear)},
+  abstract =	 {The introduction of a coach competition in the
+                  RoboCup-2001 simulation league raised many questions
+                  concerning the development of a ``coachable''
+                  team. This paper addresses the issues of dealing
+                  with conflicting advice and knowing when to listen
+                  to advice. An action-selection architecture is
+                  proposed to support the integration of advice into
+                  an agent's set of beliefs. The results from the
+                  coach competition are discussed and provide a basis
+                  for experiments. Results are provided to support the
+                  claim that the architecture is well-suited for such
+                  a task.},
+  bib2html_pubtype = {Refereed Conference},
+  bib2html_rescat = {Coaching},
+)
+
+@InCollection{DARS02-empirical-coach,
+  author =	 {Patrick Riley and Manuela Veloso and Gal Kaminka},
+  title =	 {An Empirical Study of Coaching},
+  booktitle =	 {Distributed Autonomous Robotic Systems 5},
+  publisher =	 SV3,
+  pages = 	 {215--224},
+  year =	 2002,
+  editor = 	 {H. Asama and T. Arai and T. Fukuda and T. Hasegawa},
+  abstract =	 { In simple terms, one can say that team coaching in
+                  adversarial domains consists of providing advice to
+                  distributed players to help the team to respond
+                  effectively to an adversary. We have been
+                  researching this problem to find that creating an
+                  autonomous coach is indeed a very challenging and
+                  fascinating endeavor. This paper reports on our
+                  extensive empirical study of coaching in simulated
+                  robotic soccer. We can view our coach as a special
+                  agent in our team. However, our coach is also
+                  capable of coaching other teams other than our own,
+                  as we use a recently developed universal coach
+                  language for simulated robotic soccer with a set of
+                  predefined primitives. We present three methods that
+                  extract models from past games and respond to an
+                  ongoing game: (i) formation learning, in which the
+                  coach captures a team's formation by analyzing logs
+                  of past play; (ii) set-play planning, in which the
+                  coach uses a model of the adversary to direct the
+                  players to execute a specific plan; (iii) passing
+                  rule learning, in which the coach learns clusters in
+                  space and conditions that define passing
+                  behaviors. We discuss these techniques within the
+                  context of experimental results with different
+                  teams. We show that the techniques can impact the
+                  performance of teams and our results further
+                  illustrate the complexity of the coaching problem. },
+  bib2html_pubtype = {Refereed Conference},
+  bib2html_rescat = {Coaching},
+}
+
+@InProceedings{AAMAS02-coachprob,
+  author =	 {Patrick Riley and Manuela Veloso and Gal Kaminka},
+  title =	 {Towards Any-Team Coaching in Adversarial Domains},
+  booktitle =	 aamas2002,
+  year =	 2002,
+  note =	 {(extended abstract)},
+  bib2html_pubtype = {Refereed Conference},
+  bib2html_rescat = {Coaching},
+}
+
+@Article{mendez+2003:asses-blind-predic-protein,
+  author =       "Ra{\'u}l M{\'e}ndez and Rapha{\"e}l Leplae and Leonardo De
+                  Maria and Shoshana J. Wodak",
+  title =        "Assessment of Blind Predictions of Protein-Protein
+                  Interactions: Current Status of Docking Methods",
+  journal =      "foobar",
+  year =         2003,
+  volume =       52,
+  pages =        "51--67",
+  keywords =     "CAPRI, structure predictions, residue-residue contacts 
+and
+                  interface residues"
+}
+@Comment @InProceedings{AIPS02-STN,
+@Comment   author =	 {Patrick Riley and Manuela Veloso},
+@Comment   title =	 {Planning for Distributed Execution Through Use of
+@Comment                   Probabilistic Opponent Models},
+@Comment   booktitle =	 aips2002,
+@Comment   year =	 2002,
+@Comment   wwwnote =	 {Won a <b>Best Paper Award</b>. <a href="http://www.aaai.org">Publisher (AAAI) Website</a>},
+@Comment   abstract =	 { In multiagent domains with adversarial and
+@Comment                   cooperative team agents, team agents should be
+@Comment                   adaptive to the current environment and opponent. We
+@Comment                   introduce an online method to provide the agents
+@Comment                   with team plans that a ``coach'' agent generates in
+@Comment                   response to the specific opponents. The coach agent
+@Comment                   can observe the agents' behaviors but it has only
+@Comment                   periodic communication with the rest of the
+@Comment                   team. The coach uses a Simple Temporal Network to
+@Comment                   represent team plans as coordinated movements among
+@Comment                   the multiple agents and the coach searches for an
+@Comment                   opponent-dependent plan for its teammates. This plan
+@Comment                   is then communicated to the agents, who execute the
+@Comment                   plan in a distributed fashion, using information
+@Comment                   from the plan to maintain consistency among the team
+@Comment                   members. In order for these plans to be effective
+@Comment                   and adaptive, models of opponent movement are used
+@Comment                   in the planning. The coach is then able to quickly
+@Comment                   select between different models online by using a
+@Comment                   Bayesian style update on a probability distribution
+@Comment                   over the models. Planning then uses the model which
+@Comment                   is found to be the most likely. The system is fully
+@Comment                   implemented in a simulated robotic soccer
+@Comment                   environment. In several recent games with completely
+@Comment                   unknown adversarial teams, the approach demonstrated
+@Comment                   a visible adaptation to the different teams. },
+@Comment   bib2html_pubtype = {Refereed Conference,Award Winner},
+@Comment   bib2html_rescat = {Planning},
+@Comment }
+
+@Comment @InCollection(LNAI01-simulator,
+@Comment   Author =	 "Paul Carpenter and Patrick Riley and Gal Kaminka and
+@Comment                   Manuela Veloso and Ignacio Thayer and Robert Wang",
+@Comment   Title =	 "Cha{M}eleons-01 Team Description",
+@Comment   booktitle =	 "{R}obo{C}up-2001: Robot Soccer World Cup V",
+@Comment   Editor =	 "Andreas Birk and Silvia Coradeschi and Satoshi
+@Comment                   Tadokoro",
+@Comment   Publisher =	 "Springer",
+@Comment   address =	 "Berlin",
+@Comment   year =	 2002,
+@Comment   note =	 {(forthcoming)},
+@Comment   abstract =	 {The following paper describes the ChaMeleons-01
+@Comment                   Robocup 2001 simulation league team. Development was
+@Comment                   concentrated in two main areas: the design and
+@Comment                   implementation of an action-selection architecture
+@Comment                   and the development of the online coach. The
+@Comment                   architecture was designed in such a way to support
+@Comment                   the integration of advice from an external
+@Comment                   agent. Currently, the only external agent the
+@Comment                   ChaMeleons-01 support is an online coach offering
+@Comment                   advice using the standard coach language. The online
+@Comment                   coach offers advice in the form of passing rules,
+@Comment                   marking assignments, and formation information. },
+@Comment   bib2html_pubtype = {Unrefereed Collection},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+@Comment This was previously called RCSymp2001-ATAC,
+@Comment @InCollection(LNAI01-coach,
+@Comment   Author =	 "Patrick Riley and Manuela Veloso",
+@Comment  Title =	 "Recognizing Probabilistic Opponent Movement Models",
+@Comment   booktitle =	 "{R}obo{C}up-2001: The Fifth {R}obo{C}up Competitions
+@Comment                   and Conferences",
+@Comment   Editor =	 "A. Birk and S. Coradeschi and S. Tadokoro",
+@Comment   Publisher =	 "Springer Verlag",
+@Comment   address =	 "Berlin",
+@Comment   year =	 "2002",
+@Comment   note = 	 {(extended abstract) (forthcoming)},
+@Comment   abstract =	 {In multiagent adversarial domains, team agents
+@Comment                   should adapt to the environment and opponent. We
+@Comment                   introduce a model representation as part of a
+@Comment                   planning process for a simulated soccer domain. The
+@Comment                   planning is centralized, but the plans are executed
+@Comment                   in a multi-agent environment, with teammate and
+@Comment                   opponent agents. Further, we present a recognition
+@Comment                   algorithm where the model which most closely matches
+@Comment                   the behavior of the opponents can be selected from
+@Comment                   few observations of the opponent. Empirical results
+@Comment                   are presented to verify that important information
+@Comment                   is maintained through the abstraction the models
+@Comment                   provide.},
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Coaching,Opponent and Teammate Modelling and Classification},
+@Comment )
+
+@Comment @InProceedings{IJCAI2001WS-Planning,
+@Comment   author =	 {Patrick Riley and Manuela Veloso},
+@Comment   title =	 {Planning for Distributed Execution Through Use of
+@Comment                   Probabilistic Opponent Models},
+@Comment   booktitle =	 {IJCAI-2001 Workshop PRO-2: Planning under
+@Comment                   Uncertainty and Incomplete Information},
+@Comment   year =	 2001,
+@Comment   abstract =	 { In multiagent domains with adversarial and
+@Comment                   cooperative team agents, team agents should be
+@Comment                   adaptive to the current environment and opponent. We
+@Comment                   introduce an online method to provide the agents
+@Comment                   with team plans that a ``coach'' agent generates in
+@Comment                   response to the specific opponents. The coach agent
+@Comment                   can observe the agents behaviors but it has only
+@Comment                   periodic communication with the rest of the
+@Comment                   team. The coach uses a Simple Temporal Network to
+@Comment                   represent team plans as coordinated movements among
+@Comment                   the multiple agents and it searches for an
+@Comment                   opponent-dependent plan for its teammates. This plan
+@Comment                   is then communicated to the agents, who execute the
+@Comment                   plan in a distributed fashion, using information
+@Comment                   from the plan to maintain consistency among the team
+@Comment                   members. In order for these plans to be effective
+@Comment                   and adaptive, models of opponent movement are used
+@Comment                   in the planning. The coach is then able to quickly
+@Comment                   select between different models online by using a
+@Comment                   Bayesian style update on a probability distribution
+@Comment                   over the models. Planning then uses the model which
+@Comment                   is found to be the most likely. The system is fully
+@Comment                   implemented in a simulated robotic soccer
+@Comment                   environment. In several recent games with completely
+@Comment                   unknown adversarial teams, the approach demonstrated
+@Comment                   a visible adaptation to the different teams. },
+@Comment   bib2html_pubtype = {Workshop},
+@Comment   bib2html_rescat = {Coaching,Planning},
+@Comment }
+
+@Comment @InProceedings{Agents01-CoachingPoster,
+@Comment   author =	 {Patrick Riley and Manuela Veloso},
+@Comment   title =	 {Coaching a Simulated Soccer Team by Opponent Model
+@Comment                   Recognition },
+@Comment   booktitle =	 agents2001,
+@Comment   year =	 2001,
+@Comment   note = 	 {(extended abstract)},
+@Comment   abstract =	 {In multiagent domains with adversarial and
+@Comment                   cooperative agents, team agents should be adaptive
+@Comment                   to the current environment and opponent. We
+@Comment                   introduce an online method to provide the agents
+@Comment                   with team plans that a ``coach'' agent generates in
+@Comment                   response to the specific opponents. The coach agent
+@Comment                   is equipped with a number of pre-defined opponent
+@Comment                   models. The coach is then able to quickly select
+@Comment                   between different models online by using a naive
+@Comment                   Bayes style algorithm, making the planning adaptive
+@Comment                   to the current adversary. The coach uses a Simple
+@Comment                   Temporal Network to represent team plans as
+@Comment                   coordinated movements among the multiple agents and
+@Comment                   it searches for an opponent-dependent plan for its
+@Comment                   teammates. This plan is then communicated to the
+@Comment                   agents, who execute the plan in a distributed
+@Comment                   fashion. The system is fully implemented in a
+@Comment                   simulated robotic soccer domain. },
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Coaching,Planning},
+@Comment }
+
+@Comment I couldn't find a good field for this
+@Comment ISBN: 4431702954
+@Comment @InCollection{DARS-AdvClass,
+@Comment   author =	 {Patrick Riley and Manuela Veloso},
+@Comment   title =	 {On Behavior Classification in Adversarial
+@Comment                   Environments},
+@Comment   booktitle =	 {Distributed Autonomous Robotic Systems 4},
+@Comment   pages =	 {371--380},
+@Comment   publisher =	 {Springer-Verlag},
+@Comment   year =	 2000,
+@Comment   editor =	 {Lynne E. Parker and George Bekey and Jacob Barhen},
+@Comment   abstract =	 {In order for robotic systems to be successful in
+@Comment                   domains with other agents possibly interfering with
+@Comment                   the accomplishing of goals, the agents must be able
+@Comment                   to adapt to the opponents' behavior. The more
+@Comment                   quickly the agents can respond to a new situation,
+@Comment                   the better they will perform. We present an approach
+@Comment                   to doing adaptation which relies on classification
+@Comment                   of the current adversary into predefined adversary
+@Comment                   classes. For feature extraction, we present a
+@Comment                   windowing technique to abstract useful but not
+@Comment                   overly complicated features. In order to take into
+@Comment                   account the spatial locality of topological
+@Comment                   differences, we use a previously developed
+@Comment                   similarity metric. The feature extraction and
+@Comment                   classification steps are fully implemented in the
+@Comment                   domain of simulated robotic soccer, and experimental
+@Comment                   results are presented. },
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Opponent and Teammate Modelling and Classification},
+@Comment }
+
+@Comment @InCollection(LNAI00-simulator,
+@Comment   Author =	 "Patrick Riley and Peter Stone and David McAllester
+@Comment                   and Manuela Veloso",
+@Comment   Title =	 "{ATT}-{CMU}nited-2000: Third Place Finisher in the
+@Comment                   RoboCup-2000 Simulator League",
+@Comment   booktitle =	 "{R}obo{C}up-2000: Robot Soccer World Cup IV",
+@Comment   Editor =	 "P. Stone and T. Balch and G. Kreatzschmarr",
+@Comment   Publisher =	 "Springer",
+@Comment   address =	 "Berlin",
+@Comment   year =	 2001,
+@Comment   bib2html_pubtype = {Unrefereed Collection},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+@Comment @InProceedings{IAAI-IdealModels,
+@Comment   author =	 "Peter Stone and Patrick Riley and Manuela Veloso",
+@Comment   title =	 "Defining and Using Ideal Teammate and Opponent
+@Comment                   Models",
+@Comment   booktitle =	 iaai2000,
+@Comment   year =	 2000,
+@Comment   abstract =	 {A common challenge for agents in multiagent systems
+@Comment                   is trying to predict what other agents are going to
+@Comment                   do in the future. Such knowledge can help an agent
+@Comment                   determine which of its current action options is
+@Comment                   most likely to achieve its goals. There is a long
+@Comment                   history in adversarial game playing of using a model
+@Comment                   of an opponent which assumes that it always acts
+@Comment                   optimally. Our research extends this strategy to
+@Comment                   adversarial domains in which the agents have
+@Comment                   incomplete information, noisy sensors and actuators,
+@Comment                   and a continuous action space. We introduce
+@Comment                   ``ideal-model-based behavior outcome prediction''
+@Comment                   (IMBBOP) which models the results of other agents'
+@Comment                   future actions in relation to their optimal actions
+@Comment                   based on an ideal world model. Our technique also
+@Comment                   includes a method for relaxing this optimality
+@Comment                   assumption. IMBBOP was a key component of our
+@Comment                   successful CMU<SMALL>NITED-99</SMALL> simulated
+@Comment                   robotic soccer application. In this paper, we define
+@Comment                   IMBBOP and illustrate its use within the simulated
+@Comment                   robotic soccer domain. We include empirical results
+@Comment                   demonstrating the effectiveness of IMBBOP.},
+@Comment   wwwnote =	 {<a href=http://www.aaai.org>AAAI Homepage</a>},
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Opponent and Teammate Modelling and Classification},
+@Comment }
+
+@Comment @InProceedings{AAAI-StudentAbstract-AdvClass,
+@Comment   author =	 "Patrick Riley and Manuela Veloso",
+@Comment   title =	 "Towards Behavior Classification: A Case Study in
+@Comment                   Robotic Soccer",
+@Comment   booktitle =	 aaai2000,
+@Comment   year =	 2000,
+@Comment   publisher =	 "AAAI Press",
+@Comment   address =	 "Menlo Park, CA",
+@Comment   note =	 {(student abstract)},
+@Comment   wwwnote =	 {<a href=http://www.aaai.org>AAAI Homepage</a>},
+@Comment   abstract =	 {Increasingly in domains with multiple intelligent
+@Comment                   agents, each agent must be able to identify what the
+@Comment                   other agents are doing. This is especially important
+@Comment                   when there are adversarial agents inferring with the
+@Comment                   accomplishment of goals. Once identified, the agents
+@Comment                   can then respond to recent strategies and adapt to
+@Comment                   improve performance. We present an approach to doing
+@Comment                   adaptation which relies on classification of the
+@Comment                   current adversary into predefined adversary
+@Comment                   classes. For feature extraction, we present a
+@Comment                   windowing technique to abstract useful but not
+@Comment                   overly complicated features. The feature extraction
+@Comment                   and classification steps are fully implemented in
+@Comment                   the domain of simulated robotic soccer, and
+@Comment                   experimental results are presented. },
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Opponent and Teammate Modelling and Classification},
+@Comment }
+
+
+@Comment @incollection(ATAL-LD,
+@Comment   author =	 {Patrick Riley and Peter Stone and Manuela Veloso},
+@Comment   title =	 {Layered Disclosure: Revealing Agents' Internals},
+@Comment   booktitle =	 {Intelligent Agents VII. Agent Theories,
+@Comment                   Architectures, and Languages --- 7th.~International
+@Comment                   Workshop, ATAL-2000, Boston, MA, USA, July 7--9,
+@Comment                   2000, Proceedings},
+@Comment   editor =	 "C.~Castelfranchi and Y.~Lesp\'{e}rance",
+@Comment   publisher =	 "Springer-Verlag, Berlin",
+@Comment   address =	 {Berlin},
+@Comment   series =	 "Lecture Notes in Artificial Intelligence",
+@Comment   year =	 2001,
+@Comment   wwwnote =      {<a href=http://www.springer.de/comp/lncs/index.html>Publisher's Webpage</a>&copy Springer-Verlag},
+@Comment   abstract =	 {A perennial challenge in creating and using complex
+@Comment                   autonomous agents is following their choices of
+@Comment                   actions as the world changes dynamically and
+@Comment                   understanding why they act as they do. This paper
+@Comment                   reports on our work to support human developers and
+@Comment                   observers to better follow and understand the
+@Comment                   actions of autonomous agents. We introduce the
+@Comment                   concept of {\it layered disclosure} by which
+@Comment                   autonomous agents have included in their
+@Comment                   architecture the foundations necessary to allow them
+@Comment                   to disclose upon request the specific reasons for
+@Comment                   their actions. Layered disclosure hence goes beyond
+@Comment                   standard plain code debugging tools. In its essence
+@Comment                   it also gives the agent designer the ability to
+@Comment                   define an appropriate information hierarchy, which
+@Comment                   can include agent-specific constructs such as
+@Comment                   internal state that persists over time. The user may
+@Comment                   request this information at any of the specified
+@Comment                   levels of detail, and either retroactively or while
+@Comment                   the agent is acting. We present layered disclosure
+@Comment                   as we created and implemented it in the simulated
+@Comment                   robotic soccer domain. We contribute the detailed
+@Comment                   and principled design to support the application of
+@Comment                   layered disclosure to other agent domains. Layered
+@Comment                   disclosure played an important role in our
+@Comment                   successful development of the RoboCup undefeated
+@Comment                   champion \mbox{CMUnited-99} multiagent team. },
+@Comment   bib2html_pubtype = {Refereed Conference},
+@Comment   bib2html_rescat = {Other},
+@Comment )
+
+@Comment @Article(AIMag2000-simulator,
+@Comment   author =	 "Peter Stone and Patrick Riley and Manuela Veloso",
+@Comment   title =	 "{CMU}nited-99: {R}obo{C}up-99 Simulator World
+@Comment                   Champion Team",
+@Comment   journal =	 "{AI} Magazine",
+@Comment   year =	 2000,
+@Comment   abstract =	 {The CMUnited-99 simulator team became the 1999
+@Comment                   RoboCup simulator league champion by winning all 8
+@Comment                   of its games, outscoring opponents by a combined
+@Comment                   score of 110--0. CMUnited-99 builds upon the
+@Comment                   successful CMUnited-98 implementation, but also
+@Comment                   improves upon it in many ways. This article gives an
+@Comment                   overview of CMUnited-99's improvements over
+@Comment                   CMUnited-98. },
+@Comment   bib2html_pubtype = {Other},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+@Comment @TechReport{SeniorThesis,
+@Comment   author =	 "Patrick Riley",
+@Comment   title =	 "Classifying Adversarial Behaviors in a Dynamic,
+@Comment                   Inaccessible, Multi-Agent Environment",
+@Comment   institution =	 "Carnegie Mellon University",
+@Comment   year =	 1999,
+@Comment   number =	 "CMU-CS-99-175",
+@Comment   abstract =	 {Developing intelligent agents for multi-agent,
+@Comment                   inaccessible, adversarial environments is arguably
+@Comment                   one of the most challenging areas in artificial
+@Comment                   intelligence today. Great strides have been made in
+@Comment                   developing emergent cooperation among teammates, but
+@Comment                   less progress has been made in quickly and
+@Comment                   automatically changing overall team strategy in
+@Comment                   response to adversary actions. One way that humans
+@Comment                   do such adaptation is by noting a similarity to a
+@Comment                   past adversary. This project is a system to do that
+@Comment                   sort of classification. The system is fully
+@Comment                   implemented in the simulated robotic soccer
+@Comment                   environment as used in RoboCup. The system does the
+@Comment                   following: Each agent observes the adversary and
+@Comment                   records relevant features. Based on these
+@Comment                   observations, each agent then classifies the
+@Comment                   adversary with regards to a set of predefined
+@Comment                   behavioral classes. The agents record their
+@Comment                   classification, and the team classification is
+@Comment                   decided by a simple majority. The effectiveness of
+@Comment                   this system on some simple behavior classes is
+@Comment                   shown. Future directions can include machine
+@Comment                   learning of behavior classes and strategy changes
+@Comment                   for those behavior classes, as well as developing
+@Comment                   more complicated classes. },
+@Comment   bib2html_pubtype = {Tech Report},
+@Comment   bib2html_rescat = {Opponent and Teammate Modelling and Classification},
+@Comment }
+
+		  
+@Comment @InCollection(LNAI99-simulator,
+@Comment   Author =	 "Peter Stone and Patrick Riley and Manuela Veloso",
+@Comment   Title =	 "The {CMU}nited-99 Champion Simulator Team",
+@Comment   booktitle =	 "{R}obo{C}up-99: Robot Soccer World Cup III",
+@Comment   Editor =	 "Veloso and Pagello and Kitano",
+@Comment   Publisher =	 "Springer",
+@Comment   address =	 "Berlin",
+@Comment   year =	 2000,
+@Comment   pages =        "35--48",
+@Comment   abstract =	 {The CMUnited-99 simulator team became the 1999
+@Comment                   RoboCup simulator league champion by winning all 8
+@Comment                   of its games, outscoring opponents by a combined
+@Comment                   score of 110--0. CMUnited-99 builds upon the
+@Comment                   successful CMUnited-98 implementation, but also
+@Comment                   improves upon it in many ways. This paper gives a
+@Comment                   detailed presentation of CMUnited-99's improvements
+@Comment                   over CMUnited-98. },
+@Comment   bib2html_pubtype = {Unrefereed Collection},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+@Comment @Article(AIMag99-simulator,
+@Comment   author =	 "Peter Stone and Manuela Veloso and Patrick Riley",
+@Comment   title =	 "{CMU}nited-98: {R}obo{C}up-98 Simulator World
+@Comment                   Champion Team",
+@Comment   journal =	 "{AI} Magazine",
+@Comment   year =	 1999,
+@Comment   abstract =	 {The CMUnited-98 simulator team became the 1998
+@Comment                   RoboCup simulator league champion by winning all 8
+@Comment                   of its games, outscoring opponents by a total of
+@Comment                   66--0. CMUnited-98 builds upon the successful
+@Comment                   CMUnited-97 implementation, but also improves upon
+@Comment                   it in many ways. This article gives an overview of
+@Comment                   the CMUnited-98 agent skill and multi-agent
+@Comment                   coordination strategies, emphasizing the recent
+@Comment                   improvements. },
+@Comment   bib2html_pubtype = {Other},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+@Comment @InCollection(LNAI98-simulator,
+@Comment   Author =	 "Peter Stone and Manuela Veloso and Patrick Riley",
+@Comment   Title =	 "The {CMU}nited-98 Champion Simulator Team",
+@Comment   booktitle =	 "{R}obo{C}up-98: Robot Soccer World Cup II",
+@Comment   Editor =	 "Asada and Kitano",
+@Comment   Publisher =	 "Springer",
+@Comment   year =	 1999,
+@Comment   pages =	 "61--76",
+@Comment   abstract =	 {The CMUnited-98 simulator team became the 1998
+@Comment                   RoboCup simulator league champion by winning all 8
+@Comment                   of its games, outscoring opponents by a total of
+@Comment                   66--0. CMUnited-98 builds upon the successful
+@Comment                   CMUnited-97 implementation, but also improves upon
+@Comment                   it in many ways. This article describes the complete
+@Comment                   CMUnited-98 software, emphasizing the recent
+@Comment                   improvements. Coupled with the publicly-available
+@Comment                   CMUnited-98 source code, it is designed to help
+@Comment                   other RoboCup and multi-agent systems researchers
+@Comment                   build upon our success. },
+@Comment   bib2html_pubtype = {Unrefereed Collection},
+@Comment   bib2html_rescat = {RoboCup Publications},
+@Comment )
+
+
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<?xml-stylesheet type="text/xsl" href="./trans_bowling.xsl"?>
+
+<paper_detail
+xmlns:b2h="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.cs.cmu.edu/~pfr/misc_software/index.html#bib2html /Users/bowling/private/www/web_docs/publications/bib2html/./bib2html.xsd"
+>
+<main_index_links>
+<index_link>
+<name>By Year</name>
+<url>sort_date.html</url>
+</index_link>
+<index_link>
+<name>By Publication Type</name>
+<url>class_type.html</url>
+</index_link>
+<index_link>
+<name>By Research Area</name>
+<url>class_rescat.html</url>
+</index_link>
+</main_index_links>
+<paper_info>
+<author> Marc Lanctot,  Richard Gibson,  Neil Burch, and &lt;a href=&quot;http://www.cs.ualberta.ca/~bowling&quot;&gt; Michael Bowling&lt;/a&gt;. </author>
+<title> No-Regret Learning in Extensive-Form Games with Imperfect Recall</title>
+<citation><![CDATA[<span class="b2hAuthor"> Marc Lanctot,  Richard Gibson,  Neil Burch, and <a href="http://www.cs.ualberta.ca/~bowling"> Michael Bowling</a>. </span><span class="b2hTitle"> No-Regret Learning in Extensive-Form Games with Imperfect Recall. </span><span class="b2hPubInfo">In <i> Proceedings of the Twenty-Ninth International Conference on Machine Learning (ICML)</i>, 2012.</span> <span class="b2hNote"> To Appear</span>]]></citation>
+<citationtitlefirst><![CDATA[<span class="b2hTitle"> No-Regret Learning in Extensive-Form Games with Imperfect Recall. </span><span class="b2hAuthor"> Marc Lanctot,  Richard Gibson,  Neil Burch, and <a href="http://www.cs.ualberta.ca/~bowling"> Michael Bowling</a>. </span><span class="b2hPubInfo">In <i> Proceedings of the Twenty-Ninth International Conference on Machine Learning (ICML)</i>, 2012.</span> <span class="b2hNote"> To Appear</span>]]></citationtitlefirst>
+<download_links>
+<download_entry>
+ <file_format>pdf</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps.gz</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>ps</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+<download_entry>
+ <file_format>html</file_format>
+ <exists>0</exists>
+</download_entry>
+</download_links>
+<bibtex_entry><![CDATA[@InProceedings(12icml-ir,
+  Title = "No-Regret Learning in Extensive-Form Games with Imperfect Recall",
+  Author = "Marc Lanctot and Richard Gibson and Neil Burch and Michael Bowling",
+  Booktitle = "Proceedings of the Twenty-Ninth International Conference on Machine Learning (ICML)",
+  Note = "To Appear",
+  Year = "2012",
+  AcceptRate = "27\%",
+  AcceptNumbers = "243 of 890"
+)]]></bibtex_entry>
+<detail_url>b2hd-12icml-ir.html</detail_url><bibtex_url>12icml-ir.bib</bibtex_url></paper_info>
+<generation_info>
+<program>bib2html.pl</program>
+<program_url>https://sourceforge.net/projects/bib2html/</program_url>
+<author>Patrick Riley</author>
+<author_url>http://sourceforge.net/users/patstg/</author_url>
+<datetime>2012-07-21T15:24:30</datetime>
+</generation_info>
+</paper_detail>

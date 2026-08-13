@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="author" content="Michael Bowling" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <title>Michael Bowling's Webpage</title>
+  </head>
+
+  <body>
+    <div id="top"></div>
+  
+    <!-- ###### Header ###### -->
+
+    <div id="header">
+      <span class="headerTitle">Michael Bowling</span>
+      <div class="addressBlock">
+	Professor <br/>
+	<a href="http://www.cs.ualberta.ca">Department of Computing Science</a><br/>
+	<a href="http://www.ualberta.ca">University of Alberta</a> <br/>
+	Edmonton, Alberta <br/>
+	Canada T6G 2E8 
+      </div>
+
+      <div class="addressBlock2">
+	Office: 339 Athabasca Hall <br/>
+	Email: mbowling *AT* ualberta.ca <br/>
+      </div>
+    </div>
+
+    <!-- ###### Side Boxes ###### -->
+
+    <div class="sideBox LHS">
+      <a href="index.html">&rsaquo; Main Page</a>
+      <a href="publications/sort_date.html">&rsaquo; Publications</a>
+      <a href="research.html">&rsaquo; Research</a>
+      <a href="calendar.html">&rsaquo; Calendar</a>
+      <span class="thisPage">&raquo; CV</span>
+      <a href="personal.html">&rsaquo; Personal</a>
+    </div>
+
+    <!-- ###### Body Text ###### -->
+
+    <div id="bodyText">
+
+      <!-- ################################# -->
+      <h1 id="curriculum_vitae">Curriculum Vitae</h1>
+      <p>Last updated March 20, 2017:
+	<a href="cv.pdf">[PDF]</a> 
+      </p>
+
+      <!-- ################################# -->
+      <a class="topOfPage" href="#top" title="Top Of Page">top</a>
+      <h1 id="highlights">Highlights</h1>
+      <p> Last udpated March 25, 2013</p>
+
+<h2>Publications</h2>
+
+<div id="cvHighlights">
+<ul>
+<li>85 fully refereed journal articles and conference papers.
+
+  <ul>
+    <li> 2x JAIR, 1x AIJ, 1xJMLR, 13x AAAI, 11x NIPS, 11x ICML, 8x IJCAI, 9x
+    AAMAS, 2x UAI, 2x ICRA</li>
+ </ul>
+</li>
+
+<li>2 paper prizes, 1 dissertation award</li>
+</ul>
+
+<h2>AI Competitions</h2>
+
+<ul>
+<li>Led the team which for the first time ever defeated top professional
+  poker players in a man versus machine poker competition (2008).
+  <p class="note">
+  This and the previous match (2007) were featured on BBC Radio, NPR,
+  The New York Times, Christian Science Monitor, The Guardian, Times
+  Online, EE Times, The Globe and Mail, Science News, and a variety of
+  local and Canadian television programs.
+  </p></li>
+  
+
+<li> Led the team that has won of 20 of 30 events in the first seven years
+  (2006-2012) of the AAAI Computer Poker Competitions.</li>
+
+<li> Led the team (CMU) that won the world championship in the RoboCup
+  Small-Size League (1998).</li>
+</ul>
+ 
+<h2>Awards</h2>
+
+<ul>
+<li> Head instructor in the teaching team that won the University of Alberta's Teaching Unit Award (2009) and an Honourable Mention in the Canada-wide Alan Blizzard Award for collaborative teaching (2011).</li>
+
+<li> Won Department Research Award (2010).</li>
+
+<li> Video submission nominated for the Best Education Video in the AI
+  Video Awards Competition (2008).</li>
+
+<li> PI in AICML (funding of $1.8 million per year on average), which won
+  the ASTech (Alberta Science and Technology) award in the
+  "Outstanding Leadership in Alberta Technology" in 2006.</li>
+
+<li> Finalist for ASTech (Alberta Science and Technology) award in
+  "Leaders of Technology" category (2005).</li>
+
+<li> Co-winner of CMU School of Computer Science's outstanding
+  dissertation award (2003).</li>
+</ul>
+
+<h2>Significant Research Contributions</h2>
+
+<ol>
+<li><span class="heading">Computational Game Theory and Poker</span>
+
+  <ul>
+    <li> Algorithms for computing game theoretic solutions to extremely
+    large extensive games.
+
+    <p class="note">Over two years, increased the state of the art by four
+    orders of magnitude (from 10^8 to 10^12 game states).</p>
+    
+    <ul>
+      <li> Range of Skill: AAAI, 2007.  Solves games with 10^10 states.</li>
+      
+      <li> Counterfactual Regret: NIPS, 2008.  Solves games with 10^12
+      states and only requires memory and time linear in the number of
+      information sets (typically the square root of the number of
+      game states).  This was the basis for our success in the man
+      versus machine competition in 2008.</li>
+
+      <li> Monte Carlo CFR: NIPS, 2009.  Extends our poker-specific
+      optimizations to form a general family of extensive game solvers
+      that can efficiently solve a wide rante of zero-sum imperfect
+      information games.</li>
+   </ul></li>
+
+    <li> Algorithms for building and exploiting opponent models.
+    <ul>
+      <li> Robust opponent modelling: NIPS, 2008; AISTATS, 2009.
+      
+      <p class = "note">These papers involve a very general idea for
+      trading off prior beliefs with worst-case analyses, and has
+      already been applied to ideas outside of poker and games.
+      </p>
+      </li>
+      
+      <li> Machinery for practical Bayesian modelling in poker: UAI,
+      2005.</li>
+      
+      <li> Modelling dynamic opponents: AAAI, 2007.</li>
+    </ul></li>
+
+    <li> Unbiased estimates of agent performance from very small sample
+    sizes
+
+    <p class = "note">This work has been key for our progress toward
+    defeating top human poker players, and both breakthroughs below
+    were critical parts of our man versus machine victory in 2008.</p>
+
+    <ul>
+     <li> Unbiased, low variance estimates of skill (DIVAT): AAAI, 2006.</li>
+
+      <li> Unbiased, low variance off-policy estimates of skill: ICML, 2008.</li>
+      <li> Learning custom variance reducing estimators from data
+     (MIVAT): IJCAI, 2009.</li>
+    </ul></li>
+  </ul></li>
+
+<li><span class="heading">Subjective Mapping</span>
+
+  <ul>
+    <li> Building a map of an environment with (almost) no knowledge
+    of the agent's sensors or effectors
+
+    <p class="note">The amazing thing about this research is that any
+    headway can be made at all in what is a very challenging problem.
+    For a summary see the AAAI/NECTAR paper (2006).</p>
+    
+    <ul>
+      <li> Map building as dimensionality reduction with ARE (Action
+      Respecting Embedding): ICML, 2005.</li>
+      
+      <li> Planning in ARE maps: IJCAI, 2005.</li>
+      
+      <li> Localizing in ARE maps: ISRR, 2005.</li>
+      
+      <li> Scaling up ARE: ISAIM, 2008.</li>
+    </ul></li>
+
+  <li> Other similar work:
+
+    <ul>
+      <li> Automatically Calibrating Sensor and Motion Models: AAAI, 2006.</li>
+      
+      <li> The first online algorithm for discovery/learning of PSRs: NIPS, 2006.</li>
+      
+      <li> Non-blind estimators for learning PSR models: ICML, 2006.</li>
+    </ul></li>
+
+  </ul></li>
+
+<li><span class="heading">Fundamental Reinforcement Learning</span>
+
+  <ul>
+  <li> Incremental techniques for making data-efficient least-squares
+  techniques computationally tractable:
+  AAAI, 2006; NIPS, 2007.</li>
+
+  <li> Techniques for combining models with linear function
+  approximation: AAMAS, 2008; UAI, 2008.</li>
+
+  <li> Dual analysis of RL with function approximation: NIPS, 2008;
+  ADPRL, 2007.</li>
+
+  <li> Approximate planning in POMDPs using quadratic programming: AAAI,
+  2006.</li>
+
+  </ul></li>
+
+<li><span class="heading">Older Research (Before 2004)</span>
+
+  <ul><li> Cooperating and Competing Teams of Robots
+  
+    <p>Between 1998 and 2003, I was a member (and often leader) of the
+    CMUnited and CMDragons robot soccer teams.  The team was world
+    champions in the RoboCup Small-Size League in 1998 and won the
+    American Open in 2003, as well as being consistently among the top
+    teams throughout these years.</p>
+
+    <p>These teams have made advancements in motion control and
+    navigation (CIRA, 1999), object tracking and prediction (ICRA,
+    2002), adapting team strategy (IJCAI, 2003), coordination in
+    impromptu teams (AAAI, 2005), as well as integration of these
+    components (Advanced Robotics; ICRA, 2003; J of Sys &amp; Control
+    Eng., 2005).  Many of these techniques have become the league
+    standard and remain a central part of the current CMDragons team
+    (world champions in 2006 and 2007) long after I left CMU.</p>
+    </li>
+    
+
+  <li> Multiagent Learning and Planning
+
+    <p>I developed WoLF ("Win or Learn Fast"), a technique for
+    reinforcement learning in multiagent (possibly adversarial)
+    environments: AIJ, 2002.  Developments include both theoretical
+    work (ICML, 2001, NIPS, 2004) and practical work (IJCAI, 2001;
+    IJCAI, 2003), including a demonstration of adversarial learning on
+    real robots.</p>
+
+    <p>This combined body of work has been cited over 600 times
+    according to Google Scholar.</p>
+    </li>
+  </ul></li>
+
+</ol>
+
+<h2>Academic Service</h2>
+
+<ul>
+<li> Conference organization (chair or co-chair).
+
+  <ul class="tight">
+    <li> AI video awards (IJCAI, 2009)</li>
+    
+    <li> Intelligent systems demonstrations (AAAI, 2008)</li>
+
+    <li> Educational track of the AI video awards (AAAI, 2008)</li>
+
+    <li> Volunteer (ICML, 2006)</li>
+
+    <li> Exhibitions (IROS, 2005).</li>
+  </ul></li>
+
+<li> Associate Editor for JAIR.</li>
+  
+<li> Member of the Machine Learning journal's editorial board.</li>
+
+<li> Senior program committee member: AAAI, NIPS, ICML, AAMAS.</li>
+
+<li> Program committee member: AAAI, IJCAI, NIPS, ICML, AAMAS, RSS, ISAIM.</li>
+
+<li> Extensively participated in RoboCup organization from 2000-2004,
+  including serving as the chair of the Small-Size League technical
+  committee, chairing several competitions, and helping to organize a
+  special interest group on multiagent learning.</li>
+</ul>
+
+</div>
+
+    </div>
+    
+    <!-- ###### Footer ###### -->
+
+    <div id="footer">
+      <div class="footerLHS">
+        <a href="http://validator.w3.org/check/referer">Valid XHTML 1.0 Strict</a>
+      </div>
+      
+      <div class="footerLHS">
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS 2</a>
+      </div>
+      
+      <div>
+        Website design adapted from <a href="http://www.oswd.org/design/preview/id/1152">Blue Haze</a> by <a href="http://www.oswd.org/email.phtml?user=haran">haran</a>
+      </div>
+
+      <div>
+	Thanks to <a href="http://www.oswd.org">Open Source Web Development</a>
+      </div>
+    </div>
+  </body>
+</html>

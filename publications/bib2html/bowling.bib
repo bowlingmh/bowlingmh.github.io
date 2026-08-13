@@ -1,0 +1,2870 @@
+% Encoding: UTF-8
+@string{URLHOME = "http://www.cs.ualberta.ca/~bowling/papers/"}
+
+@InProceedings{XXblank-entry,
+Title="",
+Author="",
+Booktitle="",
+Note="To Appear",
+Year="2015",
+AcceptRate="",
+AcceptNumbers="",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="",
+bib2htmlskip= "Yes"
+}
+
+@InProceedings{22ijcai-witness,
+title="Learning Curricula for Humans: An Empirical Study with Puzzles from {T}he {W}itness",
+author="Levi Lelis and João Nova and Eugene Chen and Nathan Sturtevant and Carrie Demmans Epp and Michael Bowling",
+booktitle=IJCAI22,
+year="2022",
+note="To appear",
+AcceptRate="15\%",
+AcceptNumbers="680 of 4535",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{22ijcai-abr,
+title="Approximate Exploitability: Learning a Best Response",
+author="Finbarr Timbers and Nolan Bard and Edward Lockhart and Marc Lanctot and Martin Schmid and Neil Burch and Julian Schrittweiser and Thomas Hubert and Michael Bowling",
+booktitle=IJCAI22,
+year="2022",
+note="To appear",
+AcceptRate="15\%",
+AcceptNumbers="680 of 4535",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@article{22neuralcomputing-pies,
+title="Policy invariant explicit shaping: an efficient alternative to reward shaping",
+author="Paniz Behboudian and Yash Satsangi and Matthew E. Taylor and Anna Harutyunyan and Michael Bowling",
+authornserc="{\bf Paniz Behboudian} and {\bf Yash Satsangi} and Matthew E. Taylor and Anna Harutyunyan and Michael Bowling",
+journal="Neural Computing and Applications",
+volume="34",
+pages="1673--1686",
+year="2022",
+bib2html_pubtype="Journal",
+bib2html_rescat="RL",
+}
+
+
+@InProceedings{21icml-deviation-types,
+title="Efficient Deviation Types and Learning for Hindsight Rationality in Extensive-Form Games",
+author="Dustin Morrill and Ryan D'Orazio and Marc Lanctot and Reca Sarfati and James Wright and Amy Greenwald and Michael Bowling",
+authornserc="{\bf Dustin Morrill} and Ryan D'Orazio and Marc Lanctot and Reca Sarfati and James Wright and Amy Greenwald and Michael Bowling",
+booktitle=ICML21,
+year="2021",
+AcceptRate="21.5\%",
+AcceptNumbers="1184 of 5513",
+pages="7818--7828",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Multiagent Learning",
+}
+
+@Article{22aij-fosg,
+title="Rethinking formal models of partially observable multiagent decision making",
+journal = "Artificial Intelligence",
+author = "Vojtěch Kovařík and Martin Schmid and Neil Burch and Michael Bowling and Viliam Lisý",
+authornserc = "Vojtěch Kovařík and {\bf Martin Schmid} and Neil Burch and Michael Bowling and Viliam Lisý",
+volume = "303",
+pages = "103645",
+year = "2022",
+issn = "0004-3702",
+doi = "https://doi.org/10.1016/j.artint.2021.103645",
+abstract = "Multiagent decision-making in partially observable environments is usually modelled as either an extensive-form game (EFG) in game theory or a partially observable stochastic game (POSG) in multiagent reinforcement learning (MARL). One issue with the current situation is that while most practical problems can be modelled in both formalisms, the relationship of the two models is unclear, which hinders the transfer of ideas between the two communities. A second issue is that while EFGs have recently seen significant algorithmic progress, their classical formalization is unsuitable for efficient presentation of the underlying ideas, such as those around decomposition. To solve the first issue, we introduce factored-observation stochastic games (FOSGs), a minor modification of the POSG formalism which distinguishes between private and public observation and thereby greatly simplifies decomposition. To remedy the second issue, we show that FOSGs and POSGs are naturally connected to EFGs: by “unrolling” a FOSG into its tree form, we obtain an EFG. Conversely, any perfect-recall timeable EFG corresponds to some underlying FOSG in this manner. Moreover, this relationship justifies several minor modifications to the classical EFG formalization that recently appeared as an implicit response to the model's issues with decomposition. Finally, we illustrate the transfer of ideas between EFGs and MARL by presenting three key EFG techniques – counterfactual regret minimization, sequence form, and decomposition – in the FOSG framework.",
+bib2html_pubtype="Journal",
+bib2html_rescat="Multiagent Learning",
+}
+
+@Article{21jair-curling,
+title = "Teaching People by Justifying Tree Search Decisions: An Empirical Study in Curling",
+author = "Cleyton R. Silva and Michael Bowling and Levi H.S. Lelis",
+journal= "Journal of Artificial Intelligence Research",
+volume = "72",
+year = "2021",
+doi = "https://doi.org/10.1613/jair.1.13219",
+url = "https://jair.org/index.php/jair/article/view/13219",
+pages = "1083--1102",
+abstract = "In this research note we show that a simple justification system can be used to teach humans non-trivial strategies of the Olympic sport of curling. This is achieved by justifying the decisions of Kernel Regression UCT (KR-UCT), a tree search algorithm that derives curling strategies by playing the game with itself. Given an action returned by KR-UCT and the expected outcome of that action, we use a decision tree to produce a counterfactual justification of KR-UCT’s decision. The system samples other possible outcomes and selects for presentation the outcomes that are most similar to the expected outcome in terms of visual features and most different in terms of expected end-game value. A user study with 122 people shows that the participants who had access to the justifications produced by our system achieved much higher scores in a curling test than those who only observed the decision made by KR-UCT and those with access to the justifications of a baseline system. This is, to the best of our knowledge, the first work showing that a justification system is able to teach humans non-trivial strategies learned by an algorithm operating in self play.",
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+}
+
+@InProceedings{21aamas-sound-search,
+  author      = {Michal \v{S}ustr and Martin Schmid and Matej Morav\v{c}\'{i}k and Neil Burch and Marc Lanctot and Michael Bowling},
+  authornserc = {Michal \v{S}ustr and Martin Schmid and Matej Morav\v{c}\'{i}k and Neil Burch and Marc Lanctot and Michael Bowling},
+  title       = {Sound SearchAlgorithms in Imperfect Information Games},
+  booktitle   = AAMAS21,
+  year        = {2021},
+  note        = {Extended Abstract},
+  AcceptNumbers = "246 of 612",
+  AcceptRate = "40.2\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+
+@InProceedings{21aaai-common-payoff,
+  author      = {Samuel Sokota and Edward Lockhart and Finbarr Timbers and Elnaz Davoodi and Ryan D'Orazio and Neil Burch and Martin Schmid and Michael Bowling and Marc Lanctot},
+  authornserc = {Samuel Sokota and Edward Lockhart and Finbarr Timbers and Elnaz Davoodi and Ryan D'Orazio and Neil Burch and Martin Schmid and Michael Bowling and Marc Lanctot},
+  title       = {Solving Common-Payoff Games with Approximate Policy Iteration},
+  booktitle   = AAAI21,
+  year        = {2021},
+  AcceptNumbers = "1682 of 7911",
+  AcceptRate = "21.3\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{21aaai-hindsight-rationality,
+  author      = {Dustin Morrill and Ryan D'Orazio and Reca Sarfati and Marc Lanctot and James R. Wright and Amy Greenwald and Michael Bowling},
+  authornserc = {{\bf Dustin Morrill} and Ryan D'Orazio and Reca Sarfati and Marc Lanctot and James R. Wright and Amy Greenwald and Michael Bowling},
+  title       = {Hindsight and Sequential Rationality of Correlated Play},
+  booktitle   = AAAI21,
+  year        = {2021},
+  AcceptNumbers = "1682 of 7911",
+  AcceptRate = "21.3\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Multiagent Learning",
+}
+
+@InProceedings{20neurips-marginal-utility,
+  author      = {Zaheen Farraz Ahmad and Levi H. S. Lelis and Michael Bowling},
+  authornserc = {{\bf Zaheen Farraz Ahmad} and Levi H. S. Lelis and Michael Bowling},
+  title       = {Marginal Utility for Planning in Continuous or Large Discrete Action Spaces},
+  booktitle   = NEURIPS20,
+  year        = {2020},
+  AcceptNumbers = "1900 of 9454",
+  AcceptRate = "20.1\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{20icml-vrmccfr2,
+  author      = {Trevor Davis and Martin Schmid and Michael Bowling},
+  authornserc = {{\bf Trevor Davis} and Martin Schmid and Michael Bowling},
+  title       = {Low-Variance and Zero-Variance Baselines for Extensive-Form Games},
+  booktitle   = ICML20,
+  year        = {2020},
+  AcceptNumbers = "1088 of 4990",
+  AcceptRate = "21.8\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{20aamas-frcfr,
+Title="Alternative Function Approximation Parameterizations for Solving Games: An Analysis of f-Regression Counterfactual Regret Minimization",
+Author="Ryan D'Orazio and Dustin Morrill and James R. Wright and Michael Bowling",
+AuthorNserc="Ryan D'Orazio and {\bf Dustin Morrill} and James R. Wright and Michael Bowling",
+Booktitle=AAMAS20,
+Year="2020",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@article{20aij-hanabi,
+title = "The {H}anabi challenge: A new frontier for {AI} research",
+journal = "Artificial Intelligence",
+volume = "280",
+pages = "103216",
+year = "2020",
+issn = "0004-3702",
+doi = "https://doi.org/10.1016/j.artint.2019.103216",
+url = "http://www.sciencedirect.com/science/article/pii/S0004370219300116",
+author = "Nolan Bard and Jakob N. Foerster and Sarath Chandar and Neil Burch and Marc Lanctot and H. Francis Song and Emilio Parisotto and Vincent Dumoulin and Subhodeep Moitra and Edward Hughes and Iain Dunning and Shibl Mourad and Hugo Larochelle and Marc G. Bellemare and Michael Bowling",
+abstract = "From the early days of computing, games have been important testbeds for studying how well machines can do sophisticated decision making. In recent years, machine learning has made dramatic advances with artificial agents reaching superhuman performance in challenge domains like Go, Atari, and some variants of poker. As with their predecessors of chess, checkers, and backgammon, these game domains have driven research by providing sophisticated yet well-defined challenges for artificial intelligence practitioners. We continue this tradition by proposing the game of Hanabi as a new challenge domain with novel problems that arise from its combination of purely cooperative gameplay with two to five players and imperfect information. In particular, we argue that Hanabi elevates reasoning about the beliefs and intentions of other agents to the foreground. We believe developing novel techniques for such theory of mind reasoning will not only be crucial for success in Hanabi, but also in broader collaborative efforts, especially those with human partners. To facilitate future research, we introduce the open-source Hanabi Learning Environment, propose an experimental framework for the research community to evaluate algorithmic advances, and assess the performance of current state-of-the-art techniques.",
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+}
+
+@InProceedings{20aaai-counts,
+  author      = {Marlos Machado and Marc Bellemare and Michael Bowling},
+  authornserc = {{\bf Marlos Machado} and Marc Bellemare and Michael Bowling},
+  title       = {Count-Based Exploration with the Successor Representation},
+  booktitle   = AAAI20,
+  year        = {2020},
+  AcceptNumbers = "1591 of 7737",
+  AcceptRate = "21\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+}
+
+@InProceedings{19neurips-ease,
+  author      = {Fushan Li and Michael Bowling},
+  authornserc = {{\bf Fushan Li} and Michael Bowling},
+  title       = {Easy-to-Teach Language Emergence from Multi-Agent Communication Games},
+  booktitle   = NEURIPS19,
+  year        = {2019},
+  AcceptNumbers = "1428 of 6743",
+  AcceptRate = "21\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL,Multiagent Learning",
+}
+
+@InProceedings{19icml-bad,
+  author        = {Jakob N. Foerster and H. Francis Song and Edward Hughes and Neil Burch and Iain Dunning and Shimon Whiteson and Matthew Botvinick and Michael Bowling},
+  title         = {Bayesian Action Decoder for Deep Multi-Agent Reinforcement Learning},
+  booktitle     = ICML19,
+  year          = {2019},
+  pages         = {1942--1951},
+  abstract      = {When observing the actions of others, humans make inferences about why they acted as they did, and what this implies about the world; humans also use the fact that their actions will be interpreted in this manner, allowing them to act informatively and thereby communicate efficiently with others. Although learning algorithms have recently achieved superhuman performance in a number of two-player, zero-sum games, scalable multi-agent reinforcement learning algorithms that can discover effective strategies and conventions in complex, partially observable settings have proven elusive. We present the Bayesian action decoder (BAD), a new multi-agent learning method that uses an approximate Bayesian update to obtain a public belief that conditions on the actions taken by all agents in the environment. BAD introduces a new Markov decision process, the public belief MDP, in which the action space consists of all deterministic partial policies, and exploits the fact that an agent acting only on this public belief state can still learn to use its private information if the action space is augmented to be over all partial policies mapping private information into environment actions. The Bayesian update is closely related to the theory of mind reasoning that humans carry out when observing others’ actions. We first validate BAD on a proof-of-principle two-step matrix game, where it outperforms policy gradient methods; we then evaluate BAD on the challenging, cooperative partial-information card game Hanabi, where, in the two-player setting, it surpasses all previously published learning and hand-coded approaches, establishing a new state of the art.},
+  acceptnumbers = {773 of 3424},
+  acceptrate    = {22.6\%},
+  url           = {http://proceedings.mlr.press/v97/foerster19a.html},
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL,Games,Multiagent Learning",
+}
+
+@InProceedings{19aaai-ccfr,
+  author        = {Trevor Davis and Kevin Waugh and Michael Bowling},
+  authornserc   = {{\bf Trevor Davis} and Kevin Waugh and Michael Bowling},
+  title         = {Solving Large Extensive-Form Games with Strategy Constraints},
+  booktitle     = AAAI19,
+  year          = {2019},
+  pages         = {1861--1868},
+  abstract      = {Extensive-form games are a common model for multiagent interactions with imperfect information. In two-player zerosum games, the typical solution concept is a Nash equilibrium over the unconstrained strategy set for each player. In many situations, however, we would like to constrain the set of possible strategies. For example, constraints are a natural way to model limited resources, risk mitigation, safety, consistency with past observations of behavior, or other secondary objectives for an agent. In small games, optimal strategies under linear constraints can be found by solving a linear program; however, state-of-the-art algorithms for solving large games cannot handle general constraints. In this work we introduce a generalized form of Counterfactual Regret Minimization that provably finds optimal strategies under any feasible set of convex constraints. We demonstrate the effectiveness of our algorithm for finding strategies that mitigate risk in security games, and for opponent modeling in poker games when given only partial observations of private information.},
+  acceptnumbers = {1150 of 7095},
+  acceptrate    = {16.2\%},
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{18neurips-acpo,
+  author        = {Srinivasan Sriram and Marc Lanctot and Vinicius Zambaldi and Julien Perolat and Karl Tuyls and Remi Munos and Michael Bowling},
+  title         = {Actor-Critic Policy Optimization in Partially Observable Multiagent Environments},
+  booktitle     = NEURIPS18,
+  year          = {2018},
+  pages         = {3426--3439},
+  abstract      = {Optimization of parameterized policies for reinforcement learning (RL) is an important and challenging problem in artificial intelligence. Among the most common approaches are algorithms based on gradient ascent of a score function representing discounted return. In this paper, we examine the role of these policy gradient and actor-critic algorithms in partially-observable multiagent environments. We show several candidate policy update rules and relate them to a foundation of regret minimization and multiagent learning techniques for the one-shot and tabular cases, leading to previously unknown convergence guarantees. We apply our method to model-free multiagent reinforcement learning in adversarial sequential decision problems (zero-sum imperfect information games), using RL-style function approximation. We evaluate on commonly used benchmark Poker domains, showing performance against fixed policies and empirical convergence to approximate Nash equilibria in self-play with rates similar to or better than a baseline model-free algorithm for zero-sum games, without any domain-specific state space reductions.},
+  acceptnumbers = {1011 of 4856},
+  acceptrate    = {20.8\%},
+  url           = {http://papers.nips.cc/paper/7602-actor-critic-policy-optimization-in-partially-observable-multiagent-environments},
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Multiagent Learning",
+}
+
+@InProceedings{18aaai-vrmccfr,
+  author        = {Martin Schmid and Neil Burch and Marc Lanctot and Matej Morav\v{c}\'{i}k and Rudolf Kadlec and Michael Bowling},
+  authornserc   = {{\bf Martin Schmid} and Neil Burch and Marc Lanctot and {\bf Matej Morav\v{c}\'{i}k} and Rudolf Kadlec and Michael Bowling},
+  title         = {Variance Reduction in Monte Carlo Regret Minimization for Extensive Games Using Baselines},
+  booktitle     = AAAI18,
+  year          = {2018},
+  pages         = {2157-2164},
+  acceptnumbers = {1150 of 7095},
+  acceptrate    = {16.2\%},
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@Article{18jair-ale2,
+  author        = {Marlos Machado and Marc Bellemare and Erik Talvitie and Joel Veness and Matthew Hausknecht and Michael Bowling},
+  authornserc   = {{\bf Marlos Machado} and Marc Bellemare and Erik Talvitie and Joel Veness and Matthew Hausknecht and Michael Bowling},
+  title         = {Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents},
+  journal       = {Journal of Artificial Intelligence Research},
+  year          = {2018},
+  volume        = {61},
+  pages         = {523--562},
+  abstract      = {The Arcade Learning Environment (ALE) is an evaluation platform that poses the challenge of building AI agents with general competency across dozens of Atari 2600 games. It supports a variety of different problem settings and it has been receiving increasing attention from the scientific community, leading to some high-profile success stories such as the much publicized Deep Q-Networks (DQN). In this article we take a big picture look at how the ALE is being used by the research community. We show how diverse the evaluation methodologies in the ALE have become with time, and highlight some key concerns when evaluating agents in the ALE. We use this discussion to present some methodological best practices and provide new benchmark results using these best practices. To further the progress in the field, we introduce a new version of the ALE that supports multiple game modes and provides a form of stochasticity we call sticky actions. We conclude this big picture look by revisiting challenges posed when the ALE was introduced, summarizing the state-of-the-art in various problems and highlighting problems that remain open.},
+  doi           = {https://doi.org/10.1613/jair.5699},
+  url           = {https://www.jair.org/index.php/jair/article/view/11182},
+bib2html_pubtype="Journal",
+bib2html_rescat="RL,Games",
+}
+
+@InProceedings{18aaai-aivat,
+  author        = {Neil Burch and Martin Schmid and Matej Morav\v{c}\'{i}k and Dustin Morrill and Michael Bowling},
+  title         = {{AIVAT:} {A} New Variance Reduction Technique for Agent Evaluation in Imperfect Information Games},
+  authornserc   = {Neil Burch and {\bf Martin Schmid} and {\bf Matej Morav\v{c}\'{i}k} and {\bf Dustin Morrill} and Michael Bowling},
+  booktitle     = AAAI18,
+  year          = {2018},
+  pages         = {949--956},
+  abstract      = {Evaluating agent performance when outcomes are stochastic and agents use randomized strategies can be challenging when there is limited data available. The variance of sampled outcomes may make the simple approach of Monte Carlo sampling inadequate. This is the case for agents playing heads-up no-limit Texas hold'em poker, whereman-machine competitions typically involve multiple days of consistent play by multiple players, but still can (and sometimes did) result in statistically insignificant conclusions. In this paper, we introduce AIVAT, a low variance, provably unbiased value assessment tool that exploits an arbitrary heuristic estimate of state value, as well as the explicit strategy of a subset of the agents. Unlike existing techniques which reduce the variance from chance events, or only consider game ending actions, AIVAT reduces the variance both from choices by nature and by players with a known strategy. The resulting estimator produces results that significantly outperform previous state of the art techniques. It was able to reduce the standard deviation of a Texas hold'em poker man-machine match by 85\% and consequently requires 44 times fewer games to draw the same statistical conclusion. AIVAT enabled the first statistically significant AI victory against professional poker players in no-limit hold'em.Furthermore, the technique was powerful enough to produce statistically significant results versus individual players, not just an aggregate pool of the players. We also used AIVAT to analyze a short series of AI vs human poker tournaments,producing statistical significant results with as few as 28 matches.},
+  acceptnumbers = {933 of 3800},
+  acceptrate    = {24.6\%},
+  url           = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/schedConf/presentations},
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+}
+
+@InProceedings{18icml-ws-planningshape,
+  author      = {Zach Holland and Erik Talvitie and Michael Bowling},
+  authornserc = {{\bf Zach Holland} and Erik Talvitie and Michael Bowling},
+  title       = {The Effect of Planning Shape on Dyna-style Planning in High-dimensional State Spaces},
+  booktitle   = "ICML Workshop on Prediction and Generative Modeling in Reinforcement Learning",
+  year        = {2018},
+  abstract    = {Dyna is an architecture for reinforcement learning agents that interleaves planning, acting, and learning in an online setting. Dyna aims to make fuller use of limited experience to achieve better performance with fewer environmental interactions. In Dyna, the environment model is typically used to
+generate one-step transitions from selected start states. We applied one-step Dyna to several games from the Arcade Learning Environment and found that the model-based updates offered little benefit, even with a perfect model. However, when the model was used to generate longer trajectories of simulated experience, performance improved dramatically. This observation also holds when using a model that is learned from experience; even though the learned model is flawed, it can still be used to accelerate learning.},
+  url         = {http://reinforcement-learning.ml/pgmrl2018#accepted-papers},
+bib2html_pubtype="Symposia/Workshop",
+bib2html_rescat="RL",
+}
+
+@InProceedings{17icml-laplacian,
+  author      = {Marlos Machado and Marc Gendron Bellemare and Michael Bowling},
+  authornserc = {{\bf Marlos Machado} and Marc Gendron Bellemare and Michael Bowling},
+  title       = {A {L}aplacian Framework for Option Discovery in Reinforcement Learning},
+  booktitle   = ICML17,
+  year        = {2017},
+  pages       = {2295--2304},
+  abstract    = {Representation learning and option discovery are two of the biggest challenges in reinforcement learning (RL). Proto-value functions (PVFs) are a well-known approach for representation learning in MDPs. In this paper we address the option discovery problem by showing how PVFs implicitly define options. We do it by introducing eigenpurposes, intrinsic reward functions derived from the learned representations. The options discovered from eigenpurposes traverse the principal directions of the state space. They are useful for multiple tasks because they are discovered without taking the environment’s rewards into consideration. Moreover, different options act at different time scales, making them helpful for exploration. We demonstrate features of eigenpurposes in traditional tabular domains as well as in Atari 2600 games.},
+  url         = {http://proceedings.mlr.press/v70/},
+  AcceptNumbers = "433 of 1701",
+  AcceptRate = "25\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+}
+
+@InProceedings{17aaai-ws-lbr,
+  author    = {Viliam Lis\'y and Michael Bowling},
+  authornserc    = {{\bf Viliam Lis\'y} and Michael Bowling},
+  title     = {Equilibrium Approximation Quality of Current No-Limit Poker Bots},
+  booktitle = "AAAI Workshop on Computer Poker and Imperfect Information Games",
+  year      = {2017},
+  volume    = {WS-17},
+  abstract  = {Approximating a Nash equilibrium is currently the best performing approach for creating poker-playing programs. While for the simplest variants of the game, it is possible to evaluate the quality of the approximation by computing the value of the best response strategy, this is currently not computationally feasible for larger variants of the game, such as heads-up no-limit Texas hold'em. In this paper, we present a simple and computationally inexpensive Local Best Response method for computing an approximate lower bound on the value of the best response strategy. Using this method, we show that existing poker-playing programs, based on solving abstract games, are remarkably poor Nash equilibrium approximations.},
+  url       = {http://aaai.org/ocs/index.php/WS/AAAIW17/paper/view/15154},
+bib2html_pubtype="Sypmosia/Workshop",
+bib2html_rescat="Games",
+}
+
+@Article{17cacm-poker,
+Title="Heads-up limit hold'em poker is solved",
+Author="Michael Bowling and Neil Burch and Michael Johanson and Oskari Tammelin",
+AuthorNserc="Michael Bowling and {\bf Neil Burch} and {\bf Michael Johanson} and Oskari Tammelin",
+Journal="Communications of the ACM",
+Volume="60",
+Issue="11",
+pages="81-88",
+Year="2017",
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+}
+
+@Article{17science,
+Title="DeepStack: Expert-level artificial intelligence in heads-up no-limit poker",
+Author="Matej Morav\v{c}\'{i}k and Martin Schmid and Neil Burch and  Viliam Lis\'y and Dustin Morrill and Nolan Bard and Trevor Davis and Kevin Waugh and Michael Johanson and Michael Bowling",
+AuthorNserc="Matej Morav\v{c}\'{i}k and Martin Schmid and {\bf Neil Burch} and  {\bf Viliam Lis\'y} and {\bf Dustin Morrill} and {\bf Nolan Bard} and {\bf Trevor Davis} and {\bf Kevin Waugh} and Michael Johanson and Michael Bowling",
+Journal="Science",
+Month="March",
+Year="2017",
+doi="10.1126/science.aam6960",
+Note="Published online",
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+Funding="(AI) NSERC IBM",
+Abstract="Artificial intelligence has seen several breakthroughs in recent years, with games often serving as milestones. A common feature of these games is that players have perfect information. Poker is the quintessential game of imperfect information, and a longstanding challenge problem in artificial intelligence. We introduce DeepStack, an algorithm for imperfect information settings. It combines recursive reasoning to handle information asymmetry, decomposition to focus computation on the relevant decision, and a form of intuition that is automatically learned from self-play using deep learning. In a study involving 44,000 hands of poker, DeepStack defeated with statistical significance professional poker players in heads-up no-limit Texas hold’em. The approach is theoretically sound and is shown to produce more difficult to exploit strategies than prior approaches.",
+bib2html_dl_html="http://science.sciencemag.org/content/early/2017/03/01/science.aam6960",
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+}
+
+@InProceedings{16icml-ws-purposeful,
+Title="Learning Purposeful Behaviour in the Absence of Rewards",
+Author="Marlos C. Machado and Michael Bowling",
+AuthorNsearc="{\bf Marlos C. Machado} and Michael Bowling",
+Booktitle="ICML Workshop on Abstraction in Reinforcement Learning",
+Year="2016",
+url="https://arxiv.org/abs/1605.07700",
+bib2html_pubtype="Symposia/Workshop",
+bib2html_rescat="RL",
+}
+
+@InProceedings{16nips-fmn,
+Title="The Forget-me-not Process",
+Author="Kieran Milan and Joel Veness and James Kirkpatrick and Michael Bowling and Anna Koop and Demis Hassabis",
+AuthorNserc="Kieran Milan and Joel Veness and James Kirkpatrick and Michael Bowling and {\bf Anna Koop} and Demis Hassabis",
+Booktitle=NIPS16,
+Year="2016",
+AcceptRate="23\%",
+AcceptNumbers="568 of 2500",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="",
+Funding="(AI) NSERC",
+Abstract="We introduce the Forget-me-not Process, an efficient, non-parametric meta-algorithm for online probabilistic sequence prediction for piecewise stationary, repeating sources. Our method works by taking a Bayesian approach to partition a stream of data into postulated task-specific segments, while simultaneously building a model for each task. We provide regret guarantees with respect to piecewise stationary data sources under the logarithmic loss, and validate the method empirically across a range of sequence prediction and task identification problems.",
+}
+
+@InProceedings{16ijcai-kruct,
+Title="{M}onte {C}arlo Tree Search in Continuous Action Spaces with Execution Uncertainty",
+Author="Timothy Yee and Viliam Lis\'y and Michael Bowling",
+Booktitle=IJCAI16,
+Pages="690--696",
+Year="2016",
+AcceptRate="24\%",
+AcceptNumbers="557 of 2294",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Abstract="Real world applications of artificial intelligence often require agents to sequentially choose actions from continuous action spaces with execution uncertainty.  When good actions are sparse, domain knowledge is often used to identify a discrete set of promising actions. These actions and their uncertain effects are typically evaluated using a recursive search procedure. The reduction of the problem to a discrete search problem causes severe limitations, notably, not exploiting all of the sampled outcomes when evaluating actions, and not using outcomes to help find new actions outside the original set. We propose a new Monte Carlo tree search (MCTS) algorithm specifically designed for exploiting an execution model in this setting. Using kernel regression, it generalizes the information about action quality between actions and to unexplored parts of the action space. In a high fidelity simulator of the Olympic sport of curling, we show that this approach significantly outperforms existing MCTS methods."
+}
+
+@InProceedings{16ijcai-hammer,
+Title="Action Selection for Hammer Shots in Curling",
+Author="Zaheen Farraz Ahmad and Robert C. Holte and Michael Bowling",
+Booktitle=IJCAI16,
+Pages="561--567",
+Year="2016",
+AcceptRate="24\%",
+AcceptNumbers="557 of 2294",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Abstract="Curling is an adversarial two-player game with a continuous state and action space, and stochastic transitions. This paper focuses on one aspect of the full game, namely, finding the optimal ``hammer shot'', which is the last action taken before a score is tallied. We survey existing methods for finding an optimal action in a continuous, lowdimensional space with stochastic outcomes, and adapt a method based on Delaunay triangulation to our application. Experiments using our curling physics simulator show that the adapted Delaunay triangulation’s shot selection outperforms other algorithms, and with some caveats, exceeds Olympic-level human performance.",
+}
+
+@InProceedings{16aamas-shallowrl,
+Title="State of the Art Control of Atari Games Using Shallow Reinforcement Learning",
+Author="Yitao Liang and Marlos Machado and Erik Talvitie and Michael Bowling",
+Booktitle=AAMAS16,
+Pages="485--493",
+Year="2016",
+AcceptRate="25\%",
+AcceptNumbers="137 of 550",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+}
+
+@InProceedings{16aaai-cfrsecurity,
+Title="Counterfactual Regret Minimization in Sequential Security Games",
+Author="Viliam Lis\'y and Trevor Davis and Michael Bowling",
+AuthorNserc="{\bf Viliam Lis\'y} and {\bf Trevor Davis} and Michael Bowling",
+Booktitle=AAAI16,
+Pages="544--550",
+Year="2016",
+AcceptRate="26\%",
+AcceptNumbers="549 of 2132",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+}
+
+@InProceedings{15ijcai-hulhe,
+Title="Solving Heads-Up Limit Texas Hold'em",
+Author="Oskari Tammelin and Neil Burch and Michael Johanson and Michael Bowling",
+Booktitle=IJCAI15,
+Pages="645--652",
+Year="2015",
+AcceptRate="29\%",
+AcceptNumbers="575 of 1996",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Cepheus is the first computer program to essentially
+solve a game of imperfect information that
+is played competitively by humans. The game
+it plays is heads-up limit Texas hold’em poker, a
+game with over $10^{14}$ information sets, and a challenge
+problem for artificial intelligence for over
+10 years. Cepheus was trained using a new variant
+of Counterfactual Regret Minimization (CFR),
+called CFR$^+$, using 4800 CPUs running for 68
+days. In this paper we describe in detail the engineering
+details required to make this computation
+a reality. We also prove the theoretical soundness
+of CFR$^+$ and its component algorithm, regretmatching+.
+We further give a hint towards understanding
+the success of CFR$^+$ by proving a tracking
+regret bound for this new regret matching algorithm.
+We present results showing the role of the algorithmic
+components and the engineering choices
+to the success of CFR$^+$.",
+}
+
+@InProceedings{15aamas-iioos,
+Title="Online {M}onte {C}arlo Counterfactual Regret Minimization for Search in Imperfect Information Games",
+Author="Viliam Lis\'y and Marc Lanctot and Michael Bowling",
+Booktitle=AAMAS15,
+pages="27--36",
+Year="2015",
+AcceptRate="25\%",
+AcceptNumbers="167 of 670",  
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Online search in games has been a core interest of artificial
+intelligence. Search in imperfect information games (e.g.,
+Poker, Bridge, Skat) is particularly challenging due to the
+complexities introduced by hidden information. In this paper,
+we present Online Outcome Sampling, an online search
+variant of Monte Carlo Counterfactual Regret Minimization,
+which preserves its convergence to Nash equilibrium. We
+show that OOS can overcome the problem of non-locality
+encountered by previous search algorithms and perform well
+against its worst-case opponents. We show that exploitability
+of the strategies played by OOS decreases as the amount
+of search time increases, and that preexisting Information
+Set Monte Carlo tree search (ISMCTS) can get more exploitable
+over time. In head-to-head play, OOS outperforms
+ISMCTS in games where non-locality plays a significant role,
+given a sufficient computation time per move."
+}
+
+@InProceedings{15aamas-clustering,
+Title="Decision-theoretic Clustering of Strategies",
+Author="Nolan Bard and Deon Nicholas and Csaba Szepesvari and Michael Bowling",
+AuthorNserc="{\bf Nolan Bard} and Deon Nicholas and Csaba Szepesvari and Michael Bowling",
+Booktitle=AAMAS15,
+Pages="17--25",
+Year="2015",
+AcceptRate="25\%",
+AcceptNumbers="167 of 670",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Clustering agents by their behaviour can be crucial for building
+effective agent models. Traditional clustering typically
+aims to group entities together based on a distance metric,
+where a desirable clustering is one where the entities in a
+cluster are spatially close together. Instead, one may desire
+to cluster based on actionability, or the capacity for the
+clusters to suggest how an agent should respond to maximize
+their utility with respect to the entities. Segmentation
+problems examine this decision-theoretic clustering task. Although
+finding optimal solutions to these problems is computationally
+hard, greedy-based approximation algorithms
+exist. However, in settings where the agent has a combinatorially
+large number of candidate responses whose utilities
+must be considered, these algorithms are often intractable.
+In this work, we show that in many cases the utility function
+can be factored to allow for an efficient greedy algorithm
+even when there are exponentially large response spaces. We
+evaluate our technique theoretically, proving approximation
+bounds, and empirically using extensive-form games by clustering
+opponent strategies in toy poker games. Our results
+demonstrate that these techniques yield dramatically improved
+clusterings compared to a traditional distance-based
+clustering approach in terms of both subjective quality and
+utility obtained by responding to the clusters.",
+}
+
+@InProceedings{15aistats-antithetic,
+Title="Variance Reduction via Antithetic {M}arkov Chains",
+Author="James Neufeld and Michael Bowling and Dale Schuurmanns",
+AuthorNserc="{\bf James Neufeld} and Michael Bowling and Dale Schuurmanns",
+Booktitle=AISTATS15,
+Pages="708--716",
+Year="2015",
+AcceptRate="29\%",
+AcceptNumbers="127 of 442",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="We present a Monte Carlo integration method, antithetic Markov chain sampling (AMCS), that incorporates local Markov transitions in an underlying importance sampler. Like sequential Monte Carlo sampling, the proposed method uses a sequence of Markov transitions to guide the sampling toward influential regions of the integrand (modes). However, AMCS differs in the type of transitions that may be used, the number of Markov chains, and the method of chain termination. In particular, from each point sampled from an initial proposal, AMCS collects a sequence of points by simulating two independent, but antithetic Markov chains, which are terminated by a sample-dependent stopping rule. Such an approach provides greater flexibility for targeting influential areas while eliminating the need to fix the length of the Markov chain a priori. We show that the resulting estimator is unbiased and can reduce variance on peaked multi-modal integrands that challenge current methods.",
+}
+
+@Article{15science,
+Title="Heads-up Limit Hold'em Poker is Solved",
+Author="Michael Bowling and Neil Burch and Michael Johanson and Oskari Tammelin",
+AuthorNserc="Michael Bowling and {\bf Neil Burch} and {\bf Michael Johanson} and Oskari Tammelin",
+Journal="Science",
+Month="January",
+Year="2015",
+Volume="347",
+Number="6218",
+Pages="145--149",
+bib2html_extra_info={The HTML link is to <i>Science</i>'s paywall'd site.  The PDF download is our accepted manuscript.},
+bib2html_pubtype="Journal",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Poker is a family of games that exhibit imperfect information, where players do not have full knowledge of past events. Whereas many perfect-information games have been solved (e.g., Connect Four and checkers), no nontrivial imperfect-information game played competitively by humans has previously been solved. Here, we announce that heads-up limit Texas hold’em is now essentially weakly solved. Furthermore, this computation formally proves the common wisdom that the dealer in the game holds a substantial advantage. This result was enabled by a new algorithm, CFR+, which is capable of solving extensive-form games orders of magnitude larger than previously possible.",
+bib2html_dl_html="http://www.sciencemag.org/content/347/6218/145"
+}
+
+@InProceedings{15aaai-policytree,
+Title="Policy Tree: Adaptive Representation for Policy Gradient",
+Author="Ujjwal Das Gupta and Erik Talvitie and Michael Bowling",
+AuthorNserc="{\bf Ujjwal Das Gupta} and Erik Talvitie and Michael Bowling",
+Booktitle=AAAI15,
+Year="2015",
+Pages="2547--2553",
+AcceptRate="27\%",
+AcceptNumbers="531 of 1991",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL,Games",
+Funding="(AI) NSERC",
+Abstract="Much of the focus on finding good representations in reinforcement learning has been on learning complex non-linear predictors of value. Policy gradient algorithms, which directly represent the policy, often need fewer parameters to learn good policies. However, they typically employ a fixed parametric representation that may not be sufficient for complex domains. This paper introduces the Policy Tree algorithm, which can learn an adaptive representation of policy in the form of a decision tree over different instantiations of a base policy. Policy gradient is used both to optimize the parameters and to grow the tree by choosing splits that enable the maximum local increase in the expected return of the policy. Experiments show that this algorithm can choose genuinely helpful splits and significantly improve upon the commonly used linear Gibbs softmax policy, which we choose as our base policy."
+}
+
+@InProceedings{15aaai-mnnuct,
+Title="Improving Exploration in {UCT} Using Local Manifolds",
+Author="Sriram Srinivasan and Erik Talvitie and Michael Bowling",
+AuthorNserc="{\bf Sriram Srinivasan} and Erik Talvitie and Michael Bowling",
+Booktitle=AAAI15,
+Year="2015",
+Pages="3386--3392",
+AcceptRate="27\%",
+AcceptNumbers="531 of 1991",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL,Games",
+Funding="(AI) NSERC",
+Abstract="Monte-Carlo planning has been proven successful in many sequential decision-making settings, but it suffers from poor exploration when the rewards are sparse. In this paper, we improve exploration in UCT by generalizing across similar states using a given distance metric. We show that this algorithm, like UCT, converges asymptotically to the optimal action. When the state space does not have a natural distance metric, we show how we can learn a local manifold from the transition graph of states in the near future. to obtain a distance metric. On domains inspired by video games, empirical evidence shows that our algorithm is more sample efficient than UCT, particularly when rewards are sparse."
+}
+
+@InProceedings{15aaai-rcfr,
+Title="Solving Games with Functional Regret Estimation",
+Author="Kevin Waugh and Dustin Morrill and {J. Andrew} Bagnell and Michael Bowling",
+AuthorNserc="Kevin Waugh and {\bf Dustin Morrill} and {J. Andrew} Bagnell and Michael Bowling",
+Booktitle=AAAI15,
+Year="2015",
+Pages="2138--2145",
+AcceptRate="27\%",
+AcceptNumbers="531 of 1991",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="We propose a novel online learning method for minimizing regret in large extensive-form games. The approach learns a function approximator online to estimate the regret for choosing a particular action. A no-regret algorithm uses these estimates in place of the true regrets to define a sequence of policies. 
+We prove the approach sound by providing a bound relating the quality of the function approximation and regret of the algorithm. A corollary being that the method is guaranteed to converge to a Nash equilibrium in self-play so long as the regrets are ultimately realizable by the function approximator. Our technique can be understood as a principled generalization of existing work on abstraction in large games; in our work, both the abstraction as well as the equilibrium are learned during self-play. We demonstrate empirically the method achieves higher quality strategies than state-of-the-art abstraction techniques given the same resources."
+}
+
+@InProceedings{15aaai-arma,
+Title="Optimal Estimation of Multivariate {ARMA} Models",
+Author="Martha White and Junfeng Wen and Michael Bowling and Dale Schuurmans",
+AuthorNserc="{\bf Martha White} and Junfeng Wen and Michael Bowling and Dale Schuurmans",
+Booktitle=AAAI15,
+Year="2015",
+Pages="3080--3086",
+AcceptRate="27\%",
+AcceptNumbers="531 of 1991",
+bib2html_pubtype="Refereed Conference",
+Funding="(AI) NSERC",
+Abstract="Autoregressive moving average (ARMA) models are a fundamental tool in time series analysis that offer intuitive modeling capability and efficient predictors. Unfortunately, the lack of globally optimal parameter estimation strategies for these models remains a problem: application studies often adopt the simpler autoregressive model that can be easily estimated by maximizing (a posteriori) likelihood. We develop a (regularized, imputed) maximum likelihood criterion that admits efficient global estimation via structured matrix norm optimization methods. An empirical evaluation demonstrates the benefits of globally optimal parameter estimation over local and moment matching approaches."
+}
+
+@InProceedings{15aaai-cpomdp,
+Title="Approximate Linear Programming for Constrained Partially Observable {M}arkov Decision Processes",
+Author="Pascal Poupart and Aarti Malhotra and Pei Pei and Kee-Eung Kim and Bongseok Goh and Michael Bowling",
+Booktitle=AAAI15,
+Year="2015",
+Pages="3080--3086",
+AcceptRate="27\%",
+AcceptNumbers="531 of 1991",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+Funding="(NSERC) AI",
+Abstract="In many situations, it is desirable to optimize a sequence
+of decisions by maximizing a primary objective while respecting
+some constraints with respect to secondary objectives.
+Such problems can be naturally modeled as constrained
+partially observable Markov decision processes (CPOMDPs)
+when the environment is partially observable. In this work,
+we describe a technique based on approximate linear programming
+to optimize policies in CPOMDPs. The optimization
+is performed offline and produces a finite state controller
+with desirable performance guarantees. The approach outperforms
+a constrained version of point-based value iteration on
+a suite of benchmark problems.",
+}
+
+@InProceedings{14aaai-cfrd,
+Title="Solving Imperfect Information Games Using Decomposition",
+Author="Neil Burch and Michael Johanson and Michael Bowling",
+AuthorNserc="{\bf Neil Burch} and {\bf Michael Johanson} and Michael Bowling",
+Booktitle=AAAI14,
+Pages="602--608",
+Year="2014",
+AcceptRate="28\%",
+AcceptNumbers="398 of 1406",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(NSERC) AI",
+Abstract="Decomposition, i.e., independently analyzing possible subgames, has
+proven to be an essential principle for effective decision-making in
+perfect information games.  However, in imperfect information games,
+decomposition has proven to be problematic.  To date, all proposed
+techniques for decomposition in imperfect information games have
+abandoned theoretical guarantees.  This work presents the first
+technique for decomposing an imperfect information game into subgames
+that can be solved independently, while retaining optimality
+guarantees on the full-game solution.  We can use this technique to
+construct theoretically justified algorithms that make better use of
+information available at run-time, overcome memory or disk limitations
+at run-time, or make a time/space trade-off to overcome memory or disk
+limitations while solving a game.  In particular, we present an
+algorithm for subgame solving which guarantees performance in the
+whole game, in contrast to existing methods which may have unbounded
+error.  In addition, we present an offline game solving algorithm,
+CFR-D, which can produce a Nash equilibrium for a game that is larger
+than available storage."}
+
+@InProceedings{14aaai-pgr,
+Title="Using Response Functions to Measure Strategy Strength",
+Author="Trevor Davis and Neil Burch and Michael Bowling",
+AuthorNserc="{\bf Trevor Davis} and {\bf Neil Burch} and Michael Bowling",
+Booktitle=AAAI14,
+Pages="630--636",
+Year="2014",
+AcceptRate="28\%",
+AcceptNumbers="398 of 1406",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Extensive-form games are a powerful tool for representing complex multi-agent interactions. Nash equilibrium strategies are commonly used as a solution concept for extensive-form games, but many games are too large for the computation of Nash equilibria to be tractable. In these large games, exploitability has traditionally been used to measure deviation from Nash equilibrium, and thus strategies are aimed to achieve minimal exploitability. However, while exploitability measures a strategy's worst-case performance, it fails to capture how likely that worst-case is to be observed in practice. In fact, empirical evidence has shown that a less exploitable strategy can perform worse than a more exploitable strategy in one-on-one play against a variety of opponents. In this work, we propose a class of response functions that can be used to measure the strength of a strategy. We prove that standard no-regret algorithms can be used to learn optimal strategies for a scenario where the opponent uses one of these response functions. We demonstrate the effectiveness of this technique in Leduc poker against opponents that use the UCT Monte Carlo tree search algorithm."}
+
+@Article{14chb-skill,
+Title="Do pokers players know how good they are? {A}ccuracy of poker skill estimation in online and offline players",
+Author="T.L. MacKay and Nolan Bard and Michael Bowling and D.C. Hodgins",
+AuthorNserc="T.L. MacKay and {\bf Nolan Bard} and Michael Bowling and D.C. Hodgins",
+Journal="Computers in Human Behavior",
+Volume="31",
+Month="February",
+Pages="419--424",
+Year="2014",
+bib2html_pubtype="Journal",
+Funding="(AGRI) AI",
+Abstract="This study was a collaborative investigation between the disciplines of computing and social sciences to determine whether poker players accurately assess their relative skill level. Of particular interest was whether online poker players exhibit higher degrees of distorted thinking about skill when compared to offline gamblers, in the absence of superior proficiency. Two hundred and seventy-eight gamblers played a simulated game of Texas Hold’em poker against a computer controlled opponent. The computer program has been used in artificial intelligence simulated games against actual poker players and can mathematically estimate skill. Information was collected about player demographics, poker experience, cognitive distortions, and subjective perception of poker skills. The results of study revealed that online gamblers had a greater perception of perceived skill when compared to offline gamblers, despite showing no superiority in poker ability. General gamblingrelated cognitions and subjective rating of poker skill contributed to categorization as an online gambler. Gambling more frequently in offline formats and playing for longer periods significantly influenced the perception of poker skill for online gamblers. From a treatment perspective, it is more difficult to address games like poker because the chance component is equivocal and interpretive biases may be especially difficult to combat.",
+bib2html_dl_html = "http://www.sciencedirect.com/science/article/pii/S0747563213004275",
+}
+
+@InProceedings{14aamas-asymm,
+Title="Asymmetric Abstractions for Adversarial Settings",
+Author="Nolan Bard and Michael Johanson and Michael Bowling",
+AuthorNserc="{\bf Nolan Bard} and {\bf Michael Johanson} and Michael Bowling",
+Booktitle=AAMAS14,
+Pages="501--508",
+Year="2014",
+AcceptRate="24\%",
+AcceptNumbers="169 of 709",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="In multiagent domains, an agent's beliefs about how other agents will or could act plays a significant role in their own behaviour. In large domains where it is infeasible to uniquely represent every possible decision an agent will face, abstraction is often used to collapse the state and action space to make the problem tractable. By abstracting other agents' views of the environment, the agent makes assumptions about how other agents act. Incorrect abstraction choices can yield less than ideal performance as other agents may, in reality, use coarser or finer abstraction than they were modelled with. The standard approach when abstracting is to use symmetric abstraction: where all agents are assumed to distinguish states in the same way. This work examines the benefits and potential pitfalls of using asymmetric abstractions in two-player zero- sum extensive-form games. Using the domain of two-player limit Texas hold'em poker, we investigate the performance of strategies using both symmetric and asymmetric abstractions in terms of in-game utility and worst-case utility in the real game. Furthermore, we show that combining asymmetric abstractions with robust counter-strategy techniques can produce counter-strategies which dominate their symmetric abstraction counterparts in terms of both exploitative power and worst-case utility."}
+
+@InProceedings{13wiml-ptl,
+Title="Partition Tree Learning for Improved Control of Myoelectric Prosthetics",
+Author="Alex Kearney and Anna Koop and Michael Bowling and Patrick M. Pilarlski",
+AuthorNserc="Alex Kearney and {\bf Anna Koop} and Michael Bowling and Patrick M. Pilarlski",
+Booktitle="8th Annual Workshop for Women in Machine Learning",
+Year="2013",
+bib2html_pubtype="Symposia/Workshop",
+bib2html_rescat="Other",
+Funding="(AI) NSERC",
+bib2htmlskip= "Yes"
+}
+
+@InProceedings{13ijcai-hsubset,
+Title="Subset Selection of Search Heuristics",
+Author="Chris Rayner and Nathan Sturtevant and Michael Bowling",
+AuthorNserc="{\bf Chris Rayner} and Nathan Sturtevant and Michael Bowling",
+Booktitle=IJCAI13,
+Pages="637--643",
+Year="2013",
+AcceptRate="28\%",
+AcceptNumbers="413 of 1473",
+bib2html_pubtype="Refereed Conference",
+Funding="(NSERC) AI",
+Abstract="Constructing a strong heuristic function is a central problem in heuristic search.  A common approach is to combine a number of heuristics by maximizing over the values from each.  If a limit is placed on this number, then a subset selection problem arises.  We treat this as an optimization problem, and proceed by translating a natural loss function into a submodular and monotonic utility function under which greedy selection is guaranteed to be near-optimal.  We then extend this approach with a sampling scheme that retains provable optimality.  Our empirical results show large improvements over existing methods, and give new insight into building heuristics for directed domains.",
+}
+
+@Article{13mlj-mkl,
+Title="Alignment Based Kernel Learning with a Continuous Set of Base Kernels",
+Author="Arash Afkanpour and Csaba Szepesv\'ari and Michael Bowling",
+AuthorNserc="{\bf Arash Afkanpour} and Csaba Szepesv\'ari and Michael Bowling",
+Journal="Machine Learning",
+Pages="305--324",
+Volume="91",
+Issue="3",
+Year="2013",
+bib2html_pubtype="Journal",
+Funding="(AI) NSERC",
+Abstract="The success of kernel-based learning methods depends on the choice of kernel. Recently, kernel learning methods have been proposed that use data to select the most appropriate kernel, usually by combining a set of base kernels. We introduce a new algorithm for kernel learning that combines a continuous set of base kernels, without the common step of discretizing the space of base kernels. We demonstrate that our new method achieves state-of-the-art performance across a variety of real-world datasets. Furthermore, we explicitly demonstrate the importance of combining the right dictionary of kernels, which is problematic for methods that combine a finite set of base kernels chosen a priori. Our method is not the first approach to work with continuously parameterized kernels. We adopt a two-stage kernel learning approach. We also show that our method requires substantially less computation than previous such approaches, and so is more amenable to multi-dimensional parameterizations of base kernels, which we demonstrate.",
+bib2html_dl_html = "http://link.springer.com/article/10.1007\%2Fs10994-013-5361-8",
+doi="10.1007/s10994-013-5361-8",
+}
+
+@InProceedings{13aaai-collusion,
+Title="Automating Collusion Detection in Sequential Games",
+Author="Parisa Mazrooei and Chris Archibald and Michael Bowling",
+AuthorNserc="{\bf Parisa Mazrooei} and {\bf Chris Archibald} and Michael Bowling",
+Booktitle=AAAI13,
+Pages="675--682",
+Year="2013",
+AcceptRate="29\%",
+AcceptNumbers="203 of 690",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Collusion is the practice of two or more parties deliberately cooperating to the detriment of others.  While such behavior may be desirable in certain circumstances, in many it is considered dishonest and unfair.  If agents otherwise hold strictly to the established rules, though, collusion can be challenging to police.  In this paper, we introduce an automatic method for collusion detection in sequential games.  We achieve this through a novel object, called a collusion table, that captures the effects of collusive behavior, i.e., advantage to the colluding parties, without assuming any particular pattern of behavior.  We show the effectiveness of this method in the domain of poker, a popular game where collusion is prohibited.",
+}
+
+@InProceedings{13icml-qtf,
+Title="Bayesian Learning of Recursively Factored Environments",
+Author="Marc Bellemare and Joel Veness and Michael Bowling",
+AuthorNserc="{\bf Marc Bellemare} and {\bf Joel Veness} and Michael Bowling",
+Booktitle=ICML13,
+Pages="1211--1219",
+Year="2013",
+AcceptRate="24\%",
+AcceptNumbers="283 of 1204",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games,RL",
+Funding="(AI) NSERC",
+Abstract="Model-based reinforcement learning techniques have historically encountered a number of difficulties scaling up to large observation spaces. One promising approach has been to decompose the model learning task into a number of smaller, more manageable sub-problems by factoring the observation space. Typically, many different factorizations are possible, which can make it difficult to select an appropriate factorization without extensive testing. In this paper we introduce the class of recursively decomposable factorizations, and show how exact Bayesian inference can be used to efficiently guarantee predictive performance close to the best factorization in this class. We demonstrate the strength of this approach by presenting a collection of empirical results for 20 different Atari 2600 games.",
+bib2html_dl_pdf = "http://jmlr.org/proceedings/papers/v28/bellemare13.pdf",
+}
+
+@InProceedings{13icml-mkl,
+Title="A Randomized Mirror Descent Algorithm for Large Scale Multiple Kernel Learning",
+Author="Arash Afkanpour and Andr\'as Gy{\"o}rgy and Csaba Szepesv\'ari and Michael Bowling",
+AuthorNserc="{\bf Arash Afkanpour} and Andr\'as Gy{\"o}rgy and Csaba Szepesv\'ari and Michael Bowling",
+Booktitle=ICML13,
+Pages="374--382",
+Year="2013",
+AcceptRate="24\%",
+AcceptNumbers="283 of 1204",
+bib2html_pubtype="Refereed Conference",
+Funding="(AI) NSERC",
+Abstract="We consider the problem of simultaneously learning to linearly combine a very large number of kernels and learn a good predictor based on the learnt kernel.  When the number of kernels $d$ to be combined is very large, multiple kernel learning methods whose computational cost scales linearly in $d$ are intractable.  We propose a randomized version of the mirror descent algorithm to overcome this issue, under the objective of minimizing the group $p$-norm penalized empirical risk.  The key to achieve the required exponential speed-up is the computationally efficient construction of low-variance estimates of the gradient.  We propose importance sampling based estimates, and find that the ideal distribution samples a coordinate with a probability proportional to the magnitude of the corresponding gradient.  We show that in the case of learning the coefficients of a polynomial kernel, the combinatorial structure of the base kernels to be combined allows sampling from this distribution in $O(\log(d))$ time, making the total computational cost of the method to achieve an $\epsilon$-optimal solution to be $O(\log(d)/\epsilon^2)$, thereby allowing our method to operate for very large values of $d$.  Experiments with simulated and real data confirm that the new algorithm is computationally more efficient than its state-of-the-art alternatives.",
+bib2html_dl_pdf = "http://jmlr.org/proceedings/papers/v28/afkanpour13.pdf"
+}
+
+@Article{13jair-ale,
+Title="The Arcade Learning Environment: An Evaluation Platform for General Agents",
+Author="Marc G. Bellemare and Yavar Naddaf and Joel Veness and Michael Bowling",
+AuthorNserc="{\bf Marc G. Bellemare} and Yavar Naddaf and {\bf Joel Veness} and Michael Bowling",
+Journal="Journal of Artificial Intelligence Research",
+Volume="47",
+Pages="253--279",
+Year="2013",
+bib2html_pubtype="Journal",
+bib2html_rescat="RL,Games",
+Funding="(AI) NSERC",
+Abstract="In this article we introduce the Arcade Learning Environment (ALE): both a challenge problem and a platform and methodology for evaluating the development of general, domain-independent AI technology.  ALE provides an interface to hundreds of Atari 2600 game environments, each one different, interesting, and designed to be a challenge for human players.  ALE presents significant research challenges for reinforcement learning, model learning, model-based planning, imitation learning, transfer learning, and intrinsic motivation.  Most importantly, it provides a rigorous testbed for evaluating and comparing approaches to these problems.  We illustrate the promise of ALE by developing and benchmarking domain-independent agents designed using well-established AI techniques for both reinforcement learning and planning.  In doing so, we also propose a methodology for evaluation made possible by ALE, reporting empirical results on over 55 different games.  All of the software, including the benchmark agents, is publicly available.",
+bib2html_dl_html = "http://www.jair.org/papers/paper3912.html",
+bib2html_dl_pdf = "http://www.jair.org/media/3912/live-3912-7087-jair.pdf",
+DOI="10.1613/jair.3912"
+}
+
+@Article{12jmlr-multiplerewards,
+Title="Linear Fitted-{Q} Iteration with Multiple Reward Functions",
+Author="Daniel J. Lizotte and Michael Bowling and Susan A. Murphy",
+Journal="Journal of Machine Learning Research",
+Volume="13",
+Pages="3253--3295",
+Year="2012",
+bib2html_pubtype="Journal",
+bib2html_rescat="RL",
+Funding="(NSERC)",
+Abstract="We present a general and detailed development of an algorithm for finite-horizon fitted-Q iteration with an arbitrary number of reward signals and linear value function approximation using an arbitrary number of state features. This includes a detailed treatment of the 3-reward function case using triangulation primitives from computational geometry and a method for identifying globally dominated actions. We also present an example of how our methods can be used to construct a real-world decision aid by considering symptom reduction, weight gain, and quality of life in sequential treatments for schizophrenia. Finally, we discuss future directions in which to take this work that will further enable our methods to make a positive impact on the field of evidence-based clinical decision support.",
+bib2html_dl_html = "http://jmlr.org/papers/v13/lizotte12a.html",
+bib2html_dl_pdf = "http://www.jmlr.org/papers/volume13/lizotte12a/lizotte12a.pdf",
+}
+
+@InProceedings{13dcc-ptw,
+Title="Partition Tree Weighting",
+Author="Joel Veness and Martha White and Michael Bowling and Andr\'as Gy{\"o}rgy",
+AuthorNserc="{\bf Joel Veness} and {\bf Martha White} and Michael Bowling and Andr\'as Gy{\"o}rgy",
+Booktitle=DCC13,
+Pages="321--330",
+Year="2013",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="",
+Funding="(AI) NSERC",
+Abstract="This paper introduces the Partition Tree Weighting technique, an efficient meta-algorithm for piecewise stationary sources.  The technique works by performing Bayesian model averaging over a large class of possible partitions of the data into locally stationary segments.  It uses a prior, closely related to the Context Tree Weighting technique of Willems, that is well suited to data compression applications.  Our technique can be applied to any coding distribution at an additional time and space cost only logarithmic in the sequence length.  We provide a competitive analysis of the redundancy of our method, and explore its application in a variety of settings.  The order of the redundancy and the complexity of our algorithm matches those of the best competitors available in the literature, and the new algorithm exhibits a superior complexity-performance trade-off in our experiments.",
+doi = "10.1109/DCC.2013.40",
+}
+
+@InProceedings{13aamas-baseline,
+Title="Baseline: Practical Control Variates for Agent Evaluation in Zero-Sum Domains",
+Author="Joshua Davidson and Christopher Archibald and Michael Bowling",
+AuthorNserc="{\bf Joshua Davidson} and {\bf Christopher Archibald} and Michael Bowling",
+Booktitle=AAMAS13,
+Pages="1005--1012",
+Year="2013",
+AcceptRate="23\%",
+AcceptNumbers="140 of 612",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(AI) NSERC",
+Abstract="Agent evaluation in stochastic domains can be difficult.  The commonplace approach of Monte Carlo evaluation can involve a prohibitive number of simulations when the variance of the outcome is high.  In such domains, variance reduction techniques are necessary, but these techniques require careful encoding of domain knowledge.  This paper introduces {\em baseline} as a simple approach to creating low variance estimators for zero-sum multi-agent domains with high outcome variance.  The baseline method leverages the self play of any available agent to produce a control variate for variance reduction, subverting any extra complexity inherent with traditional approaches.  The baseline method is also applicable in situations where existing techniques either require extensive implementation overhead or simply cannot be applied.  Experimental variance reduction results are shown for both cases using the baseline method.  Baseline is shown to surpass state-of-the-art techniques in three-player computer poker and is competitive in two-player computer poker games.  Baseline also shows variance reduction in human poker and in a mock Ad Auction tournament from the Trading Agent Competition, domains where variance reduction methods are not typically employed.  "}
+
+@InProceedings{13aamas-implicitmodelling,
+Title="Online Implicit Agent Modelling",
+Author="Nolan Bard and Michael Johanson and Neil Burch and Michael Bowling",
+AuthorNserc="{\bf Nolan Bard} and {\bf Michael Johanson} and {\bf Neil Burch} and Michael Bowling",
+Booktitle=AAMAS13,
+Pages="255--262",
+Year="2013",
+AcceptRate="23\%",
+AcceptNumbers="140 of 612",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(NSERC) AI",
+Abstract="The traditional view of agent modelling is to infer the explicit parameters of another agent's strategy (\ie, their probability of taking each action in each situation).  Unfortunately, in complex domains with high dimensional strategy spaces, modelling every parameter often requires a prohibitive number of observations. Furthermore, given a model of such a strategy, computing a response strategy that is robust to modelling error may be impractical to compute online.  Instead, we propose an implicit modelling framework where agents aim to estimate the utility of a fixed portfolio of pre-computed strategies.  Using the domain of heads-up limit Texas hold'em poker, this work describes an end-to-end approach for building an implicit modelling agent.  We compute robust response strategies, show how to select strategies for the portfolio, and apply existing variance reduction and online learning techniques to dynamically adapt the agent's strategy to its opponent.  We validate the approach by showing that our implicit modelling agent would have won the heads-up limit opponent exploitation event in the 2011 Annual Computer Poker Competition."}  
+
+@InProceedings{13aamas-abstraction,
+Title="Evaluating State-Space Abstractions in Extensive-Form Games",
+Author="Michael Johanson and Neil Burch and Richard Valenzano and Michael Bowling",
+AuthorNserc="{\bf Michael Johanson} and {\bf Neil Burch} and Richard Valenzano and Michael Bowling",
+Booktitle=AAMAS13,
+Pages="271--278",
+Year="2013",
+AcceptRate="23\%",
+AcceptNumbers="140 of 612",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(NSERC) AI",
+Abstract="Efficient algorithms exist for finding optimal policies in extensive-form games.  However, human-scale problems are typically so large that this computation remains infeasible with modern computing resources.  State-space abstraction techniques allow for the derivation of a smaller and strategically similar abstract domain, in which an optimal strategy can be computed and then used as a suboptimal strategy in the real domain.  In this paper, we consider the task of evaluating the quality of an abstraction, independent of a specific abstract strategy.  In particular, we use a recent metric for abstraction quality and examine imperfect recall abstractions, in which agents ``forget'' previously observed information to focus the abstraction effort on more recent and relevant state information.  We present experimental results in the domain of Texas hold'em poker that validate the use of distribution-aware abstractions over expectation-based approaches, demonstrate that the new metric better predicts tournament performance, and show that abstractions built using imperfect recall outperform those built using perfect recall in terms of both exploitability and one-on-one play."}
+
+@InProceedings{12nips-kofn,
+Title="Tractable Objectives for Robust Policy Optimization",
+Author="Katherine Chen and Michael Bowling",
+AuthorNserc="{\bf Katherine Chen} and Michael Bowling",
+Booktitle=NIPS12,
+Pages="2078--2086",
+Year="2012",
+AcceptRate="25\%",
+AcceptNumbers="370 of 1467",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+Funding="(AI) NSERC",
+Abstract="Robust policy optimization acknowledges that risk-aversion plays a vital role in real-world decision-making. When faced with uncertainty about the effects of actions, the policy that maximizes expected utility over the unknown parameters of the system may also carry with it a risk of intolerably poor performance.  One might prefer to accept lower utility in expectation in order to avoid, or reduce the likelihood of, unacceptable levels of utility under harmful parameter realizations.   In this paper, we take a Bayesian approach to parameter uncertainty, but unlike other methods avoid making any distributional assumptions about the form of this uncertainty.  Instead we focus on identifying optimization objectives for which solutions can be efficiently approximated.  We introduce percentile measures: a very general class of objectives for robust policy optimization, which encompasses most existing approaches, including ones known to be intractable. We then introduce a broad subclass of this family for which robust policies can be approximated efficiently. Finally, we frame these objectives in the context of a two-player, zero-sum, extensive-form game and employ a no-regret algorithm to approximate an optimal policy, with computation only polynomial in the number of states and actions of the MDP."}
+
+@InProceedings{12nips-sketches,
+Title="Sketch-Based Linear Value Function Approximation",
+Author="Marc G. Bellemare and Joel Veness and Michael Bowling",
+AuthorNserc="{\bf Marc G. Bellemare} and {\bf Joel Veness} and Michael Bowling",
+Booktitle=NIPS12,
+Pages="2222--2230",
+Year="2012",
+AcceptRate="25\%",
+AcceptNumbers="370 of 1467",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+Funding="(AI) NSERC",
+Abstract="Hashing is a common method to reduce large, potentially infinite feature vectors to a fixed-size table. In reinforcement learning, hashing is often used in conjunction with tile coding to represent states in continuous spaces. Hashing is also a promising approach to value function approximation in large discrete domains such as Go and Hearts, where feature vectors can be constructed by exhaustively combining a set of atomic features. Unfortunately, the typical use of hashing in value function approximation results in biased value estimates due to the possibility of collisions. Recent work in data stream summaries has led to the development of the tug-of-war sketch, an unbiased estimator for approximating inner products.  Our work investigates the application of this new data structure to linear value function approximation.  Although in the reinforcement learning setting the use of the tug-of-war sketch leads to biased value estimates, we show that this bias can be orders of magnitude less than that of standard hashing.  We provide empirical results on two RL benchmark domains and fifty-five Atari 2600 games to highlight the superior learning performance obtained when using tug-of-war hashing."}
+
+@InProceedings{12icml-localregret,
+Title="On Local Regret",
+Author="Michael Bowling and Martin Zinkevich",
+Booktitle=ICML12,
+Pages="1631--1638",
+Year="2012",
+AcceptRate="27\%",
+AcceptNumbers="243 of 890",
+bib2html_pubtype="Refereed Conference",
+Funding="(Yahoo!) NSERC",
+NoteHtml={A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2012/TR12-04">TR12-04</a>.},
+Abstract="Online learning aims to perform nearly as well as the best hypothesis in hindsight.  For some hypothesis classes, though, even finding the best hypothesis offline is challenging.  In such offline cases, local search techniques are often employed and only local optimality guaranteed.  For online decision-making with such hypothesis classes, we introduce local regret, a generalization of regret that aims to perform nearly as well as only nearby hypotheses.  We then present a general algorithm to minimize local regret with arbitrary locality graphs.  We also show how the graph structure can be exploited to drastically speed learning.  These algorithms are then demonstrated on a diverse set of online problems: online disjunct learning, online Max-SAT, and online decision tree learning."
+}
+
+@InProceedings{12icml-ir,
+Title="No-Regret Learning in Extensive-Form Games with Imperfect Recall",
+Author="Marc Lanctot and Richard Gibson and Neil Burch and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and Richard Gibson and {\bf Neil Burch} and Michael Bowling",
+Booktitle=ICML12,
+Pages="65--72",
+Year="2012",
+AcceptRate="27\%",
+AcceptNumbers="243 of 890",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(NSERC) AITF",
+Abstract="Counterfactual Regret Minimization (CFR) is an efficient no-regret learning algorithm for decision problems modeled as extensive games. CFR's regret bounds depend on the requirement of perfect recall: players always remember information that was revealed to them and the order in which it was revealed. In games without perfect recall, however, CFR's guarantees do not apply. In this paper, we present the first regret bound for CFR when applied to a general class of games with imperfect recall. In addition, we show that CFR applied to any abstraction belonging to our general class results in a regret bound not just for the abstract game, but for the full game as well. We verify our theory and show how imperfect recall can be used to trade a small increase in regret for a significant reduction in memory in three domains: die-roll poker, phantom tic-tac-toe, and Bluff.",
+bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/12icml-ir.pdf",
+}
+
+@InProceedings{12icml-ir-w-tr,
+Title="No-Regret Learning in Extensive-Form Games with Imperfect Recall",
+Author="Marc Lanctot and Richard Gibson and Neil Burch and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and Richard Gibson and {\bf Neil Burch} and Michael Bowling",
+Booktitle=ICML12,
+Pages="65--72",
+Note="A longer version is available as a University of Alberta Technical Report, TR12-04.",
+NoteHtml={A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2012/tr12-04">TR12-04</a>.},
+Year="2012",
+AcceptRate="27\%",
+AcceptNumbers="243 of 890",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding="(NSERC) AITF",
+Abstract="Counterfactual Regret Minimization (CFR) is an efficient no-regret learning algorithm for decision problems modeled as extensive games. CFR's regret bounds depend on the requirement of perfect recall: players always remember information that was revealed to them and the order in which it was revealed. In games without perfect recall, however, CFR's guarantees do not apply. In this paper, we present the first regret bound for CFR when applied to a general class of games with imperfect recall. In addition, we show that CFR applied to any abstraction belonging to our general class results in a regret bound not just for the abstract game, but for the full game as well. We verify our theory and show how imperfect recall can be used to trade a small increase in regret for a significant reduction in memory in three domains: die-roll poker, phantom tic-tac-toe, and Bluff.",
+bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/12icml-ir.pdf",
+}
+
+@InProceedings{12aaai-probing-w-tr,
+Title="Generalized Sampling and Variance in Counterfactual Regret Minimization",
+Author="Richard Gibson and Marc Lanctot and Neil Burch and Duane Szafron and Michael Bowling",
+AuthorNserc="Richard Gibson and {\bf Marc Lanctot} and {\bf Neil Burch} and Duane Szafron and Michael Bowling",
+Booktitle=AAAI12,
+Pages="1355--1361",
+Note="A longer version is available as a University of Alberta Technical Report, TR12-02.",
+NoteHtml={A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2012/tr12-02">TR12-02</a>.},
+Year="2012",
+AcceptRate="26\%",
+AcceptNumbers="294 of 1129",
+bib2html_rescat="Games",
+bib2html_pubtype="Refereed Conference",
+Funding="(AITF) NSERC",
+Abstract="In large extensive form games with imperfect information, Counterfactual Regret Minimization (CFR) is a popular, iterative algorithm for computing approximate Nash equilibria. While the base algorithm performs a full tree traversal on each iteration, Monte Carlo CFR (MCCFR) reduces the per iteration time cost by traversing just a sampled portion of the tree. On the other hand, MCCFR’s sampled values introduce variance, and the effects of this variance were previously unknown. In this paper, we generalize MCCFR by considering any generic estimator of the sought values. We show that any choice of an estimator can be used to probabilistically minimize regret, provided the estimator is bounded and unbiased. In addition, we relate the variance of the estimator to the convergence rate of an algorithm that calculates regret directly from the estimator. We demonstrate the application of our analysis by defining a new bounded, unbiased estimator with empirically lower variance than MCCFR estimates. Finally, we use this estimator in a new sampling algorithm to compute approximate equilibria in Goofspiel, Bluff, and Texas hold’em poker. Under each of our selected sampling schemes, our new algorithm converges faster than MCCFR.",
+bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/12aaai-probing.pdf",
+}
+
+@InProceedings{12aaai-probing,
+Title="Generalized Sampling and Variance in Counterfactual Regret Minimization",
+Author="Richard Gibson and Marc Lanctot and Neil Burch and Duane Szafron and Michael Bowling",
+AuthorNserc="Richard Gibson and {\bf Marc Lanctot} and {\bf Neil Burch} and Duane Szafron and Michael Bowling",
+Booktitle=AAAI12,
+Pages="1355--1361",
+Year="2012",
+AcceptRate="26\%",
+AcceptNumbers="294 of 1129",
+bib2html_rescat="Games",
+bib2html_pubtype="Refereed Conference",
+Funding="(AITF) NSERC",
+Abstract="In large extensive form games with imperfect information, Counterfactual Regret Minimization (CFR) is a popular, iterative algorithm for computing approximate Nash equilibria. While the base algorithm performs a full tree traversal on each iteration, Monte Carlo CFR (MCCFR) reduces the per iteration time cost by traversing just a sampled portion of the tree. On the other hand, MCCFR’s sampled values introduce variance, and the effects of this variance were previously unknown. In this paper, we generalize MCCFR by considering any generic estimator of the sought values. We show that any choice of an estimator can be used to probabilistically minimize regret, provided the estimator is bounded and unbiased. In addition, we relate the variance of the estimator to the convergence rate of an algorithm that calculates regret directly from the estimator. We demonstrate the application of our analysis by defining a new bounded, unbiased estimator with empirically lower variance than MCCFR estimates. Finally, we use this estimator in a new sampling algorithm to compute approximate equilibria in Goofspiel, Bluff, and Texas hold’em poker. Under each of our selected sampling schemes, our new algorithm converges faster than MCCFR.",
+bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/12aaai-probing.pdf",
+}
+
+@InProceedings{12aaai-roc,
+Title="Investigating Contingency Awareness using {A}tari 2600 Games",
+Author="Marc G. Bellemare and Joel Veness and Michael Bowling",
+AuthorNserc="{\bf Marc G. Bellemare} and {\bf Joel Veness} and Michael Bowling",
+Booktitle=AAAI12,
+Pages="864--871",
+Year="2012",
+AcceptRate="26\%",
+AcceptNumbers="294 of 1129",
+bib2html_rescat="RL",
+bib2html_pubtype="Refereed Conference",
+Funding="(AITF) NSERC",
+Abstract="Contingency awareness is the recognition that some aspects of a future observation are under an agent's control while others are solely determined by the environment.  This paper explores the idea of contingency awareness in reinforcement learning using the platform of Atari 2600 games.  We introduce a technique for accurately identifying contingent regions and describe how to exploit this knowledge to generate improved features for value function approximation.  We evaluate the performance of our techniques empirically, using 46 unseen, diverse, and challenging games for the Atari 2600 console.  Our results suggest that contingency awareness is a generally useful concept for model-free reinforcement learning agents.",
+}
+
+@InProceedings{12aaai-cfrbr,
+Title="Finding Optimal Abstract Strategies in Extensive Form Games",
+Author="Michael Johanson and Nolan Bard and Neil Burch and Michael Bowling",
+AuthorNserc="{\bf Michael Johanson} and {\bf Nolan Bard} and {\bf Neil Burch} and Michael Bowling",
+Booktitle=AAAI12,
+Pages="1371--1379",
+Year="2012",
+AcceptRate="26\%",
+AcceptNumbers="294 of 1129",
+bib2html_rescat="Games",
+bib2html_pubtype="Refereed Conference",
+Funding = "(AITF) NSERC",
+Abstract="Extensive-form games are a powerful model for representing interactions between agents. Nash equilibrium strategies are a common solution concept for extensive-form games and, in two-player zero-sum games, there are efficient algorithms for calculating such strategies. In large games, this computation may require too much memory and time to be tractable. A standard approach in such cases is to apply a lossy state-space abstraction technique to produce a smaller abstract game that can be tractably solved, while hoping that the resulting abstract game equilibrium is close to an equilibrium strategy in the unabstracted game. Recent work has shown that this assumption is unreliable, and an arbitrary Nash equilibrium in the abstract game is unlikely to be even near the least suboptimal strategy that can be represented in that space.  In this work, we present for the first time an algorithm which efficiently finds optimal abstract strategies --- strategies with minimal exploitability in the unabstracted game.  We use this technique to find the least exploitable strategy ever reported for two-player limit Texas hold'em.",
+}
+
+@InProceedings{12dcc-cts,
+Title="Context Tree Switching",
+Author="Joel Veness and Kee Siong Ng and Marcus Hutter and Michael Bowling",
+AuthorNserc="{\bf Joel Veness} and Kee Siong Ng and Marcus Hutter and Michael Bowling",
+Booktitle=DCC12,
+Pages="327--336",
+Year="2012",
+bib2html_dl_html = "http://arxiv.org/abs/1111.3182",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="",
+Funding = "(NSERC) AITF",
+Abstract = "This paper describes the Context Tree Switching technique, a modification of Context Tree Weighting for the prediction of binary, stationary, n-Markov sources. By modifying Context Tree Weighting's recursive weighting scheme, it is possible to mix over a strictly larger class of models without increasing the asymptotic time or space complexity of the original algorithm. We prove that this generalization preserves the desirable theoretical properties of Context Tree Weighting on stationary n-Markov sources, and show empirically that this new technique leads to consistent improvements over Context Tree Weighting as measured on the Calgary Corpus.",
+DOI="10.1109/DCC.2012.39"
+}
+
+@InProceedings{12aamas-pcs,
+Title="Efficient {N}ash Equilibrium Approximation through {M}onte {C}arlo Counterfactual Regret Minimization",
+Author="Michael Johanson and Nolan Bard and Marc Lanctot and Richard Gibson and Michael Bowling",
+AuthorNserc="{\bf Michael Johanson} and {\bf Nolan Bard} and {\bf Marc Lanctot} and Richard Gibson and Michael Bowling",
+Booktitle=AAMAS12,
+Pages="837--844",
+Year="2012",
+AcceptNumbers="137 of 671",
+AcceptRate="20\%",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Funding = "(AITF) NSERC",
+Abstract = "Recently, there has been considerable progress towards algorithms for approximating Nash equilibrium strategies in extensive games. One such algorithm, Counterfactual Regret Minimization (CFR), has proven to be effective in two-player zero-sum poker domains. While the basic algorithm is iterative and performs a full game traversal on each iteration, sampling based approaches are possible. For instance, chance-sampled CFR considers just a single chance outcome per traversal, resulting in faster but less precise iterations. While more iterations are required, chance-sampled CFR requires less time overall to converge. In this work, we present new sampling techniques that consider sets of chance outcomes during each traversal to produce slower, more accurate iterations. By sampling only the public chance outcomes seen by all players, we take advantage of the imperfect information structure of the game to (i) avoid recomputation of strategy probabilities, and (ii) achieve an algorithmic speed improvement, performing O(n^2) work at terminal nodes in O(n) time. We demonstrate that this new CFR update converges more quickly than chance-sampled CFR in the large domains of poker and Bluff.",
+}
+
+@InProceedings{11nips-vrmcts, 
+Title="Variance Reduction in {M}onte {C}arlo Tree Search",
+Author="Joel Veness and Marc Lanctot and Michael Bowling",
+AuthorNserc="{\bf Joel Veness} and {\bf Marc Lanctot} and Michael Bowling",
+Booktitle=NIPS11,
+Year="2011",
+Pages="1836--1844",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+AcceptRate="22\%",
+AcceptNumbers="305 of 1400",
+Funding="(NSERC) AITF",
+Abstract = "Monte-Carlo Tree Search (MCTS) has proven to be a powerful, generic planning technique for decision-making in single-agent and adversarial environments.  The stochastic nature of the Monte-Carlo simulations introduces errors in the value estimates, both in terms of bias and variance.  Whilst reducing bias (typically through the addition of domain knowledge) has been studied in the MCTS literature, comparatively little effort has focused on reducing variance.  This is somewhat surprising, since variance reduction techniques are a well-studied area in classical statistics.  In this paper, we examine the application of some standard techniques for variance reduction in MCTS, including common random numbers, antithetic variates and control variates.  We demonstrate how these techniques can be applied to MCTS and explore their efficacy on three different stochastic, single-agent settings: Pig, Can't Stop and Dominion."}
+
+@InProceedings{11aaai-heuristicopt, 
+Title="Euclidean Heuristic Optimization",
+Author="Chris Rayner and Michael Bowling and Nathan Sturtevant",
+AuthorNserc="{\bf Chris Rayner} and Michael Bowling and Nathan Sturtevant",
+Booktitle=AAAI11,
+Year="2011",
+Pages="81--86",
+bib2html_pubtype="Refereed Conference",
+AcceptRate="25\%",
+AcceptNumbers="242 of 975",
+Funding="(NSERC)",
+Abstract = "We pose the problem of constructing good search heuristics as an
+optimization problem: minimizing the loss between the true distances and
+the heuristic estimates subject to admissibility and consistency constraints.
+For a well-motivated choice of loss function, we show performing this
+optimization is tractable.  In fact, it corresponds to a recently proposed
+method for dimensionality reduction.
+We prove this optimization is guaranteed to produce admissible and consistent
+heuristics, generalizes and gives insight into differential heuristics, and show
+experimentally that it produces strong heuristics on problems from three
+distinct search domains."
+}
+
+@InProceedings{11ijcai-rgbr,
+Title="Accelerating Best Response Calculation in Large Extensive Games",
+Author="Michael Johanson and Michael Bowling and Kevin Waugh and Martin Zinkevich",
+AuthorNserc="{\bf Michael Johanson} and Michael Bowling and {\bf Kevin Waugh} and Martin Zinkevich",
+Booktitle=IJCAI11,
+Year="2011",
+Pages="258--265",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+AcceptRate="30\%",
+AcceptNumbers="400 of 1325",
+Funding="(NSERC) AITF",
+Abstract = {One fundamental evaluation criteria of an AI technique is its performance in the worst-case.  For static strategies in extensive games, this can be computed using a best response computation.  Conventionally, this requires a full game tree traversal.  For very large games, such as poker, that traversal is infeasible to perform on modern hardware.  In this paper, we detail a general technique for best response computations that can often avoid a full game tree traversal.  Additionally, our method is specifically well-suited for parallel environments.  We apply this approach to computing the worst-case performance of a number of strategies in heads-up limit Texas hold'em, which, prior to this work, was not possible.  We explore these results thoroughly as they provide insight into the effects of abstraction on worst-case performance in large imperfect information games.  This is a topic that has received much attention, but could not previously be examined outside of toy domains.}
+}
+% Oral paper acceptance rates:
+%AcceptRate="17\%",
+%AcceptNumbes="227 of 1325",
+%AcceptNote="for oral presentation",
+
+@Article{11sigecom-lsg,
+Author="Martin Zinkevich and Michael Bowling and Michael Wunder", 
+AuthorNserc="Martin Zinkevich and Michael Bowling and Michael Wunder", 
+Title="The Lemonade Stand Game Competition: Solving Unsolvable Games",
+Pages= "35--38",
+Volume="10",
+Number="1",
+Journal="ACM SIGecom Exchanges",
+Year="2011",
+bib2html_dl_html = "http://www.sigecom.org/exchanges/volume_10/1/",
+}
+
+@InProceedings{10icml-multiplerewards,
+Title="Efficient Reinforcement Learning with Multiple Reward Functions for Randomized Controlled Trial Analysis",
+Author="Daniel J. Lizotte and Michael Bowling and Susan A. Murphy",
+Booktitle=ICML10,
+Year="2010",
+pages="695--702",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="RL",
+AcceptRate="26\%",
+AcceptNumbers="152 of 594",
+Funding="(AIF) NSERC",
+Abstract = {We introduce new, efficient algorithms for value iteration with multiple reward functions and continuous state. We also give an algorithm for finding the set of all non-dominated actions in the continuous state setting. This novel extension is appropriate for environments with continuous or finely discretized states where generalization is required, as is the case for data analysis of randomized controlled trials.}
+}
+
+@InProceedings{09nips-mccfr,
+Author="Marc Lanctot and Kevin Waugh and Martin Zinkevich and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and {\bf Kevin Waugh} and Martin Zinkevich and Michael Bowling",
+Title="{M}onte {C}arlo Sampling for Regret Minimization in Extensive Games",
+Booktitle=NIPS09,
+Year="2009",
+Pages = {1078--1086},
+AcceptRate="24\%",
+AcceptNumbers="263 of 1105",
+Funding="(AIF) iCORE NSERC",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Abstract={Sequential decision-making with multiple agents and imperfect information is commonly modeled as an extensive game. One efficient method for computing Nash equilibria in large, zero-sum, imperfect information games is counterfactual regret minimization (CFR). In the domain of poker, CFR has proven effective, particularly when using a domain-specific augmentation involving chance outcome sampling. In this paper, we describe a general family of domain-independent CFR sample-based algorithms called Monte Carlo counterfactual regret minimization (MCCFR) of which the original and poker-specific versions are special cases. We start by showing that MCCFR performs the same regret updates as CFR on expectation. Then, we introduce two sampling schemes: outcome sampling and external sampling, showing that both have bounded overall regret with high probability. Thus, they can compute an approximate equilibrium using self-play. Finally, we prove a new tighter bound on the regret for the original CFR algorithm and relate this new bound to MCCFR's bounds. We show empirically that, although the sample-based algorithms require more iterations, their lower cost per iteration can lead to dramatically faster convergence in various games.}
+}
+
+@InProceedings{09nips-mccfr-w-trws,
+Author="Marc Lanctot and Kevin Waugh and Martin Zinkevich and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and {\bf Kevin Waugh} and Martin Zinkevich and Michael Bowling",
+Title="{M}onte {C}arlo Sampling for Regret Minimization in Extensive Games",
+Booktitle=NIPS09,
+Year="2009",
+Note="A longer version is available as a University of Alberta Technical Report, TR09-15.  An earlier version appeared in the {\em COLT Workshop on On-Line Learning with Limited Feedback} (2009)",
+NoteHtml={A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2009/tr09-15">TR09-15</a>.   An earlier version appeared in the <i>COLT Workshop on On-Line Learning with Limited Feedback</i> (2009).},
+bib2html_extra_info={<a href="../papers/09nips-mccfr-appendix.pdf">Supplemental material.</a>  There was an error in the original paper appearing in the NIPS proceedings.  This version has been corrected.  For details, please see the <a href="http://books.nips.cc/papers/files/nips22/NIPS2009_0363_correction.pdf">errata</a> on the <a href="http://books.nips.cc/nips22.html">NIPS 2009 Electronic Proceedings</a>.},
+Pages = {1078--1086},
+AcceptRate="24\%",
+AcceptNumbers="263 of 1105",
+Funding="(AIF) iCORE NSERC",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Abstract={Sequential decision-making with multiple agents and imperfect information is commonly modeled as an extensive game. One efficient method for computing Nash equilibria in large, zero-sum, imperfect information games is counterfactual regret minimization (CFR). In the domain of poker, CFR has proven effective, particularly when using a domain-specific augmentation involving chance outcome sampling. In this paper, we describe a general family of domain-independent CFR sample-based algorithms called Monte Carlo counterfactual regret minimization (MCCFR) of which the original and poker-specific versions are special cases. We start by showing that MCCFR performs the same regret updates as CFR on expectation. Then, we introduce two sampling schemes: outcome sampling and external sampling, showing that both have bounded overall regret with high probability. Thus, they can compute an approximate equilibrium using self-play. Finally, we prove a new tighter bound on the regret for the original CFR algorithm and relate this new bound to MCCFR's bounds. We show empirically that, although the sample-based algorithms require more iterations, their lower cost per iteration can lead to dramatically faster convergence in various games.}
+}
+
+@InProceedings{09nips-mccfr-w-ws,
+Author="Marc Lanctot and Kevin Waugh and Martin Zinkevich and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and {\bf Kevin Waugh} and Martin Zinkevich and Michael Bowling",
+Title="{M}onte {C}arlo Sampling for Regret Minimization in Extensive Games",
+Booktitle=NIPS09,
+Year="2009",
+Note="An earlier version appeared in the {\em COLT Workshop on On-Line Learning with Limited Feedback} (2009)",
+NoteHtml={An earlier version appeared in the <i>COLT Workshop on On-Line Learning with Limited Feedback</i> (2009).},
+Errata={<a href="../papers/09nips-mccfr-appendix.pdf">Supplemental material.</a>  There was an error in the original paper appearing in the NIPS proceedings.  This version has been corrected.  For details, please see the <a href="http://books.nips.cc/papers/files/nips22/NIPS2009_0363_correction.pdf">errata</a> on the <a href="http://books.nips.cc/nips22.html">NIPS 2009 Electronic Proceedings</a>.},
+Pages = {1078--1086},
+AcceptRate="24\%",
+AcceptNumbers="263 of 1105",
+Funding="(AIF) iCORE NSERC",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+Abstract={Sequential decision-making with multiple agents and imperfect information is commonly modeled as an extensive game. One efficient method for computing Nash equilibria in large, zero-sum, imperfect information games is counterfactual regret minimization (CFR). In the domain of poker, CFR has proven effective, particularly when using a domain-specific augmentation involving chance outcome sampling. In this paper, we describe a general family of domain-independent CFR sample-based algorithms called Monte Carlo counterfactual regret minimization (MCCFR) of which the original and poker-specific versions are special cases. We start by showing that MCCFR performs the same regret updates as CFR on expectation. Then, we introduce two sampling schemes: outcome sampling and external sampling, showing that both have bounded overall regret with high probability. Thus, they can compute an approximate equilibrium using self-play. Finally, we prove a new tighter bound on the regret for the original CFR algorithm and relate this new bound to MCCFR's bounds. We show empirically that, although the sample-based algorithms require more iterations, their lower cost per iteration can lead to dramatically faster convergence in various games.}
+}
+
+@inproceedings{09nips-grafting,
+author="Kevin Waugh and Nolan Bard and Michael Bowling",
+authornserc="{\bf Kevin Waugh} and {\bf Nolan Bard} and Michael Bowling",
+title="Strategy Grafting in Extensive Games",
+booktitle=NIPS09,
+year="2009",
+pages = {2026--2034},
+AcceptRate="24\%",
+AcceptNumbers="263 of 1105",
+bib2html_pubtype="Refereed Conference",
+bib2html_rescat="Games",
+bib2htmlskip=   "Yes",
+Funding="(AIF) iCORE NSERC",
+Abstract={Extensive games are often used to model the interactions of multiple agents within an environment. Much recent work has focused on increasing the size of an extensive game that can be feasibly solved. Despite these improvements, many interesting games are still too large for such techniques. A common approach for computing strategies in these large games is to first employ an abstraction technique to reduce the original game to an abstract game that is of a manageable size. This abstract game is then solved and the resulting strategy is played in the original game. Most top programs in recent AAAI Computer Poker Competitions use this approach. The trend in this competition has been that strategies found in larger abstract games tend to beat strategies found in smaller abstract games. These larger abstract games have more expressive strategy spaces and therefore contain better strategies. In this paper we present a new method for computing strategies in large games. This method allows us to compute more expressive strategies without increasing the size of abstract games that we are required to solve. We demonstrate the power of the approach experimentally in both small and large games, while also providing a theoretical justification for the resulting improvement.}
+}
+
+@InProceedings(09colt-ws,
+Title="{M}onte-{C}arlo Sampling for Regret Minimization in Extensive Games",
+Author="Marc Lanctot and Kevin Waugh and Michael Bowling",
+AuthorNserc="{\bf Marc Lanctot} and {\bf Kevin Waugh} and Michael Bowling",
+Booktitle="COLT Workshop on On-line Learning with Limited Feedback",
+Year="2009",
+Month="June",
+bib2html_pubtype="Symposia/Workshop",
+bib2html_rescat="Games",
+bib2htmlskip=   "Yes",
+Funding="(AIF) NSERC",
+Abstract="One efficient method for computing Nash equilibria in large, zero-sum extensive games is counterfactual regret minimization (CFR). In the domain of poker, CFR has proven effective, particularly when using a domain-specific augmentation involving chance outcome sampling.  In this paper we introduce MCCFR, a Monte Carlo version of the algorithm capable of applying equivalent updates (in expectation) on sampled histories which has bounded overall regret with high probability.  We show empirically that, although MCCFR requires more iterations, its lower cost per iteration results in overall faster convergence, particularly as the game size increases.",
+)
+
+@InProceedings(09sara,
+Title="A Practical Use of Imperfect Recall",
+Author="Kevin Waugh and Martin Zinkevich and Michael Johanson and Morgan Kan and David Schnizlein and Michael Bowling",
+AuthorNserc="{\bf Kevin Waugh} and {\bf Martin Zinkevich} and {\bf Michael Johanson} and Morgan Kan and {\bf David Schnizlein} and Michael Bowling",
+Booktitle=SARA09,
+Year="2009",
+Pages="175--182",
+AcceptRate="62\%",
+AcceptNumbers="27 of 37",
+Funding="(AIF) iCORE NSERC",
+bib2html_pubtype="Symposia/Workshop",
+bib2html_rescat="Games",
+Abstract="Perfect recall is the common and natural assumption that an agent never forgets.  As a consequence, the agent can always condition its choice of action on any prior observations.  In this paper, we explore relaxing this assumption.  We observe the negative impact this relaxation has on algorithms: some algorithms are no longer well-defined, while others lose their theoretical guarantees on the quality of a solution.  Despite these disadvantages, we show that removing this restriction can provide considerable empirical advantages when modeling extremely large extensive games.  In particular, it allows fine granularity of the most relevant observations without requiring decisions to be contingent on all past observations.  In the domain of poker, this improvement enables new types of information to be used in the abstraction.  By making use of imperfect recall and new types of information, our poker program was able to win the limit equilibrium event as well as the no-limit event at the 2008 AAAI Computer Poker Competition.  We show experimental results to verify that our programs using imperfect recall are indeed stronger than their perfect recall counterparts.",
+)
+
+@InProceedings(09ijcai-mivat,
+  Title="Learning a Value Analysis Tool For Agent Evaluation",
+  Author="Martha White and Michael Bowling",
+  AuthorNserc="{\bf Martha White} and Michael Bowling",
+  Booktitle=IJCAI09,
+  Year=2009,
+  Pages="1976--1981",
+  Funding="AIF (NSERC)",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  AcceptRate="26\%",
+  AcceptNumbers="331 of 1290",
+  Abstract="Evaluating an agent's performance in a stochastic setting is necessary for agent development, scientific evaluation, and competitions. Traditionally, evaluation is done using Monte Carlo estimation; the magnitude of the stochasticity in the domain or the high cost of sampling, however, can often prevent the approach from resulting in statistically significant conclusions. Recently, an advantage sum technique has been proposed for constructing unbiased, low variance estimates of agent performance. The technique requires an expert to define a value function over states of the system, essentially a guess of the state's unknown value. In this work, we propose learning this value function from past interactions between agents in some target population. Our learned value functions have two key advantages: they can be applied in domains where no expert value function is available and they can result in tuned evaluation for a specific population of agents (e.g., novice versus advanced agents). We demonstrate these two advantages in the domain of poker. We show that we can reduce variance over state-of-the-art estimators for a specific population of limit poker players as well as construct the first variance reducing estimators for no-limit poker and multi-player limit poker.",
+)
+
+@InProceedings(09ijcai-nolimit,
+  Title="Probabilistic state translation in extensive games with large action sets",
+  Author="David Schnizlein and Michael Bowling and Duane Szafron",
+  AuthorNserc="{\bf David Schnizlein} and Michael Bowling and Duane Szafron",
+  Booktitle=IJCAI09,
+  Year=2009,
+  Pages="276--284",
+  Funding="(NSERC)",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  AcceptRate="26\%",
+  AcceptNumbers="331 of 1290",
+  Abstract = "Equilibrium or near-equilibrium solutions to very large extensive form games
+are often computed by using abstractions to reduce the game size. 
+A common abstraction technique for games with a large number of available
+actions is to restrict the number of legal actions in every state. 
+This method has been used to discover equilibrium solutions for the game of
+no-limit heads-up Texas Hold'em. When using a solution to an abstracted game
+to play one side in the un-abstracted (real) game, the real opponent actions
+may not correspond to actions in the abstracted game. The most popular method
+for handling this situation is to translate opponent actions in the
+real game to the closest legal actions in the abstracted game. We show that 
+this approach can result in a very exploitable player and propose an
+alternative solution. We use probabilistic mapping to translate a real action
+into a probability distribution over actions, whose weights are determined by a similarity metric. We show that this approach significantly reduces the 
+exploitability when using an abstract solution in the real game.",
+)
+
+@Misc(09agri,
+	title=		"{``The Polaris Computer Poker Program''}",
+        author= "Michael Bowling",
+	howpublished=	"Alberta Gaming Research Institute's Eight Annual Conference",
+	year=		"2009",
+	month=		"March",
+        bib2htmlskip=   "Yes",
+        note=      "Banff, AB"
+)
+
+@Misc(08cart-seminar,
+	title=		"{``AI After Dark: Computers Playing Poker''}",
+        author= "Michael Bowling",
+	howpublished=	"CART Seminar Series, Tepper School of Business, Carnegie Mellon Unviersity",
+	year=		"2008",
+	month=		"March",
+        bib2htmlskip=   "Yes",
+        note=      "Pittsburgh, PA",
+)
+
+@InProceedings(09aamas-abstraction,
+  Title="Abstraction Pathologies in Extensive Games",
+  Author="Kevin Waugh and Dave Schnizlein and Michael Bowling and Duane Szafron",
+  AuthorNserc="{\bf Kevin Waugh} and {\bf Dave Schnizlein} and Michael Bowling and Duane Szafron",
+  Booktitle=AAMAS09,
+  Year="2009",
+  Pages="781--788",
+  Errata="There were incorrect values in Table 3 of the original paper appearing in the AAMAS proceedings.  This version has been corrected.  The new values do not change the conclusions drawn.",
+  Funding="(NSERC)",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  AcceptRate="22\%",
+  AcceptNumbers="132 of 591",
+  Abstract="Extensive games can be used to model many scenarios in
+                  which multiple agents interact with an
+                  environment. There has been considerable recent
+                  research on finding strong strategies in very large,
+                  zero-sum extensive games. The standard approach in
+                  such work is to employ abstraction techniques to
+                  derive a more tractably sized game. An extensive
+                  game solver is then employed to compute an
+                  equilibrium in that abstract game, and the resulting
+                  strategy is presumed to be strong in the full
+                  game. Progress in this line of research has focused
+                  on solving larger abstract games, which more closely
+                  resemble the full game. However, there is an
+                  underlying assumption that by abstracting less, and
+                  solving a larger game, an agent will have a stronger
+                  strategy in the full game. In this work we show that
+                  this assumption is not true in general. Refining an
+                  abstraction can actually lead to a weaker
+                  strategy. We show examples of these abstraction
+                  pathologies in a small game of poker that can be
+                  analyzed exactly. These examples show that
+                  pathologies arise when abstracting both chance nodes
+                  as well as a player's actions.  In summary, this
+                  paper shows that the standard approach to finding
+                  strong strategies for large extensive games rests on
+                  shaky ground."
+)
+
+@InProceedings(09aistats,
+  Title="Data Biased Robust Counter Strategies",
+  Author="Michael Johanson and Michael Bowling",
+  AuthorNserc="{\bf Michael Johanson} and Michael Bowling",
+  Booktitle=AISTATS09,
+  Year="2009",
+  Pages="264--271",
+  Funding="(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  AcceptRate="30\%",
+  AcceptNumbers="63 of 210",
+  Abstract = "The problem of exploiting information about the environment while still being robust to inaccurate or incomplete information arises in many domains. Competitive imperfect information games where the goal is to maximally exploit an unknown opponent's weaknesses are an example of this problem.  Agents for these games must balance two objectives.  First, they should aim to exploit data from past interactions with the opponent, seeking a best-response counter strategy.  Second, they should aim to minimize losses since the limited data may be misleading or the opponent's strategy may have changed, suggesting an opponent-agnostic Nash equilibrium strategy.  In this paper, we show how to partially satisfy both of these objectives at the same time, producing strategies with favourable tradeoffs between the ability to exploit an opponent and the capacity to be exploited.  Like a recently published technique, our approach involves solving a modified game; however the result is more generally applicable and even performs well in situations with very limited data.  We evaluate our technique in the game of two-player, Limit Texas Hold'em.",
+)
+
+@InProceedings(08aiide-alert,
+  Title="Agent Learning using Action-Dependent Learning Rates in Computer 
+Role-Playing Games",
+  Author="Maria Cutumisu and Duane Szafron and Michael Bowling and Richard S. Sutton",
+  AuthorNserc="Maria Cutumisu and Duane Szafron and Michael Bowling and Richard S. Sutton",
+  Booktitle=AIIDE08,
+  Year="2008",
+  Funding="(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL,Games",
+  Abstract = "We introduce the ALeRT (Action-dependent Learning Rates 
+with Trends) algorithm that makes two modifications to the 
+learning rate and one change to the exploration rate of 
+traditional reinforcement learning techniques. Our learning 
+rates are action-dependent and increase or decrease based on 
+trends in reward sequences. Our exploration rate decreases 
+when the agent is learning successfully and increases 
+otherwise. These improvements result in faster learning. We 
+implemented this algorithm in NWScript, a scripting 
+language used by BioWare Corp.'s Neverwinter Nights 
+game, with the goal of improving the behaviours of game 
+agents so that they react more intelligently to game events. 
+Our goal is to provide an agent with the ability to (1) 
+discover favourable policies in a multi-agent computer role-playing game situation and (2) adapt to sudden changes in the environment."
+)
+
+@InProceedings(08uai-linearps,
+  Title="Dyna-style Planning with Linear Function Approximation and Prioritized Sweeping",
+  Author="Richard Sutton and Csaba Szepesvari and Alborz Geramifard and Michael Bowling",
+  AuthorNserc="Richard Sutton and Csaba Szepesvari and {\bf Alborz Geramifard} and Michael Bowling",
+  Booktitle=UAI08,
+  Year="2008",
+  Pages="528--536",
+  Funding="(iCORE) AIF NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  AcceptRate = "28\%",
+  AcceptNumbers = "72 of 256",
+  Abstract="We consider the problem of efficiently learning optimal control policies and value functions over large state spaces in an online setting in which estimates must be available after each interaction with the world. This paper develops an explicitly model-based approach extending the Dyna architecture to linear function approximation. Dyna-style planning proceeds by generating imaginary experience from the world model and then applying model-free reinforcement learning algorithms to the imagined state transitions. Our main results are to prove that linear Dyna-style planning converges to a unique solution independent of the generating distribution, under natural conditions. In the policy evaluation setting, we prove that the limit point is the least-squares (LSTD) solution. An implication of our results is that prioritized-sweeping can be soundly extended to the linear approximation case, backing up to preceding features rather than to preceding states. We introduce two versions of prioritized sweeping with linear Dyna and briefly illustrate their performance empirically on the Mountain Car and Boyan Chain problems."
+)
+
+@InProceedings(08icml-ispoker,
+  Title="Strategy Evaluation in Extensive Games with Importance Sampling",
+  Author="Michael Bowling and Michael Johanson and Neil Burch and Duane Szafron",
+  AuthorNserc="Michael Bowling and {\bf Michael Johanson} and Neil Burch and Duane Szafron",
+  Booktitle=ICML08,
+  Year="2008",
+  Pages="72--79",
+  AcceptRate="27\%",
+  AcceptNumbers="155 of 583",
+  Funding="(AIF) iCORE NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  bib2html_extra_info={A <a href="http://videolectures.net/icml08_johanson_see/">video</a> of Michael Johanson giving the talk at ICML is on videolectures.net.},
+  Abstract = "Typically agent evaluation is done through Monte Carlo
+                  estimation.  However, stochastic agent decisions and
+                  stochastic outcomes can make this approach
+                  inefficient, requiring many samples for an accurate
+                  estimate.  We present a new technique that can be
+                  used to simultaneously evaluate many strategies
+                  while playing a single strategy in the context of an
+                  extensive game. This technique is based on
+                  importance sampling, but utilizes two new mechanisms
+                  for significantly reducing variance in the
+                  estimates.  We demonstrate its effectiveness in the
+                  domain of poker, where stochasticity makes
+                  traditional evaluation problematic."
+)
+
+@InProceedings(08icml-apprenticeship,
+  Title="Apprenticeship Learning Using Linear Programming",
+  Author="Umar Syed and Robert Schapire and Michael Bowling",
+  AuthorNserc="Umar Syed and Robert Schapire and Michael Bowling",
+  Booktitle=ICML08,
+  Year="2008",
+  Pages="1032--1039",
+  AcceptRate="27\%",
+  AcceptNumbers="155 of 583",
+  Funding="(AIF) iCORE NSERC",
+  Abstract = {In apprenticeship learning, the goal is to learn a
+                  policy in a Markov decision process that is at least
+                  as good as a policy demonstrated by an expert. The
+                  difficulty arises in that the MDP's true reward
+                  function is assumed to be unknown. We show how to
+                  frame apprenticeship learning as a linear
+                  programming problem, and show that using an
+                  off-the-shelf LP solver to solve this problem
+                  results in a substantial improvement in running time
+                  over existing methods -- up to two orders of
+                  magnitude faster in our experiments. Additionally,
+                  our approach produces stationary policies, while all
+                  existing methods for apprenticeship learning output
+                  policies that are "mixed", i.e. randomized
+                  combinations of stationary policies. The technique
+                  used is general enough to convert any mixed policy
+                  to a stationary policy.},
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+)
+
+@InProceedings(08aamas-sppi,
+  Title="Sigma Point Policy Iteration",
+  Author = "Michael Bowling and Alborz Geramifard and David Wingate",
+  AuthorNserc = "Michael Bowling and {\bf Alborz Geramifard} and David Wingate",
+  Booktitle = AAMAS08,
+  Year = "2008",
+  Pages = "379--386",
+  AcceptRate = "22\%",
+  AcceptNumbers = "142 of 640",
+  Funding = "(AIF) iCORE NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  Abstract="In reinforcement learning, least-squares temporal
+                  difference methods (e.g., LSTD and LSPI) are
+                  effective, data-efficient techniques for policy
+                  evaluation and control with linear value function
+                  approximation.  These algorithms rely on
+                  policy-dependent expectations of the transition and
+                  reward functions, which require all experience to be
+                  remembered and iterated over for each new policy
+                  evaluated.  We propose to summarize experience with
+                  a compact policy-independent Gaussian model.  We
+                  show how this policy-independent model can be
+                  transformed into a policy-dependent form and used to
+                  perform policy evaluation.  Because closed-form
+                  transformations are rarely available, we introduce
+                  an efficient sigma point approximation.  We show
+                  that the resulting Sigma-Point Policy Iteration
+                  algorithm (SPPI) is mathematically equivalent to
+                  LSPI for tabular representations and empirically
+                  demonstrate comparable performance for approximate
+                  representations.  However, the experience does not
+                  need to be saved or replayed, meaning that for even
+                  moderate amounts of experience, SPPI is an order of
+                  magnitude faster than LSPI."
+)
+
+@InProceedings(08aamas-geocaching,
+  Title="Autonomous Geocaching: Navigation and Goal Finding
+  in Outdoor Domains",
+  Author = "James Neufeld and Jason Roberts and Stephen Walsh and Michael Sokolsky and Adam Milstein and  Michael Bowling",
+  AuthorNserc = "{\bf James Neufeld} and Jason Roberts and Stephen Walsh and Michael Sokolsky and Adam Milstein and  Michael Bowling",
+  Booktitle = AAMAS08,
+  Year = "2008",
+  Pages = "47--54",
+  AcceptRate = "22\%",
+  AcceptNumbers = "142 of 640",
+  Funding = "(AIF) iCORE NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robotics",
+  Abstract=" This paper describes an autonomous robot system designed
+                  to solve the challenging task of geocaching.
+                  Geocaching involves locating a goal object in an
+                  outdoor environment given only its rough GPS
+                  position.  No additional information about the
+                  environment such as road maps, waypoints, or
+                  obstacle descriptions is provided, nor is their
+                  often a simple straight line path to the object.
+                  This is in contrast to much of the research in robot
+                  navigation which often focuses on common structural
+                  features, e.g., road following, curb avoidance, or
+                  indoor navigation.  In addition, uncertainty in GPS
+                  positions requires a final local search of the
+                  target area after completing the challenging
+                  navigation problem.  We describe a relatively simple
+                  robotic system for completing this task.  This
+                  system addresses three main issues: building a map
+                  from raw sensor readings, navigating to the target
+                  region, and searching for the target object.  We
+                  demonstrate the effectiveness of this system in a
+                  variety of complex outdoor environments and compare
+                  our system's performance to that of a human expert
+                  teleoperating the robot.",
+)
+                  
+@InProceedings(08sigcse-c250, 
+  Title="Multidisciplinary Students And Instructors: A Second-Year Games
+                  Course",
+  Author= "Nathan Sturtevant and H. James Hoover and Jonathan Schaeffer and
+     	  Sean Gouglas and Michael Bowling and Finnegan Southey and
+	  Matthew Bouchard and Ghassan Zabaneh",
+  Booktitle= SIGCSE08,
+  Year= "2008",
+  Pages = "383--387",
+  AcceptRate = "31\%",
+  AcceptNumbers = "100 of 324",
+  Funding = "(iCORE) AIF",
+  Abstract = "Computer games are a multi-billion dollar industry and
+                  have become an important part of our private and
+                  social lives. It is only natural, then, that the
+                  technology used to create games should become part
+                  of a computing science curriculum. However, game
+                  development is more than a massive programming
+                  endeavor. Today's games are largely about generating
+                  content within multidisciplinary teams. CMPUT 250 is
+                  a new computing science course at the University of
+                  Alberta that emphasizes creating games in
+                  multidisci- plinary teams. This paper describes our
+                  experiences with the course, emphasizing the issues
+                  of multidisciplinary in- teractions: teaching,
+                  teamwork, and evaluation.",
+  bib2html_pubtype="Refereed Conference",
+)
+
+@InProceedings(08isaim-are,
+  Title="Scalable Action Respecting Embedding",
+  Author="Michael Biggs and Ali Ghodsi and Dana Wilkinson and Michael Bowling",
+  AuthorNserc="Michael Biggs and Ali Ghodsi and {\bf Dana Wilkinson} and Michael Bowling",
+  Booktitle=ISAIM08,
+  Year = "2008",
+  Funding = "(AIF) iCORE NSERC",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Subjective Representations",
+  Abstract="ARE is a non-linear dimensionality reduction technique for
+                  embedding observation trajectories, which captures
+                  state dynamics that traditional methods do not. The
+                  core of ARE is a semidefinite optimization with
+                  constraints requiring actions to be
+                  distance-preserving in the resulting embedding.
+                  Unfortunately, these constraints are quadratic in
+                  number and non-local (making recent scaling tricks
+                  inapplicable). Consequently, the original
+                  formulation was limited to relatively small
+                  datasets. This paper describes two techniques to
+                  mitigate these issues. We first introduce an
+                  action-guided variant of Isomap. Although it alone
+                  does not produce action-respecting manifolds, it can
+                  be used to seed conjugate gradient to implicitly
+                  solve the primal variable formulation of the ARE
+                  optimization. The optimization is not convex, but
+                  the Action-Guided Isomap provides an excellent seed
+                  often very close to the global minimum. The
+                  resulting Scalable ARE procedure gives similar
+                  results to original ARE, but can be applied to
+                  datasets an order of magnitude larger."
+)
+  
+@Misc(07nips-ws,
+	title=		"{``State of the Art in Computer Poker''}",
+        author= "Michael Bowling",
+	howpublished=	"NIPS Workshop on Machine Learning and Games",
+	year=		"2007",
+	month=		"December",
+	note=		"Whistler, Canada",
+        bib2htmlskip=   "Yes",
+)
+
+@InProceedings(07nips-dualrl,
+  Title="Stable Dual Dynamic Programming",
+  Author="Tao Wang and Daniel Lizotte and Michael Bowling and Dale Schuurmans",
+  AuthorNserc="{\bf Tao Wang} and Daniel Lizotte and Michael Bowling and Dale Schuurmans",
+  Booktitle=NIPS07,
+  Year="2008",
+  Pages="713--720",
+  AcceptRate="22\%",
+  AcceptNumbers="217 of 975",
+  Funding = "(AIF) iCORE NSERC",
+  Abstract = "Recently, we have introduced a novel approach to dynamic
+                  programming and re- inforcement learning that is
+                  based on maintaining explicit representations of
+                  stationary distributions instead of value
+                  functions. In this paper, we investigate the
+                  convergence properties of these dual algorithms both
+                  theoretically and empirically, and show how they can
+                  be scaled up by incorporating function
+                  approximation.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+)
+                  
+@InProceedings(07nips-regretpoker-w-tr, 
+  Title="Regret Minimization in Games with Incomplete Information",
+  Author="Martin Zinkevich and Michael Johanson and Michael Bowling and Carmelo Piccione",
+  AuthorNserc="{\bf Martin Zinkevich} and {\bf Michael Johanson} and Michael Bowling and Carmelo Piccione",
+  Booktitle=NIPS07,
+  Year="2008",
+  Pages="905--912",
+  Note = "A longer version is available as a University of Alberta Technical Report, TR07-14",
+  NoteHtml= {A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2007/tr07-14">TR07-14</a>.},
+  AcceptRate="22\%",
+  AcceptNumbers="217 of 975",
+  Funding = "(AIF) iCORE NSERC",
+  Abstract = "Extensive games are a powerful model of multiagent
+                  decision-making scenarios with incomplete
+                  information. Finding a Nash equilibrium for very
+                  large instances of these games has received a great
+                  deal of recent attention. In this paper, we describe
+                  a new technique for solving large games based on
+                  regret minimization.  In particular, we introduce
+                  the notion of counterfactual regret, which exploits
+                  the degree of incomplete information in an extensive
+                  game. We show how minimizing counterfactual regret
+                  minimizes overall regret, and therefore in self-play
+                  can be used to compute a Nash equilibrium. We
+                  demonstrate this technique in the domain of poker,
+                  showing we can solve abstractions of limit Texas
+                  Hold'em with as many as 10^12 states, two orders of
+                  magnitude larger than previous methods.",
+  bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/07nips-regretpoker.pdf",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+)
+
+@InProceedings(07nips-regretpoker, 
+  Title="Regret Minimization in Games with Incomplete Information",
+  Author="Martin Zinkevich and Michael Johanson and Michael Bowling and Carmelo Piccione",
+  AuthorNserc="{\bf Martin Zinkevich} and {\bf Michael Johanson} and Michael Bowling and Carmelo Piccione",
+  Booktitle=NIPS07,
+  Year="2008",
+  Pages="905--912",
+  AcceptRate="22\%",
+  AcceptNumbers="217 of 975",
+  Funding = "(AIF) iCORE NSERC",
+  Abstract = "Extensive games are a powerful model of multiagent
+                  decision-making scenarios with incomplete
+                  information. Finding a Nash equilibrium for very
+                  large instances of these games has received a great
+                  deal of recent attention. In this paper, we describe
+                  a new technique for solving large games based on
+                  regret minimization.  In particular, we introduce
+                  the notion of counterfactual regret, which exploits
+                  the degree of incomplete information in an extensive
+                  game. We show how minimizing counterfactual regret
+                  minimizes overall regret, and therefore in self-play
+                  can be used to compute a Nash equilibrium. We
+                  demonstrate this technique in the domain of poker,
+                  showing we can solve abstractions of limit Texas
+                  Hold'em with as many as 10^12 states, two orders of
+                  magnitude larger than previous methods.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  bib2htmlskip=  "Yes",
+)
+
+@InProceedings(07nips-rnash,
+  Title="Computing Robust Counter-Strategies",
+  Author="Michael Johanson and Martin Zinkevich and Michael Bowling",
+  AuthorNserc="{\bf Michael Johanson} and {\bf Martin Zinkevich} and Michael Bowling",
+  Booktitle=NIPS07,
+  Year="2008",
+  Pages="1128--1135",
+  Note = "A longer version is available as a University of Alberta Technical Report, TR07-15",
+  NoteHtml= {A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2007/tr07-15">TR07-15</a>.},
+  AcceptRate="22\%",
+  AcceptNumbers="217 of 975",
+  Funding = "(AIF) iCORE NSERC",
+  Abstract = "Adaptation to other initially unknown agents often
+                  requires computing an effective counter-strategy.
+                  In the Bayesian paradigm, one must find a good
+                  counter-strategy to the inferred posterior of the
+                  other agents' behavior.  In the experts paradigm,
+                  one may want to choose experts that are good
+                  counter-strategies to the other agents' expected
+                  behavior.  In this paper we introduce a technique
+                  for computing robust counter-strategies for
+                  adaptation in multiagent scenarios under a variety
+                  of paradigms.  The strategies can take advantage of
+                  a suspected tendency in the decisions of the other
+                  agents, while bounding the worst-case performance
+                  when the tendency is not observed.  The technique
+                  involves solving a modified game, and therefore can
+                  make use of recently developed algorithms for
+                  solving very large extensive games.  We demonstrate
+                  the effectiveness of the technique in two-player
+                  Texas Hold'em.  We show that the computed poker
+                  strategies are substantially more robust than best
+                  response counter-strategies, while still exploiting
+                  a suspected tendency.  We also compose the generated
+                  strategies in an experts algorithm showing a
+                  dramatic improvement in performance over using
+                  simple best responses.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+)
+
+@InProceedings(07aaai-smallbot,
+       Title="A New Algorithm for Generating Equilibria in Massive Zero-Sum Games",
+       Author="Martin Zinkevich and Michael Bowling and Neil Burch",
+       AuthorNserc="{\bf Martin Zinkevich} and Michael Bowling and {\bf Neil Burch}",
+       Booktitle=AAAI07,
+       Year="2007",
+       Pages="788--793",
+       AcceptRate="27\%",
+       AcceptNumbers="253 of 921",
+       Funding="(AIF) iCORE NSERC",
+  Abstract="In normal scenarios, computer scientists often consider the number
+of states in a game to capture the difficulty of learning an
+equilibrium. However, players do not see games in the same light:
+most consider Go or Chess to be more complex than Monopoly. In this
+paper, we discuss a new measure of game complexity that links
+existing state-of-the-art algorithms for computing approximate
+equilibria to a more human measure. In particular, we consider the
+range of skill in a game, i.e., how many different skill levels exist.
+We then modify existing techniques to design a new algorithm to
+compute approximate equilibria whose performance can be captured by
+this new measure. We use it to develop the first near Nash
+equilibrium for a four round abstraction of poker, and show that it
+would have been able to win handily the bankroll competition from
+last year's AAAI poker competition.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+)
+
+@InProceedings(07aaai-om,
+       Title="Particle Filtering for Dynamic Agent Modelling in Simplified Poker",
+       Author="Nolan Bard and Michael Bowling",
+       AuthorNserc="{\bf Nolan Bard} and Michael Bowling",
+       Booktitle=AAAI07,
+       Year="2007",
+       Pages = "515--521",
+       AcceptRate="27\%",
+       AcceptNumbers="253 of 921",
+       Funding="(AIF) iCORE NSERC",
+  Abstract="Agent modelling is a challenging problem in many modern
+                  artificial intelligence applications.  The agent
+                  modelling task is especially difficult when handling
+                  stochastic choices, deliberately hidden information,
+                  dynamic agents, and the need for fast learning.
+                  State estimation techniques, such as Kalman
+                  filtering and particle filtering, have addressed
+                  many of these challenges, but have received little
+                  attention in the agent modelling literature.  This
+                  paper looks at the use of particle filtering for
+                  modelling a dynamic opponent in Kuhn poker, a
+                  simplified version of Texas Hold'em poker.  We
+                  demonstrate effective modelling both against static
+                  opponents as well as dynamic opponents, when the
+                  dynamics are known.  We then examine an application
+                  of Rao-Blackwellized particle filtering for doing
+                  dual estimation, inferring both the opponent's state
+                  as well as a model of its dynamics.  Finally, we
+                  examine the robustness of the approach to incorrect
+                  beliefs about the opponent and compare it to
+                  previous work on opponent modelling in Kuhn poker.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+)
+
+@InProceedings(07adprl-dualrl,
+        Title="Dual Representations for Dynamic Programming and Reinforcement Learning",
+        Author="Tao Wang and Michael Bowling and Dale Schuurmans",
+        AuthorNserc="{\bf Tao Wang} and Michael Bowling and Dale Schuurmans",
+        Booktitle = ADPRL07,
+        Year = "2007",
+        Month = "April",
+        Pages = "44--51",
+        Funding = "(AIF) NSERC",
+        AcceptRate="75\%",
+        AcceptNumbers="49 of 65",
+        Award="Best student paper award",
+  Abstract=" We investigate the dual approach to dynamic programming
+                  and reinforcement learning, based on maintaining an
+                  explicit representation of stationary distributions
+                  as opposed to value functions. A significant
+                  advantage of the dual approach is that it allows one
+                  to exploit well developed techniques for
+                  representing, approximating and estimating
+                  probability distributions, without running the risks
+                  associated with divergent value function
+                  estimation. A second advantage is that some distinct
+                  algorithms for the average reward and discounted
+                  reward case in the primal become unified under the
+                  dual. In this paper, we present a modified dual of
+                  the standard linear program that guarantees a
+                  globally normalized state visit distribution is
+                  obtained. With this reformulation, we then derive
+                  novel dual forms of dynamic programming, including
+                  policy evaluation, policy iteration and value
+                  iteration. Moreover, we derive dual formulations of
+                  temporal difference learning to obtain new forms of
+                  Sarsa and Q-learning. Finally, we scale these
+                  techniques up to large domains by introducing
+                  approximation, and develop new approximate
+                  off-policy learning algorithms that avoid the
+                  divergence problems associated with the primal
+                  approach. We show that the dual view yields a viable
+                  alternative to standard value function based
+                  techniques and opens new avenues for solving dynamic
+                  programming and reinforcement learning problems.",
+  bib2html_pubtype="Award Winner,Symposia/Workshop",
+  bib2html_rescat="RL",
+)
+
+@InProceedings(07ijcai-gait,
+	Title="Automatic Gait Optimization with Gaussian Process Regression",
+        Author="Daniel Lizotte and Tao Wang and Michael Bowling and Dale Schuurmans", 
+        AuthorNserc="Daniel Lizotte and {\bf Tao Wang} and Michael Bowling and Dale Schuurmans", 
+	Year="2007",
+        Booktitle=IJCAI07,
+        Pages = "944--949",
+        AcceptRate="35\%",
+        AcceptNumbers="470 of 1353",
+        Funding = "(AIF) NSERC",
+  Abstract = " Gait optimization is a basic yet challenging problem
+                  for both quadrupedal and bipedal robots.  Although
+                  techniques for automating the process exist, most
+                  involve local function optimization procedures that
+                  suffer from three key drawbacks.  Local optimization
+                  techniques are naturally plagued by local optima,
+                  make no use of the expensive gait evaluations once a
+                  local step is taken, and do not explicitly
+                  model noise in gait evaluation. These drawbacks
+                  increase the need for a large number of gait
+                  evaluations, making optimization slow, data
+                  inefficient, and manually intensive.  We present a
+                  Bayesian approach based on Gaussian process
+                  regression that addresses all three drawbacks.  It
+                  uses a global search strategy based on a posterior
+                  model inferred from all of the individual noisy
+                  evaluations.  We demonstrate the technique on a
+                  quadruped robot, using it to optimize two different
+                  criteria: speed and smoothness.  We show in both
+                  cases our technique requires dramatically fewer gait
+                  evaluations than state-of-the-art local gradient
+                  approaches.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robotics",
+)
+
+@InProceedings(06nips-ilstd,
+  Title="{iLSTD}: Eligibility Traces and Convergence Analysis",
+  Author="Alborz Geramifard and Michael Bowling and Martin Zinkevich and Richard S. Sutton",
+  AuthorNserc="{\bf Alborz Geramifard} and Michael Bowling and {\bf Martin Zinkevich} and Richard S. Sutton",
+  Booktitle=NIPS06,
+  Year="2007",
+  Pages="441--448",
+  AcceptRate="24\%",
+  AcceptNumbers="204 of 833",
+  Funding = "(iCORE) NSERC AIF",
+  Abstract = "We present new theoretical and empirical results with
+                  the iLSTD algorithm for policy evaluation in
+                  reinforcement learning with linear function
+                  approximation.  iLSTD is an incremental method for
+                  achieving results similar to LSTD, the
+                  data-efficient, least-squares version of temporal
+                  difference learning, without incurring the full
+                  cost of the LSTD computation.  LSTD is O(n^2), where
+                  $n$ is the number of parameters in the linear
+                  function approximator, while iLSTD is O(n).  In this
+                  paper, we generalize the previous iLSTD algorithm
+                  and present three new results: (1) the first
+                  convergence proof for an iLSTD algorithm; (2) an
+                  extension to incorporate eligibility traces without
+                  changing the asymptotic computational complexity;
+                  and (3) the first empirical results with an iLSTD
+                  algorithm for a problem (mountain car) with feature
+                  vectors large enough (n=10,000) to show substantial
+                  computational advantages over LSTD.",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  bib2html_extra_info = {The proofs of the paper's theorems are in the University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2006/tr06-25">TR06-25</a>, by Martin Zinkevich.}
+)
+
+@InProceedings(06nectar,
+  title =	 "Subjective Mapping",
+  author =	 "Michael Bowling and Dana Wilkinson and Ali Ghodsi",
+  authornserc =	 "Michael Bowling and {\bf Dana Wilkinson} and Ali Ghodsi",
+  booktitle =	 NECTAR06,
+  year =	 2006,
+  pages =        "1569--1572",
+  AcceptRate =	 "57\%",
+  AcceptNumbers ="34 of 60",
+  Funding =      "(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract = "Extracting a map from a stream of experience is a key problem in
+robotics and artificial intelligence in general.  We propose a
+technique, called subjective mapping, that seeks to learn a fully
+specified predictive model, or map, without the need for expert
+provided models of the robot's motion and sensor apparatus.  We
+briefly overview the recent advancements presented elsewhere (ICML,
+IJCAI, and ISRR) that make this possible, examine its significance in
+relationship to other developments in the field, and outline open
+issues that remain to be addressed."
+)
+
+
+@InProceedings(06aaai-qppomdp,
+  title =	 "Compact, Convex Upper Bound Iteration for
+                  Approximate {POMDP} Planning",
+  author =	 "Tao Wang and Pascal Poupart and Michael Bowling and
+                  Dale Schuurmans",
+  authornserc =	 "{\bf Tao Wang} and Michael Bowling and Pascal Poupart and
+                  Dale Schuurmans",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages =        "1245--1251",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  abstract="Partially observable Markov decision processes (POMDPs) are an intuitive and general way to model sequential decision making problems under uncertainty. Unfortunately, even approximate planning in POMDPs is known to be hard, and developing heuristic planners that can deliver reasonable results in practice has proved to be a significant challenge. In this paper, we present a new approach to approximate value-iteration for POMDP planning that is based on quadratic rather than piecewise linear function approximators. Specifically, we approximate the optimal value function by a convex upper bound composed of a fixed number of quadratics, and optimize it at each stage by semidefinite programming. We demonstrate that our approach can achieve competitive approximation quality to current techniques while still maintaining a bounded size representation of the function approximator. Moreover, an upper bound on the optimal value function can be preserved if required. Overall, the technique requires computation time and space that is only linear in the number of iterations (horizon time)."
+)
+
+@InProceedings(06aaai-divat,
+  title =	 "Optimal Unbiased Estimators for Evaluating Agent
+                  Performance",
+  author =	 "Martin Zinkevich and Michael Bowling and Nolan Bard
+                  and Morgan Kan and Darse Billings",
+  authornserc =	 "{\bf Martin Zinkevich} and Michael Bowling and {\bf Nolan Bard}
+                  and {\bf Morgan Kan} and {\bf Darse Billings}",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages =        "573--578",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  abstract="Evaluating the performance of an agent or group of agents
+                  can be, by itself, a very challenging problem. The
+                  stochastic nature of the environment plus the
+                  stochastic nature of agents decisions can result in
+                  estimates with intractably large variances. This
+                  paper examines the problem of finding low variance
+                  estimates of agent performance. In particular, we
+                  assume that some agent-environment dynamics are
+                  known, such as the random outcome of drawing a card
+                  or rolling a die. Other dynamics are unknown, such
+                  as the reasoning of a human or other black-box
+                  agent. Using the known dynamics, we describe the
+                  complete set of all unbiased estimators, that is,
+                  for any possible unknown dynamics the estimate's
+                  expectation is always the agent's expected
+                  utility. Then, given a belief about the unknown
+                  dynamics, we identify the unbiased estimator with
+                  minimum variance. If the belief is correct our
+                  estimate is optimal, and if the belief is wrong it
+                  is at least unbiased. Finally, we apply our unbiased
+                  estimator to the game of poker, demonstrating
+                  dramatically reduced variance and faster
+                  evaluation."
+)
+
+@InProceedings(06aaai-probmaxn,
+  title =	 "{ProbMaxn}: Opponent Modeling in N-Player Games",
+  author =	 "Nathan Sturtevant and Martin Zinkevich and Michael
+                  Bowling",
+  authornserc =	 "Nathan Sturtevant and {\bf Martin Zinkevich} and Michael
+                  Bowling",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages =        "1057--1063",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(iCORE) NSERC AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  abstract="Much of the work on opponent modeling for game tree search has been unsuccessful. In two-player, zero-sum games, the gains from opponent modeling are often outweighed by the cost of modeling. Opponent modeling solutions simply cannot search as deep as the highly optimized minimax search with alpha-beta pruning. Recent work has begun to look at the need for opponent modeling in n-player or general-sum games. We introduce a probabilistic approach to oppo-nent modeling in n-player games called prob-maxn, which can robustly adapt to unknown opponents. We implement prob-maxn in the game of Spades, showing that prob-maxn is highly effective in practice, beating out the maxn and soft-maxn algorithms when faced with unknown opponents."
+)
+
+@InProceedings(06aaai-expboost,
+  title =	 "Boosting Expert Ensembles for Rapid Concept Recall",
+  author =	 "Achim Rettinger and Martin Zinkevich and Michael
+                  Bowling",
+  authornserc =	 "{\bf Achim Rettinger} and {\bf Martin Zinkevich} and Michael
+                  Bowling",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages =        "464--469",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  abstract="Many learning tasks in adversarial domains tend to be highly dependent on the opponent. Predefined strategies optimized for play against a specific opponent are not likely to succeed when employed against another opponent. Learning a strategy for each new opponent from scratch, though, is inefficient as one is likely to encounter the same or similar opponents again. We call this particular variant of inductive transfer a concept recall problem. We present an extension to AdaBoost called ExpBoost that is especially designed for such a sequential learning tasks. It automatically balances between an ensemble of experts each trained on one known opponent and learning the concept of the new opponent. We present and compare results of ExpBoost and other algorithms on both synthetic data and in a simulated robot soccer task. ExpBoost can rapidly adjust to new concepts and achieve performance comparable to a classifier trained exclusively on a particular opponent with far more data."
+)
+
+@InProceedings(06aaai-ilstd,
+  title =	 "Incremental Least-Squares Temporal Difference
+                  Learning",
+  author =	 "Alborz Geramifard and Michael Bowling and Richard
+                  S. Sutton",
+  authornserc =	 "{\bf Alborz Geramifard} and Michael Bowling and Richard
+                  S. Sutton",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages = "356--361",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(iCORE) NSERC AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  abstract="Approximate policy evaluation with linear function approximation is a commonly arising problem in reinforcement learning, usually solved using temporal difference (TD) algorithms. In this paper we introduce a new variant of linear TD learning, called incremental least-squares TD learning, or iLSTD. This method is more data efficient than conventional TD algorithms such as TD(0) and is more computationally efficient than non-incremental least-squares TD methods such as LSTD (Bradtke & Barto 1996; Boyan 1999). In particular, we show that the per-time-step complexities of iLSTD and TD(0) are O(n), where n is the number of features, whereas that of LSTD is O(n2). This difference can be decisive in modern applications of reinforcement learning where the use of a large number features has proven to be an effective solution strategy. We present empirical comparisons, using the test problem introduced by Boyan (1999), in which iLSTD converges faster than TD(0) and almost as fast as LSTD."
+)
+
+@InProceedings(06aaai-calibration,
+  title =	 "Bayesian Calibration for {M}onte {C}arlo Localization",
+  author =	 "Armita Kaboli and Michael Bowling and Petr Musilek",
+  authornserc =	 "{\bf Armita Kaboli} and Michael Bowling and Petr Musilek",
+  booktitle =	 AAAI06,
+  year =	 2006,
+  pages =        "964--969",
+  AcceptRate =	 "30\%",
+  AcceptNumbers ="236 of 774",
+  Funding =      "(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robotics",
+  abstract="Localization is a fundamental challenge for autonomous robotics. Although accurate and efficient techniques now exist for solving this problem, they require explicit probabilistic models of the robot's motion and sensors. These models are usually obtained from time-consuming and error-prone measurement or tedious manual tuning. In this paper we examine automatic calibration of sensor and motion models from a Bayesian perspective. We introduce an efficient MCMC procedure for sampling from the posterior distribution of the model parameters. We also present a novel extension of particle filters to make use of our posterior parameter samples. Finally, we demonstrate our approach both in simulation and on a physical robot. Our results demonstrate effective inference of model parameters as well as a paradoxical result that using posterior parameter samples can produce more accurate position estimates than the true parameters."
+)
+
+@InProceedings(06icml-psr-exploration,
+  title =	 "Learning Predictive State Representations Using
+                  Non-Blind Policies",
+  author =	 "Michael Bowling and Peter McCracken and Michael
+                  James and James Neufeld and Dana Wilkinson",
+  authornserc =	 "Michael Bowling and {\bf Peter McCracken} and Michael
+                  James and {\bf James Neufeld} and {\bf Dana Wilkinson}",
+  booktitle =	 ICML06,
+  year =	 2006,
+  pages =        "129--136",
+  AcceptRate =	 "20\%",
+  AcceptNumbers ="140 of 700",
+  Funding =      "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract="Predictive state representations (PSRs) are powerful models of non-Markovian decision processes that differ from traditional models (e.g., HMMs, POMDPs) by representing state using only observable quantities. Because of this, PSRs can be learned solely using data from interaction with the process. The majority of existing techniques, though, explicitly or implicitly require that this data be gathered using a blind policy, where actions are selected independently of preceding observations. This is a severe limitation for practical learning of PSRs. We present two methods for fixing this limitation in most of the existing PSR algorithms: one when the policy is known and one when it is not. We then present an efficient optimization for computing good exploration policies to be used when learning a PSR. The exploration policies, which are not blind, significantly lower the amount of data needed to build an accurate model, thus demonstrating the importance of non-blind policies."
+
+)
+
+@InProceedings(06aamas-softmaxn,
+  Author=	"Nathan Sturtevant and Michael Bowling",
+  Title=	"Robust Game Play Against Unknown Opponents",
+  Booktitle=	AAMAS06,
+  Year=		"2006",
+  pages=        "713--719",
+  AcceptRate=   "23\%",
+  AcceptNumbers="127 of 550",
+  Funding =     "(iCORE) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  abstract="A standard assumption of search in two-player games is that the opponent has the same evaluation function or utility for possible game outcomes. While some work has been done to try to better exploit weak opponents, it has only been a minor component of high-performance game playing programs such as Chinook or Deep Blue. However, we demonstrate that in games with more than two players, opponent modeling is a necessary component for ensuring high-quality play against unknown opponents. Thus, we propose a new algorithm, soft-maxn, which can help accommodate differences in opponent styles. Finally, we show an inference mechanism that can be used with soft-maxn to infer the playing style of our opponents."
+)
+
+@InProceedings(05nips,
+  Title="Online Discovery and Learning of Predictive State Representations",
+  Author="Peter McCracken and Michael Bowling",
+  AuthorNserc="{\bf Peter McCracken} and Michael Bowling",
+  Booktitle=NIPS05,
+  Year="2006",
+  Pages="875--882",
+  AcceptRate="27\%",
+  AcceptNumbers="206 of 753",
+  Funding = "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract="Predictive state representations (PSRs) are a method of modeling dynamical systems using only observable data, such as actions and observations, to describe their model.  PSRs use predictions about the outcome of future tests to summarize the system state.  The best existing techniques for discovery and learning of PSRs use a Monte Carlo approach to explicitly estimate these outcome probabilities.  In this paper, we present a new algorithm for discovery and learning of PSRs that uses a gradient descent approach to compute the predictions for the current state.  The algorithm takes advantage of the large amount of structure inherent in a valid prediction matrix to constrain its predictions.  Furthermore, the algorithm can be used online by an agent to constantly improve its prediction quality; something that current state of the art discovery and learning algorithms are unable to do.  We give empirical results to show that our constrained gradient algorithm is able to discover core tests using very small amounts of data, and with larger amounts of data can compute accurate predictions of the system dynamics."
+)
+
+@InProceedings(05isrr,
+        Title="Subjective Localization with Action Respecting Embedding",
+	Author="Michael Bowling and Dana Wilkinson and Ali Ghodsi and Adam Milstein",
+	AuthorNserc="Michael Bowling and {\bf Dana Wilkinson} and Ali Ghodsi and Adam Milstein",
+	Booktitle=ISRR05,
+	Year="2005",
+	AcceptRate="30\%",
+	AcceptNumbers="24 of 79",
+        Funding = "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract="Robot localization is the problem of how to estimate a robot's pose within an objective frame of reference.  Traditional localization requires knowledge of two key conditional probabilities: the motion and sensor models.  These models depend critically on the specific robot as well as its environment.  Building these models can be time-consuming, manually intensive, and can require expert intuitions. However, the models are necessary for the robot to relate its own subjective view of sensors and motors to the robot's objective pose. In this paper we seek to remove the need for human provided models. We introduce a technique for {\em subjective localization}, relaxing the requirement that the robot localize within a global frame of reference.  Using an algorithm for action-respecting non-linear dimensionality reduction, we learn a subjective representation of pose from a stream of actions and sensations.  We then extract from the data natural motion and sensor models defined for this new representation.  Monte Carlo localization is used to track this representation of the robot's pose while executing new actions and receiving new sensor readings.  We evaluate the technique in a synthetic image manipulation domain and with a mobile robot using vision and laser sensors."
+)
+
+@InProceedings(05uai,
+        Title="Bayes' Bluff: {O}pponent Modelling in Poker",
+        Author="Finnegan Southey and Michael Bowling and Bryce Larson and Carmelo Piccione and Neil Burch and Darse Billings and Chris Rayner",
+        AuthorNserc="Finnegan Southey and Michael Bowling and Bryce Larson and Carmelo Piccione and Neil Burch and Darse Billings and {\bf Chris Rayner}",
+	Booktitle=UAI05,
+	Pages="550--558",
+	Year="2005",
+	AcceptRate="34\%",
+	AcceptNumbers="83 of 243",
+        Funding = "(NSERC) AIF iCORE",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+  abstract="Poker is a challenging problem for artificial intelligence, with non-deterministic dynamics, partial observability, and the added difficulty of unknown adversaries. Modelling all of the uncertainties in this domain is not an easy task. In this paper we present a Bayesian probabilistic model for a broad class of poker games, separating the uncertainty in the game dynamics from the uncertainty of the opponent's strategy. We then describe approaches to two key subproblems: (i) inferring a posterior over opponent strategies given a prior distribution and observations of their play, and (ii) playing an appropriate response to that distribution. We demonstrate the overall approach on a reduced version of poker using Dirichlet priors and then on the full game of Texas hold'em using a more informed prior. We demonstrate methods for playing effective responses to the opponent, based on the posterior."
+)
+
+@InProceedings(05icml-bayes,
+	Title="Bayesian Sparse Sampling for On-line Reward Optimization",
+        Author="Tao Wang and Daniel Lizotte and Michael Bowling and Dale Schuurmans",
+        AuthorNserc="{\bf Tao Wang} and Daniel Lizotte and Michael Bowling and Dale Schuurmans",
+        Booktitle=ICML05,
+        Pages="961--968",
+	Year="2005",
+        AcceptRate="27\%", 
+        AcceptNumbers="134 of 492",
+        Funding = "(AIF) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+  abstract="We present an efficient ``sparse sampling'' technique for approximating Bayes optimal decision making in reinforcement learning, addressing the well known exploration versus exploitation tradeoff. Our approach combines sparse sampling with Bayesian exploration to achieve improved decision making while controlling computational cost. The idea is to grow a sparse lookahead tree, intelligently, by exploiting information in a Bayesian posterior--- rather than enumerate action branches (standard sparse sampling) or compensating myopically (value of perfect information). The outcome is a flexible, practical technique for improving action selection in simple reinforcement learning scenarios."
+)
+
+@InProceedings(05icml-are,
+	Title="Action Respecting Embedding",
+        Author="Michael Bowling and Ali Ghodsi and Dana Wilkinson",
+        AuthorNserc="Michael Bowling and Ali Ghodsi and {\bf Dana Wilkinson}",
+        Booktitle=ICML05,
+	Year="2005",
+        Pages="65--72",
+        AcceptRate="27\%", 
+        AcceptNumbers="134 of 492",
+        Funding = "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract="Dimensionality reduction is the problem of finding a low-dimensional representation of high-dimensional input data.  This paper examines the case where additional information is known about the data.  In particular, we assume the data are given in a sequence with action labels associated with adjacent data points, such as might come from a mobile robot.  The goal is a variation on dimensionality reduction, where the output should be a representation of the input data that is both low-dimensional and respects the actions (i.e., actions correspond to simple transformations in the output representation).  We show how this variation can be solved with a semidefinite program.  We evaluate the technique in a synthetic, robot-inspired domain, demonstrating qualitatively superior representations and quantitative improvements on a data prediction task."
+)
+
+@InProceedings(05aaai-pickup,
+	Title="Coordination and Adaptation in Impromptu Teams",
+        Author="Michael Bowling and Peter McCracken",
+        AuthorNserc="Michael Bowling and {\bf Peter McCracken}",
+	Year="2005",
+        Pages="53--58",
+        AcceptRate="18\%", 
+        AcceptNumbers="148 of 803",
+        Booktitle=AAAI05,
+        Funding = "(NSERC)",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robot Soccer",
+  abstract="Coordinating a team of autonomous agents is one of the major challenges in building effective multiagent systems. Many techniques have been devised for this problem, and coordinated teamwork has been demonstrated even in highly dynamic and adversarial environments. A key assumption of these techniques, though, is that the team members are developed together as a whole. In many multiagent scenarios, this assumption is violated. We study the problem of coordination in impromptu teams, where a team is composed of independent agents each unknown to the others. The team members have their own skills, models, strategies, and coordination mechanisms, and no external organization is imposed upon them. In particular, we propose two techniques, one adaptive and one predictive, for coordinating a single agent that joins an unknown team of existing agents. We experimentally evaluate these mechanisms in the robot soccer domain, while introducing useful baselines for evaluating the performance of impromptu teams. We show some encouraging success while demonstrating this is a very fertile area of research."
+)
+
+@InProceedings(05ijcai-are,
+	Title="Learning Subjective Representations for Planning",
+        Author="Dana Wilkinson and Michael Bowling and Ali Ghodsi",
+        AuthorNserc="{\bf Dana Wilkinson} and Michael Bowling and Ali Ghodsi",
+	Year="2005",
+        Booktitle=IJCAI05,
+        Pages="889--894",
+        AcceptRate="18\%",
+        AcceptNumbers="240 of 1329",
+        Funding = "(NSERC) AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Subjective Representations",
+  abstract="Planning involves using a model of an agent's actions to find a sequence of decisions which achieve a desired goal.  It is usually assumed that the models are given, and such models often require expert knowledge of the domain.  This paper explores subjective representations for planning that are learned directly from agent observations and actions (requiring no initial domain knowledge).  A non-linear embedding technique called Action Respecting Embedding is used to construct such a representation.  It is then shown how to extract the effects of the agent's actions as operators in this learned representation.  Finally, the learned representation and operators are combined with search to find sequences of actions that achieve given goals.  The efficacy of this technique is demonstrated in a challenging robot-vision-inspired image domain."
+)
+
+@Article{05cse-stp,
+        Author="Brett Browning and James Bruce and Michael Bowling and Manuela Veloso",
+        Title="{STP}: Skills, tactics and plays for multi-robot control in adversarial environments",
+        Journal="Journal of Systems and Control Engineering",
+        Year="2005", 
+        Volume="219",
+        Number="1",
+        Pages="33--52",
+        Funding = "(DARPA) Startup",
+  bib2html_dl_html = "http://pep.metapress.com/content/pj23064u70772023/?p=89e5da0ff6d5457b81ab47195a456212&amp;pi=0",
+  bib2html_pubtype="Award Winner,Journal",
+  bib2html_rescat="Robot Soccer",
+  abstract="In an adversarial multi-robot task, such as playing robot soccer, decisions for team and single-robot behaviour must be made quickly to take advantage of short-term fortuitous events. When no such opportunities exist, the team must execute sequences of coordinated team action that increases the likelihood of future opportunities. A hierarchical architecture, called STP, has been developed to control an autonomous team of robots operating in an adversarial environment. STP consists of skills for executing the low-level actions that make up robot behaviour, tactics for determining what skills to execute, and plays for coordinating synchronized activity among team members. The STP architecture combines each of these components to achieve autonomous team control. Moreover, the STP hierarchy allows for fast team response in adversarial environments while carrying out actions with longer goals. This article presents the STP architecture for controlling an autonomous robot team in a dynamic adversarial task that allows for coordinated team activity towards long-term goals, with the ability to respond rapidly to dynamic events. Secondly, the subcomponent of skills and tactics is presented as a generalized single-robot control hierarchy for hierarchical problem decomposition with flexible control policy implementation and reuse. Thirdly, the play techniques contribute as a generalized method for encoding and synchronizing team behaviour, providing multiple competing team responses, and for supporting effective strategy adaptation against opponent teams. STP has been fully implemented on a robot platform and thoroughly tested against a variety of unknown opponent teams in a number of RoboCup robot soccer competitions. These competition results are presented as a mechanism to analyse the performance of STP in a real setting."
+}
+
+@Misc(05ciar-ncap,
+	title=		"{``Action Respecting Embedding''}",
+        author= "Michael Bowling",
+	howpublished=	"CIAR-NCAP Workshop on Dimensionality Reduction",
+	year=		"2005",
+	month=		"April",
+	note=		"Montreal, Canada",
+        bib2htmlskip=  "Yes",
+)
+
+@Misc(05icra-ws,
+	title=		"{``Learning and Adaptation in Multirobot Systems''}",
+        author= "Michael Bowling",
+	howpublished=	"ICRA Workshop on Towards Fieldable Multirobot Systems",
+	year=		"2005",
+	month=		"April",
+	note=		"Barcelona, Spain",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(04cg,
+        Author="Darse Billings and Aaron Davidson and 
+                Terence Schauenberg and Neil Burch and 
+                Michael Bowling and Robert Holte and 
+                Jonathan Schaeffer and Duane Szafron",
+	Title="Game tree search with adaptation in stochastic imperfect information games",
+	Booktitle=CG04,
+	Year="2004",
+	AcceptRate="58\%",
+        AcceptNumbers="207 of 822",
+        Funding = "(iCORE) NSERC AIF",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Games",
+)
+
+@InProceedings(04nips,
+        Author="Michael Bowling",
+        Title="Convergence and No-Regret in Multiagent Learning",
+        Booktitle=NIPS04,
+        Year="2005",
+        Pages="209--216",
+        AcceptRate="25\%",
+        AcceptNumbers="207 of 822",
+        Funding = "(Startup) NSERC",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(04nips-w-tr,
+        Author="Michael Bowling",
+        Title="Convergence and No-Regret in Multiagent Learning",
+        Booktitle=NIPS04,
+        Year="2005",
+        Pages="209--216",
+        AcceptRate="25\%",
+	Note= "A longer version is available as a University of Alberta Technical Report, TR04-11.",
+	NoteHtml= {A longer version is available as a University of Alberta Technical Report, <a href="https://www.cs.ualberta.ca/research/theses-publications/technical-reports/2004/tr04-11">TR04-11</a>.},
+        bib2html_dl_psgz= "http://www.cs.ualberta.ca/~bowling/papers/04nips.ps.gz",
+        bib2html_dl_pdf= "http://www.cs.ualberta.ca/~bowling/papers/04nips.pdf",
+        Funding = "(Startup) NSERC",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Multiagent Learning",
+  abstract="Learning in a multiagent system is a challenging problem due to two key factors.  First, if other agents are simultaneously learning then the environment is no longer stationary, thus undermining convergence guarantees.  Second, learning is often susceptible to deception, where the other agents may be able to exploit a learner's particular dynamics.  In the worst case, this could result in poorer performance than if the agent was not learning at all.  These challenges are identifiable in the two most common evaluation criteria for multiagent learning algorithms: convergence and regret.  Algorithms focusing on convergence or regret in isolation are numerous.  In this paper, we seek to address both criteria in a single algorithm by introducing GIGA-WoLF, a learning algorithm for normal-form games.  We prove the algorithm guarantees at most zero average regret, while demonstrating the algorithm converges in many situations of self-play.  We prove convergence in a limited setting and give empirical results in a wider variety of situations.  These results also suggest a third new learning criterion combining convergence and regret, which we call negative non-convergence regret (NNR)."
+)
+
+@InProceedings(04aaai-fallsymp,
+	Title="Safe Strategies for Agent Modelling in Games",
+	Author="Peter McCracken and Michael Bowling",
+	AuthorNserc="{\bf Peter McCracken} and Michael Bowling",
+	Booktitle="AAAI Fall Symposium on Artificial Multi-agent Learning",
+	Year="2004",
+        Month="October",
+        Funding = "(NSERC) Startup",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Multiagent Learning",
+  Errata={The proof of Theorem 1 in the paper, while technically correct, relies on a step that is not at all self-evident.  We have <a href="http://www.cs.ualberta.ca/~bowling/papers/04aaai-fallsymp-errata.pdf">revisited the theorem</a> with a far more direct proof.},
+  Abstract="Research in opponent modelling has shown success, but a fundamental question has been overlooked: what happens when a modeller is faced with an opponent that cannot be successfully modelled? Many opponent modellers could do arbitrarily poorly against such an opponent. In this paper, we aim to augment opponent modelling techniques with a method that enables models to be used safely. We introduce \epsilon-safe strategies, which bound by \epsilon the possible loss versus a safe value. We also introduce the Safe Policy Selection algorithm (SPS) as a method to vary \epsilon in a controlled fashion. We prove in the limit that an agent using SPS is guaranteed to attain at least a safety value in the cases when the opponent modelling is ineffective. We also show empirical evidence that SPS does not adversely affect agents that are capable of modelling the opponent. Tests with a domain of complicated modellers show that SPS is effective at eliminating losses while retaining wins in a variety of modelling algorithms."
+)
+
+@TechReport(04tr-gigawolf,
+        Author=         "Michael Bowling",
+        Title=          "Convergence and No-Regret in Multiagent Learning",
+        Institution=    "Department of Computing Science, University of Alberta"
+,
+        Type=           "Technical Report",
+        Number=         "TR04-11",
+        Year=           "2004",
+        bib2htmlskip=  "Yes",
+)
+
+@Article(04jair-limitations,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Existence of Multiagent Equilibria with Limited Agents",
+        Journal=        "Journal of Artificial Intelligence Research",
+        Volume=         "22",
+        Pages=          "353--384",
+        Year=           "2004",
+        bib2htmlskip=  "Yes",
+)
+
+@Article(04jair-limitations-w-tr,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Existence of Multiagent Equilibria with Limited Agents",
+        Journal=        "Journal of Artificial Intelligence Research",
+        Volume=         "22",
+        Pages=          "353--384",
+        Year=           "2004",
+	Note=	        "A previous version appeared as a CMU Technical Report, CMU-CS-02-104.",
+  bib2html_dl_psgz = "http://www.cs.ualberta.ca/~bowling/papers/04jair-limitations.ps.gz",
+  bib2html_dl_pdf =  "http://www.cs.ualberta.ca/~bowling/papers/04jair-limitations.pdf",
+  bib2html_pubtype="Journal",
+  bib2html_rescat="Multiagent Learning",
+)
+
+@InProceedings(04icaps-plays,
+	Author="Michael Bowling and Brett Browning and Manuela Veloso",
+	Title="Plays as Effective Multiagent Plans Enabling Opponent-Adaptive Play Selection",
+	Booktitle=ICAPS04,
+	Year="2004",
+        Pages="376--383",
+	AcceptRate="31\%",
+	AcceptNumbers="37 of 119",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robot Soccer",
+        errata="In Table 4(b), the probabilities appearing in the fourth column should read 0.235, 0.53, 0.235 from top to bottom.",
+        abstract="Coordinated action for a team of robots is a challenging problem, especially in dynamic, unpredictable environments. Robot soccer is an instance of a domain where well defined goals need to be achieved by multiple executors in an adversarial setting. Such domains offer challenging multiagent planning problems that need to coordinate multiagent execution in response to other agents that are not part of our team plans.  In this work, we introduce the concept of a {\em play} as a multiagent plan that combines both reactive principles, which are the focus of traditional approaches for coordinating robot actions, and deliberative principles.  We further introduce the concept of a {\em playbook} as a method for seamlessly combining multiple team plans.  The playbook provides a set of alternative team behaviors which form the basis for our third contribution of {\em play adaptation}.  We describe how these concepts were concretely implemented in the CMDragons robot soccer team.  We also show empirical results indicating the importance of adaptation in adversarial or other unpredictable environments."
+)
+
+
+@PhdThesis(03thesis,
+        Author="Michael Bowling",
+	Title="Multiagent Learning in the Presence of Agents with Limitations",
+	School="Computer Science Department, Carnegie Mellon University, Pittsburgh, PA",
+	Year="2003", Month="May", note="Available as technical report CMU-CS-03-118",
+        Abstract="Optimal behavior for one agent depends upon
+                  the behavior of the other agents, which are learning
+                  as well. Multiagent environments are therefore
+                  non-stationary, violating the traditional assumption
+                  underlying single-agent learning. In addition,
+                  agents in complex tasks may have limitations, such
+                  as physical constraints or designer-imposed
+                  approximations of the task that make learning
+                  tractable. Limitations prevent agents from acting
+                  optimally, which complicates the already challenging
+                  problem. A learning agent must effectively
+                  compensate for its own limitations while exploiting
+                  the limitations of the other agents. My thesis
+                  research focuses on these two challenges, namely
+                  multiagent learning and limitations, and includes
+                  four main contributions.\par First, the thesis
+                  introduces the novel concepts of a variable learning
+                  rate and the WoLF (Win or Learn Fast) principle to
+                  account for other learning agents. The WoLF
+                  principle is capable of making rational learning
+                  algorithms converge to optimal policies, and by
+                  doing so achieves two properties, rationality and
+                  convergence, which had not been achieved by previous
+                  techniques. The converging effect of WoLF is proven
+                  for a class of matrix games, and demonstrated
+                  empirically for a wide-range of stochastic
+                  games.\par Second, the thesis contributes an
+                  analysis of the effect of limitations on the
+                  game-theoretic concept of Nash equilibria. The
+                  existence of equilibria is important if multiagent
+                  learning techniques, which often depend on the
+                  concept, are to be applied to realistic problems
+                  where limitations are unavoidable. The thesis
+                  introduces a general model for the effect of
+                  limitations on agent behavior, which is used to
+                  analyze the resulting impact on equilibria. The
+                  thesis shows that equilibria do exist for a few
+                  restricted classes of games and limitations, but
+                  even well-behaved limitations do not preserve the
+                  existence of equilibria, in general.\par Third,
+                  the thesis introduces GraWoLF, a general-purpose,
+                  scalable, multiagent learning algorithm. GraWoLF
+                  combines policy gradient learning techniques with
+                  the WoLF variable learning rate. The effectiveness
+                  of the learning algorithm is demonstrated in both a
+                  card game with an intractably large state space, and
+                  an adversarial robot task. These two tasks are
+                  complex and agent limitations are prevalent in
+                  both.\par Fourth, the thesis describes the
+                  CMDragons robot soccer team strategy for adapting to
+                  an unknown opponent. The strategy uses a notion of
+                  plays as coordinated team plans. The selection of
+                  team plans is the decision point for adapting the
+                  team to its current opponent, based on the outcome
+                  of previously executed plays. The CMDragons were the
+                  first RoboCup robot team to employ online learning
+                  to autonomously alter its behavior during the course
+                  of a game.\par  These four contributions
+                  demonstrate that it is possible to effectively learn
+                  to act in the presence of other learning agents in
+                  complex domains when agents may have
+                  limitations. The introduced learning techniques are
+                  proven effective in a class of small games, and
+                  demonstrated empirically across a wide range of
+                  settings that increase in complexity.",
+  bib2html_pubtype="Award Winner,Other",
+  bib2html_rescat="Multiagent Learning,Robot Soccer,Games",
+)
+
+c
+@InCollection(05intplanning-chapter,
+        author =	"Michael Bowling and Rune Jensen and Manuela Veloso", 
+        title =		"Multiagent Planning in the Presence of Multiple Goals",
+        booktitle =	"Planning in Intelligent Systems: Aspects, Motivations, and Methods",
+        editor =	"Rene Jorna and Wout van Wezel and Alex Meystel",
+        publisher =	"Wiley", 
+        series =        "Intelligent Series",
+        year =          "2005",
+        pages =         "345--371",
+  bib2html_pubtype="Other",
+  bib2html_rescat="Multiagent Planning",
+)
+
+@InProceedings(03ijcai-ws-plays,
+	title=		"Plays as Team Plans for Cooperation and Adaptation",
+        author=		"Michael Bowling and Brett Browning and Allen Chang and Manuela Veloso",
+        authornserc=		"Michael Bowling and Brett Browning and {\bf Allen Chang} and Manuela Veloso",
+	booktitle=	"IJCAI Workshop on Issues in Designing Physical Agents for Dynamic Real-Time Environments: World Modelling, Planning, Learning, and Communicating",
+	year=		"2003",
+        location=        "Acapulco, Mexico",
+        month=          "August",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Robot Soccer",
+)
+
+
+@InProceedings(03ijcai-grawolf,
+        author=		"Michael Bowling and Manuela Veloso",
+	title=		"Simultaneous Adversarial Multi-Robot Learning",
+	booktitle=	IJCAI03,
+	location=	"Acapulco, Mexico",
+	month=		"August",
+	year=		"2003",
+        pages=          "699--704",
+        AcceptRate=     "21\%",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Multiagent Learning",
+)       		  
+
+@Misc(03ijcai-tutorial,
+	title=	"{``Multiagent Learning: A Game-Theoretic Perspective''}",
+        author = "Michael Bowling and Michael Littman",
+	howpublished=   "Tutorial at the International Joint Conference on Artificial Intelligence",
+	year=   "2003",
+        month=  "August",
+        note=   "Acapulco, Mexico.  With Michael Littman",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(03icra-cmdragons02,
+        author=		"James Bruce and Michael Bowling and Brett Browning and Manuela Veloso",
+	title=		"Multi-Robot Team Response to a Multi-Robot Opponent Team",
+	booktitle=	ICRA03,
+	year=		"2003",
+        pages=          "2281--2286",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(03icra-cmdragons02-w-ws,
+        author=		"James Bruce and Michael Bowling and Brett Browning and Manuela Veloso",
+	title=		"Multi-Robot Team Response to a Multi-Robot Opponent Team",
+	booktitle=	ICRA03,
+	year=		"2003",
+        pages=          "2281--2286",
+	note=		"An earlier version appeared in the {\it IROS Workshop on Collaborative Robotics} (2002)",
+  bib2html_pubtype="Refereed Conference",       
+  bib2html_rescat="Robot Soccer",
+)
+
+@InProceedings(02iros-ws-cmdragons02,
+        author=		"James Bruce and Michael Bowling and Brett Browning and Manuela Veloso",
+	title=		"Multi-Robot Team Response to a Multi-Robot Opponent Team",
+	booktitle=	"IROS Workshop on Collaborative Robots",
+	year=		"2002",
+        bib2htmlskip=   "Yes",
+)
+
+@Misc(02nips-ws,
+	title=		"{``Learning, Equilibria, Limitations, and Robots''}",
+        author= "Michael Bowling",
+	howpublished=	"NIPS Workshop on Multiagent Learning",
+	year=		"2002",
+	month=		"December",
+	note=		"Vancouver, Canada",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(02aaai-ws-gtdt,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Scalable Learning in Stochastic Games",
+        Booktitle=      "AAAI Workshop on Game Theoretic and Decision Theoretic Agents",
+	Location=	"Edmonton, Canada",
+	Month=		"July",
+	Year=		"2002",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Multiagent Learning",
+)    
+
+@InProceedings(02aaai-ws-map,
+	Author=		"Michael Bowling and Rune Jensen and Manuela Veloso",
+	Title=		"A Formalization of Equilibria for Multiagent Planning",
+        Booktitle=      "AAAI Workshop on Planning with and for Multiagent Systems",
+	Location=	"Edmonton, Canada",
+	Month=		"July",
+	Year=		"2002",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Multiagent Planning",
+)    
+
+@InProceedings(02aamas-gal,
+	Author=		"Gal A. Kaminka and Michael Bowling",
+	Title=		"Towards Robust Teams with Many Agents",
+	Booktitle=	AAMAS02,
+	Month=		"July",
+	Year=		"2002",
+        Pages=          "729--736",
+	Location=	"Bologna, Italy",
+        AcceptRate=     "26\%",
+  bib2html_pubtype="Refereed Conference",
+)
+
+@TechReport(02tr-restricted-eq,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Existence of Multiagent Equilibria with Limited Agents",
+	Institution=	"Computer Science Department, Carnegie Mellon
+			 University", 
+	Type=		"Technical report", 
+	Number=		"CMU-CS-02-104",
+	Year=		"2002",
+  bib2html_pubtype="Tech Report",
+  bib2html_rescat="Multiagent Learning",
+  bib2htmlskip = "Yes",
+)
+
+@Article(02aij-wolf,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Multiagent Learning Using a Variable Learning Rate",
+	Journal=	"Artificial Intelligence",
+	Year=		"2002",
+        Volume=         "136",
+        Pages=          "215--250",
+  bib2html_pubtype="Journal",
+  bib2html_rescat="Multiagent Learning",
+)
+
+@InProceedings(02icra-imp-filter,
+	Author=		"Brett Browning and Michael Bowling and Manuela Veloso",
+	Title=		"Improbability Filtering for Rejecting False Positives",
+	Booktitle=	ICRA02,
+	Year=		"2002",
+        Pages=          "3038--3043",
+	Month=		"May",
+	Location=	"Washington, D.C.",
+        AcceptRate=     "59\%",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robot Soccer",
+)    
+
+@Misc(01dagstuhl-adaptation,
+	title=		"{``Plan-Based Adaptation  for Control of Robotic Agents''}",
+        author= "Michael Bowling",
+	howpublished=	"Dagstuhl Seminar on Plan-based Control of Robotic Agents",
+	year=		"2001",
+	month=		"October",
+	note=		"Schloss Dagstuhl, Germany",
+        bib2htmlskip=  "Yes",
+)
+	
+
+@InProceedings(01ecp-aplanning,
+	author=		"Rune Jensen and Manuela Veloso and Michael Bowling",
+	title=		"{OBDD}-Based Optimistic and Strong Cyclic Adversarial Planning",
+	booktitle=	ECP01,
+	month=		"September",
+	year=		"2001",
+        Pages=          "265--276",
+	location=	"Toledo, Spain",
+        AcceptRate=     "50\%",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Multiagent Planning",
+)
+
+@InProceedings(01ijcai-wolf,
+        author=		"Michael Bowling and Manuela Veloso",
+	title=		"Rational and Convergent Learning in Stochastic Games",
+	booktitle=	IJCAI01,
+	location=	"Seattle, WA",
+	month=		"August",
+	year=		"2001",
+        pages=          "1021--1026",
+        AcceptRate=     "24\%",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Multiagent Learning",
+)       		  
+		  
+@InProceedings(01icml-wolfiga,
+        Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"Convergence of Gradient Dynamics with a Variable Learning Rate",
+	booktitle=	ICML01,
+	location=	"Williams College",
+	month=		"June",
+	Year=		"2001",
+        Pages=          "27--34",
+        AcceptRate=     "34\%",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Multiagent Learning",
+)
+
+@Misc(01ijcai-dc,
+	title=		"{``Multiagent Learning in the Presence of Agents with 
+        Realistic Limitations''}",
+        author= "Michael Bowling",
+	howpublished=	"IJCAI Doctoral Consortium",
+	year=		"2001",
+	month=		"August",
+	note=		"Seattle, WA",
+  bib2htmlskip= "Yes",
+)
+
+@Misc(00adk-manual,
+	Author=		"Michael Bowling",
+	Title=		"RoboCup Rescue: Agent Development Kit, Version 0.4",
+	Year=		"2000",
+	note=		"Manual",
+        bib2htmlskip=  "Yes",
+)
+
+@TechReport(00tr-analysis,
+	Author=		"Michael Bowling and Manuela Veloso",
+	Title=		"An Analysis of Stochastic Game Theory for Multiagent
+			 Reinforcement Learning",
+	Institution=	"Computer Science Department, Carnegie Mellon
+			 University", 
+	Type=		"Technical report", 
+	Number=		"CMU-CS-00-165",
+	Year=		"2000",
+  bib2html_pubtype="Tech Report",
+  bib2html_rescat="Multiagent Learning",
+)
+
+@Misc(00uai-ws,
+	title=		"{``Rational Learning of Mixed Equilibria in Stochastic Games''}",
+        author= "Michael Bowling",
+	howpublished=	"Beyond MDPs: Uncertainty in Artificial Intelligence 2000 Workshop",
+	year=		"2000",
+	month=		"June",
+	note=		"Stanford University",
+        bib2htmlskip=  "Yes",
+)
+
+@InProceedings(00icml,
+	Author =	"Michael Bowling",
+	Title =		"Convergence Problems of General-Sum Multiagent Reinforcement Learning",
+	Booktitle=	ICML00,
+        Location=        "Stanford University", 
+	Year=		"2000",
+	Month=          "June",
+	Pages=		"89--94",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Multiagent Learning",
+)
+
+@Article(00ar-cmunited98,
+	Author="Manuela Veloso and Michael Bowling and Sorin Achim and
+		  Kwun Han and Peter Stone",
+	Title="The {CMU}nited-98 Champion Small Robot Team",
+	Journal="Advanced Robotics", Year="2000",
+	Note="An earlier version appeared in 
+        {\it {R}obo{C}up-98: Robot Soccer World Cup II, Asada and Kitano (Eds.)},
+	Springer, 1999, pages 77--92. A shorter version appeared in the
+        {\it {AI} Magazine}, 21:29--36",
+	NoteHtml="An earlier version appeared in 
+        <i>RoboCup-98: Robot Soccer World Cup II, Asada and Kitano (Eds.)</i>,
+	Springer, 1999, pages 77&#8211;92. A shorter version appeared in the
+        <i>AI Magazine</i>, 21:29&#8211;36",
+  bib2html_pubtype="Journal",
+  bib2html_rescat="Robot Soccer",
+)
+
+
+@InProceedings(99ijcai-subproblem,
+	author =	"Michael Bowling and Manuela Veloso",
+	title =		"Bounding the Suboptimality of Reusing Subproblems",
+	booktitle =	IJCAI99,
+	pages =		"1340--1345",
+	location =	"Stockholm, Sweden",
+	year =		"1999",
+	month =		"August",
+        AcceptRate=     "26\%",
+        note =          "An earlier version appeared in the {\it Proceedings of the NIPS Workshop on Abstraction in Reinforcement Learning} (1998)",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="RL",
+)
+
+@InProceedings(99cira-motion,
+	author =	"Michael Bowling and Manuela Veloso",
+	title =		"Motion Control in Dynamic Multi-Robot Environments",
+	booktitle =	CIRA99,
+	location =	"Monterey, CA",
+	year =		"1999",
+	month =		"November",
+	pages =		"168--173",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Robot Soccer",
+)
+
+@InProceedings(99robocup99-ws,
+	author =	"Michael Bowling and Manuela Veloso",
+	title =		"Motion Control in {CMU}nited-98",
+	booktitle =	"Proceedings of IJCAI-99 Workshop on RoboCup", 
+	location =       "Stockholm, Sweden",
+	year =		"1999",
+	month =		"August",
+  bib2htmlskip="Yes",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Robot Soccer",
+)
+
+@Article(99AIMag-robot,
+	author =	"Manuela Veloso and Michael Bowling and 
+                         Sorin Achim and Kwun Han and Peter Stone",
+	title =		"{CMU}nited-98: {R}obo{C}up-98 Small-Robot 
+                         World Champion Team",
+	journal =	"{AI} Magazine",
+	year =		"2000",
+	volume =	"21",
+	pages =		"29--36",
+  bib2htmlskip="Yes",
+  bib2html_pubtype="Other",
+  bib2html_rescat="Robot Soccer",
+)
+
+@Misc(99nessrl,
+  title =	 "{``A Parallel Between Multiagent Reinforcement
+                  Learning and Stochastic Game Theory''}",
+        author= "Michael Bowling",
+  howpublished = "New England Spring Symposium on Reinforcement
+                  Learning",
+  year =	 "1999",
+  month =	 "April",
+  note =	 "University of Massachusetts, Amherst",
+        bib2htmlskip=  "Yes",
+)
+	
+@InCollection(98rcbook,
+        author =	"Manuela Veloso and Michael Bowling and 
+			 Sorin Achim and Kwun Han and Peter Stone",
+        title =		"The {CMU}nited-98 Champion Small Robot Team",
+        booktitle =	"{R}obo{C}up-98: Robot Soccer World Cup II",
+        editor =	"Minoru Asada and Hiroaki Kitano",
+        publisher =	"Springer Verlag", address="Berlin", year="1999",
+	pages =         "77--92",
+  bib2htmlskip = "Yes",
+  bib2html_pubtype="Other",
+  bib2html_rescat="Robot Soccer",
+)
+
+@InProceedings(98nips-ws,
+	author =	"Michael Bowling and Manuela Veloso",
+	title =		"Bounding the Suboptimality of Reusing Subproblems",
+	booktitle =	"Proceedings of the NIPS Workshop on Abstraction in 
+		         Reinforcement Learning", 
+	location =       "Breckenridge, CO",
+	year =		"1998", 
+	month =		"December",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="RL",
+  bib2htmlskip="Yes",
+)
+
+@InProceedings(98aiia-subproblem,
+	author =	"Michael Bowling and Manuela Veloso",
+	title =		"Reusing Learned Policies Between Similar Problems",
+	booktitle =	"Proceedings of the AI*IA-98 Workshop on 
+			 New Trends in Robotics", 
+	year =		"1998", 
+	month =		"October", 
+	location =	"Padua, Italy",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="RL",
+)
+
+@InProceedings(99iaai-robot,
+	author =	"Manuela Veloso and Michael Bowling and 
+			 Sorin Achim and Kwun Han and Peter Stone",
+	title =		"{CMU}nited-98{:} A Team of Robotic Soccer Agents",
+	booktitle =	IAAI99,
+	year =		"1999",
+	location =	"Orlando, FL",
+        Pages=          "891--896",
+  bib2html_pubtype="Refereed Conference",
+  bib2html_rescat="Robot Soccer",
+)
+		  
+
+@InProceedings(99spie-spar,
+	author =	"Manuela Veloso and Peter Stone and Michael Bowling",
+	title =		"Anticipation as A Key for Collaboration in a Team of Agents:  A Case Study in Robotic Soccer",
+	booktitle =	"Proceedings of SPIE Sensor Fusion and Decentralized 
+                         Control in Robotic Systems II", 
+	location =	"Boston, MA",
+	month =		"September", 
+	year =		"1999",
+	volume =	"3839",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Robot Soccer",
+)
+
+@InProceedings(96iros-memory,
+        author =	"Michael Bowling and Peter Stone and 
+		         Manuela Veloso",
+        title =		"Predictive Memory for an Inaccessible Environment",
+        booktitle =	"Working Notes of the IROS-96 Workshop on RoboCup",
+        location =	"Osaka, Japan", 
+	month =		"November",
+	year =		"1996",
+  bib2html_pubtype="Symposia/Workshop",
+  bib2html_rescat="Robot Soccer",
+)
+
+@InProceedings(95maps,
+	author =	"David M. McKeown,~Jr. and Michael Bowling and 
+			 G. Edward Bulwinkle and Steven Douglas Cochran and 
+			 Stephen J. Ford and Wilson A. Harvey and 
+		         Dirk Kalp and Chris McGlone and Jeff McMahill and 
+			 Michael F. Polis and Jefferey A. Shufelt and 
+			 Daniel Yocum",
+        title =		"Research in Image Understanding and Automated 
+			 Cartography: 1995-1996",
+	booktitle =	"Proceedings of the DARPA Image Understanding 
+			 Workshop",
+	year =		"1997",
+	pages =		"779--812",
+  bib2html_pubtype="Unrefereed Collection",
+)
+

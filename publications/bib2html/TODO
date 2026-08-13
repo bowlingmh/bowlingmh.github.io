@@ -1,0 +1,240 @@
+--------------------------------------------------------------------------------
+Provide defaults for pubtype based on the type of entry
+
+--------------------------------------------------------------------------------
+(from Mark Moll)
+1. If the author is listed as "Smith, J.", then the publication 
+> > doesn't
+> > show up on the class_author page, even if "Smith, J." is listed in
+> > bib2html.conf as one of catlist_authors.
+> > 
+> 
+> Can you give me a more precise example? If you mean this:
+> Author = {Smith, J.}
+> then I don't think I'm going to fix it. Your bibentry is not formatted
+> correctly AFAIC.
+> 
+That's what I meant. Of course it's up to you if you want to fix it or 
+not, but it is in fact allowed according to the BibTeX syntax. See p. 
+399, sec. 13.5.2 of your LaTeX Companion.
+
+--------------------------------------------------------------------------------
+I am using bib2html to create an annotated bibliography. This list of 
+papers is getting rather long, so I was thinking that it would be nice 
+if you could create a page per category/author/year etc. So at the top 
+of each page I can select the sort order (for instance "sorted by 
+year"), and then from the second list I select a given year, which will 
+then take me to a page which lists all the papers from that year. What 
+do you think?
+-- 
+Mark
+
+--------------------------------------------------------------------------------
+* allow general # concatenation
+D* Allow for an online appendix easily
+* a system for specifying cross-links with automagic link creation
+* For CORAL, put my research cats in the ignored list and vice versa
+
+DONE
+
+D* warning about missing author/editor
+X* Add links for avi files?
+D* Formatting for author names should be given by what is in the allowed list (or something like that)
+D* add number to formatting of InCollection
+D* should check return of the transforms
+D* Add a list of ignored research categories and/or publication types?
+D* support \b2hremove as discussed with peter
+D* Add support for a bib2html_ignore field
+D* Allow a full classified by author page (all authors, not just first)
+D* add internal name links for author page
+D* update transformation for my CSS
+D* need to detex elements (title def, abstract maybe)
+D* put notice on external files
+
+D* Do better version reporting
+X* I get an empty <ul></ul> at the top of sorted things
+D* add a sorted by author last name option
+D* CHange ConfFileParser to take a multi-line list set of params
+D* Change the category scheme so that you get a separate conf option
+D  where you list the allowable categories in the right order.
+D* take a list of directories where papers can reside 
+D  [need to think about how to handle the initial segment problem]
+D* in sorted by date, there need to be year headers
+D* internal hyperlinks for sorted and categorized pages
+D* in sorted by date, sort by author's last name after that
+D* should allow detail_url to be an xml link
+
+D* for CORAL: come up with a scheme for where everyone puts files and
+D somehow prevent duplication
+
+D* add options for: 
+   D* run validation
+   D* validation line
+   D* run xml->html transform
+   D* xml->html transform
+   D* remove xml files
+D* remove old @pages description
+D* do we need @generatedfiles? YES for validation and transformation
+D* how to handle path of xsl file
+D* removed generatedfiles? (now have generated_xml_files)
+D* put stuff in .conf file with description
+D* better status indicators
+D* detail_url in get_xml_paper_info
+D* remove old stuff from bib2html.pl
+D* clean up conf file
+D* get mark's example
+D* comment my xsl file a bit
+D* Allow a full classified by author page (all authors, not just first)
+D* Add support for a bib2html_ignore field
+D* Turn \url into a link
+D* \it formatting remains in the note field
+D* Warning about entry should output the key if it has it
+D* detail file name should be more complex so that you can upload html versions of your papers
+X* normalize space in the names for research categories and stuff ON INPUT
+
+XML stuff
+X* collapse space where appropriate/lots of random extra space to remove
+D* should handle missing download_links
+D* figure out how the generated message and time thing is going to get in
+D* Don't I want a DOCTYPE line?
+D* should handle missing abstract and missing bibtex entry
+D* handle missing detail pages
+D* xsl needs a no sep version (use for default)
+
+--------------------------------------------------------------------------------
+DONE
+(from Mark Moll)
+Another odd feature/bug: if author names have accents, you need to 
+surround the author field with curly braces; you can't use double 
+quotes:
+
+@Article{mendez+2003:asses-blind-predic-protein,
+  author =       {Ra{\'u}l M{\'e}ndez and Rapha{\"e}l Leplae and Leonardo De
+                  Maria and Shoshana J. Wodak},
+  title =        "Assessment of Blind Predictions of Protein-Protein
+                  Interactions: Current Status of Docking Methods",
+  journal =      PSFG,
+  year =         2003,
+  volume =       52,
+  pages =        "51--67",
+  keywords =     "CAPRI, structure predictions, residue-residue contacts 
+and
+                  interface residues"
+}
+
+--------------------------------------------------------------------------------
+XXXXX
+(from Mark Moll)
+Would it be hard to change bib2html s.t. the author_class page lists 
+*all* authors if the catlist_authors variable is empty?
+(actually Mark said he didn't really want this)
+
+--------------------------------------------------------------------------------
+DONE
+(from Mark Moll)
+* How can bib2html handle Jr. Sr. etc.
+
+--------------------------------------------------------------------------------
+DONE
+also, in the entry below the string "\_" should be replaced with "_" in 
+the html.
+
+@InProceedings{maschhoff-sorensen1996:parpac,
+  author =       "K. J. Maschhoff and D. C. Sorensen",
+  title =        "{P\_ARPACK}: An Efficient Portable Large Scale Eigenvalue
+                  Package for Distributed Memory Parallel 
+Architectures",
+  booktitle =    "Proceedings of the Third International Workshop on 
+Applied
+                  Parallel Computing, Industrial Computation and
+                  Optimization",
+  pages =        "478--486",
+  year =         1996,
+  publisher =    "Springer-Verlag",
+  keywords =     "major modes, parallel SVD"
+}
+
+--------------------------------------------------------------------------------
+DONE
+(from Ran El-Yaniv <rani@cs.Technion.AC.IL>)
+D 1.      Add the possibility to adjoin a URL to each co-author
+        (i.e. co-authors appear as links; the URLs can be define in
+        the .conf file).
+
+D 2.      Add a new bib2html_other_info bibitem category, where the user
+        can write raw html code that will appear as _Additional
+        Information: bla bla_ after the paper basic details are
+        given. This is important for adding clarifications on papers
+        or noting conference/journal duplications. Another option that
+        it provides is to add links to demos, code or other sites
+        relevant to the paper (this is why it would be good to allow
+        writing the content in html or XML).
+
+D 3.      In the download section add a link to the bibtex item when the
+        user is not interested in the detailed pages (in which case
+        this link is essential).
+
+--------------------------------------------------------------------------------
+DONE
+If there is an accent in the last 
+name of a first author, then the sort_author page doesn't display the 
+accent correctly in the links at the top and at the header. Bib2html 
+produces html like this:
+
+         <h3><a 
+name="Fern&amp;aacute;ndez-Recio"></a>Fern&amp;aacute;ndez-Recio
+         </h3>
+         <p class="citation">Juan Fern&aacute;ndez-Recio, Maxim Totrov, 
+and Ruben                  Abagyan. Soft Protein-Protein Docking in 
+Internal Coordinates.
+            <i>Protein Science</i>, 11:280&ndash;291, 2002.<br><a 
+href="b2hd-fernandez-recio2002soft-protein-protein-dockin.html">
+
+So in the citation the accent is displayed correctly, but in the h3 
+header it's not. Here's the complete bibtex entry, in case you want to 
+try it yourself:
+
+@Article{fernandez-recio+2002:soft-protein-protein-dockin,
+  author =       "Juan Fern{\'a}ndez-Recio and Maxim Totrov and Ruben
+                  Abagyan",
+  title =        "Soft Protein-Protein Docking in Internal Coordinates",
+  journal =      "Protein Science",
+  year =         2002,
+  volume =       11,
+  pages =        "280--291",
+  keywords =     "protein-protein docking, global energy optimization, grid
+                  potentials, internal coordinate mechanics, biased
+                  probability Monte Carlo, rigid docking with side-chain
+                  refinement"
+}
+
+--------------------------------------------------------------------------------
+DONE
+(Mark Moll)
+Also, it would be nice if bib2html's special bibtex field names were 
+configurable. For instance, I'd like to say something like this in my 
+bib2html.conf:
+
+bib2html_dl_html_name = url
+
+because hubmed.org generates bibtex entries with that field. I think 
+it's actually not too uncommon for people to use a url field, so it 
+would be nice if you wouldn't have to fix your bibtex file for 
+bib2html.
+--------------------------------------------------------------------------------
+DONE
+(Mark Moll)
+Saxon is not too happy with url's in this form:
+
+  bib2html_dl_html = 
+"http://www.hubmed.org/display.cgi?issn=&uids=15264253",
+
+The "=" is causing an error. I guess some characters in url's need to 
+be escaped.
+
+--------------------------------------------------------------------------------
+DONE
+(Lavi Shpigelman)
+
+If catlist_authors is empty, should use ALL authors.
+
